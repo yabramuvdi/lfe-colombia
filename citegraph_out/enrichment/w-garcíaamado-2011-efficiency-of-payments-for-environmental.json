@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "769cf1837bc79ffaac9a1be50514d6016541464b2d2d5b39df0d01b05258948d",
+  "result_fingerprint": "c0d4a3b4244581ac5a73d5263db01d0d3cc050d37e917d9cad69cd6e67e991e0",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2011.07.016",
+    "Title": "Efficiency of Payments for Environmental Services: Equity and additionality in a case study from a Biosphere Reserve in Chiapas, Mexico",
+    "Authors_List": [
+      "Luis Rico García-Amado",
+      "Manuel Ruiz Pérez",
+      "Felipe Reyes Escutia",
+      "Sara Barrasa García",
+      "Elsa Contreras Mejía"
+    ],
+    "Authors": "Luis Rico García-Amado, Manuel Ruiz Pérez, Felipe Reyes Escutia, Sara Barrasa García, Elsa Contreras Mejía",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Luis Rico García-Amado",
+        "family": "García-Amado",
+        "given": "Luis Rico",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Manuel Ruiz Pérez",
+        "family": "Pérez",
+        "given": "Manuel Ruiz",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Felipe Reyes Escutia",
+        "family": "Escutia",
+        "given": "Felipe Reyes",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sara Barrasa García",
+        "family": "García",
+        "given": "Sara Barrasa",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Elsa Contreras Mejía",
+        "family": "Mejía",
+        "given": "Elsa Contreras",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2011,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Efficiency of Payments for Environmental Services: Equity and additionality in a case study from a Biosphere Reserve in Chiapas, Mexico",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

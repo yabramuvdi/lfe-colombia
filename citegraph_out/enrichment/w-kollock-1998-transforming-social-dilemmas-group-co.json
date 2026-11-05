@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d24e013b97f957d79739bf9f541b5f8d96799efbdfa52946a7265cccabe68b40",
+  "result_fingerprint": "d13c4fa5077a8be59e67672238fb3857d5d6813ea481e6ae6a506eb956f3ecda",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "year_mismatch",
+    "enrichment_title_score": 96.61016949152543,
+    "enrichment_adjusted_score": 88.61016949152543,
+    "enrichment_candidate_title": "Transforming Social Dilemmas: Group Identity and Co-operation",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

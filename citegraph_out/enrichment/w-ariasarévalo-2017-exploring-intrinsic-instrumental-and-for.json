@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7824de71ed4ee0aeeca741262f8c32ad24e8dbddbcd9f72cb8d478266194d964",
+  "result_fingerprint": "e6f190c65dccb4979e7f3e7f0e049838a103e2f271ed22e39b9ecabc9ab2757d",
+  "result": {
+    "doi": "10.5751/es-09812-220443",
+    "Title": "Exploring intrinsic, instrumental, and relational values for sustainable management of social-ecological systems",
+    "Authors_List": [
+      "Paola Arias-Arévalo",
+      "Berta Martín-López",
+      "Erik Gómez-Baggethun"
+    ],
+    "Authors": "Paola Arias-Arévalo, Berta Martín-López, Erik Gómez-Baggethun",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Paola Arias-Arévalo",
+        "family": "Arias-Arévalo",
+        "given": "Paola",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Berta Martín-López",
+        "family": "Martín-López",
+        "given": "Berta",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Erik Gómez-Baggethun",
+        "family": "Gómez-Baggethun",
+        "given": "Erik",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecology and Society",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Exploring intrinsic, instrumental, and relational values for sustainable management of social-ecological systems",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

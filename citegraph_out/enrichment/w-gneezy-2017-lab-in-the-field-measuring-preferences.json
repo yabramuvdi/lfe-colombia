@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "142948a335a793f28b66f7f4b88b689a79557e6dacbc63dae304c3c5188d0223",
+  "result_fingerprint": "4e068cb62d6cc2d37b777a72414f087b305c155c1c47566ec337644bd2b0e35e",
+  "result": {
+    "doi": null,
+    "Title": "Lab in the Field: Measuring Preferences in the Wild",
+    "Authors_List": [
+      "Uri Gneezy",
+      "Alex Imas"
+    ],
+    "Authors": "Uri Gneezy, Alex Imas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Uri Gneezy",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5004495825",
+        "orcid": "0000-0001-6663-5306"
+      },
+      {
+        "display_name": "Alex Imas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5029231650",
+        "orcid": "0000-0002-1651-7245"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2016,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Lab in the Field: Measuring Preferences in the Wild",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

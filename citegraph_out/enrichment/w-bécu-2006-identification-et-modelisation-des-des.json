@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f6ce7baf7bf92d130f2b4d6a51a38ef170f947be39cc0f0b8bc2345809900194",
+  "result_fingerprint": "b00283f2cb3acacc530af029e9325347573726ca547b4c6352203ea0e0ae9743",
+  "result": {
+    "doi": null,
+    "Title": "Identification et modélisation des représentations des acteurs locaux pour la gestion des bassins versants",
+    "Authors_List": [
+      "Nicolas Bécu"
+    ],
+    "Authors": "Nicolas Bécu",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Nicolas Bécu",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5014991217",
+        "orcid": "0000-0002-7463-2719"
+      }
+    ],
+    "Journal": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "Year": 2006,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Identification et modélisation des représentations des acteurs locaux pour la gestion des bassins versants",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

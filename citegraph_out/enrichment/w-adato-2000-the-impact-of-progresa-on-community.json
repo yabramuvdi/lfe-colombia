@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0ad71d019318b4ea4e5a3cb07253ed125a49f8e2dd2787cb06a6aca7e1837c7a",
+  "result_fingerprint": "d62b08beb166d8ad9c1196662d1fb14afbc40bb6fd232c5d4a8e96f503ae2341",
+  "result": {
+    "doi": null,
+    "Title": "THE IMPACT OF PROGRESA ON COMMUNITY SOCIAL RELATIONSHIPS",
+    "Authors_List": [
+      "Michelle Adato"
+    ],
+    "Authors": "Michelle Adato",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Michelle Adato",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5060483315",
+        "orcid": null
+      }
+    ],
+    "Journal": "IFPRI E-brary (International Food Policy Research Institute)",
+    "Year": 2000,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "THE IMPACT OF PROGRESA ON COMMUNITY SOCIAL RELATIONSHIPS",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

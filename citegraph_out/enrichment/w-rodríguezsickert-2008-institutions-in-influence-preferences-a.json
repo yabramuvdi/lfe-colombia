@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "eb8f91e60289954f57359d2e50d6d26b66e487853fad8859b348dd1baf4bdde3",
+  "result_fingerprint": "8c006747d667a5bd62ae0d111234800ca0f9a50c0415715e66541ed4f101a71e",
+  "result": {
+    "doi": "10.1016/j.jebo.2007.06.004",
+    "Title": "Institutions influence preferences: Evidence from a common pool resource experiment",
+    "Authors_List": [
+      "Carlos Rodriguez-Sickert",
+      "Ricardo Andrés Guzmán",
+      "Juan Camilo Cárdenas"
+    ],
+    "Authors": "Carlos Rodriguez-Sickert, Ricardo Andrés Guzmán, Juan Camilo Cárdenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Carlos Rodriguez-Sickert",
+        "family": "Rodriguez-Sickert",
+        "given": "Carlos",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ricardo Andrés Guzmán",
+        "family": "Guzmán",
+        "given": "Ricardo Andrés",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Juan Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan Camilo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.22485207100591,
+    "enrichment_adjusted_score": 98.22485207100591,
+    "enrichment_candidate_title": "Institutions influence preferences: Evidence from a common pool resource experiment",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

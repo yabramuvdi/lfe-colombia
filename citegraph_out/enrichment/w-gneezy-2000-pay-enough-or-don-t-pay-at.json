@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "fdbe2b5ebb881f12f76d1b5129ed9c684461f9540e67a777317eddc9ccfceeec",
+  "result_fingerprint": "35714ea64f9ff9a06531f9f0daa85c7611fefb91468b7a844e927e4c6dcbb188",
+  "result": {
+    "doi": "10.1162/003355300554917",
+    "Title": "Pay Enough or Don't Pay at All*",
+    "Authors_List": [
+      "Uri Gneezy",
+      "Aldo Rustichini"
+    ],
+    "Authors": "Uri Gneezy, Aldo Rustichini",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Uri Gneezy",
+        "family": "Gneezy",
+        "given": "Uri",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Aldo Rustichini",
+        "family": "Rustichini",
+        "given": "Aldo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Quarterly Journal of Economics",
+    "Year": 2000,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 91.22807017543859,
+    "enrichment_adjusted_score": 91.22807017543859,
+    "enrichment_candidate_title": "Pay Enough or Don't Pay at All*",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

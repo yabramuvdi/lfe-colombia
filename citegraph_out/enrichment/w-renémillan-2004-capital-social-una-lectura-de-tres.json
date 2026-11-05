@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d99ec549238d3b5c088e859a9ae508f130e6b42f5ea98d38e7cb234a4e362a7d",
+  "result_fingerprint": "486770a9d8fcb4882a01f797ccf3998b0028cd6c3897b8ae8884cbe27121c639",
+  "result": {
+    "doi": "10.22201/iis.01882503p.2004.004.6002",
+    "Title": "Capital social: una lectura de tres perspectivas clásicas",
+    "Authors_List": [
+      "René Millán",
+      "Sara Gordon"
+    ],
+    "Authors": "René Millán, Sara Gordon",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "René Millán",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5013604276",
+        "orcid": "0000-0002-2878-6186"
+      },
+      {
+        "display_name": "Sara Gordon",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5045088935",
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2004,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Capital social: una lectura de tres perspectivas clásicas",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

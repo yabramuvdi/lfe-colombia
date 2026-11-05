@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4174fb06dd68e7966bf0ca26e1b25c9bf73dcc90a4ecd9f27d1f1ddf06d674a8",
+  "result_fingerprint": "a904e595ca015e6441d2705c5952e1c58b949b4a28ab55efb2982d92c5d560c5",
+  "result": {
+    "doi": "10.1007/s00355-015-0886-3",
+    "Title": "Cooperation and social classes: evidence from Colombia",
+    "Authors_List": [
+      "Peter Martinsson",
+      "Clara Villegas-Palacio",
+      "Conny Wollbrant"
+    ],
+    "Authors": "Peter Martinsson, Clara Villegas-Palacio, Conny Wollbrant",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Peter Martinsson",
+        "family": "Martinsson",
+        "given": "Peter",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Clara Villegas-Palacio",
+        "family": "Villegas-Palacio",
+        "given": "Clara",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Conny Wollbrant",
+        "family": "Wollbrant",
+        "given": "Conny",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Social Choice and Welfare",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Cooperation and social classes: evidence from Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

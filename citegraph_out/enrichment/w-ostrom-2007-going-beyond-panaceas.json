@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "8a0704dda562a21068ca41c4ac987f5cf90cd19594ebaeacd8c23eac07b77b03",
+  "result_fingerprint": "b066cc7c150303f1c7aab02c0991034f07f2b4de81ff13c02431c55b07bd5a25",
+  "result": {
+    "doi": "10.1073/pnas.0701886104",
+    "Title": "Going beyond panaceas",
+    "Authors_List": [
+      "Elinor Ostrom",
+      "Marco A. Janssen",
+      "John M. Anderies"
+    ],
+    "Authors": "Elinor Ostrom, Marco A. Janssen, John M. Anderies",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Elinor Ostrom",
+        "family": "Ostrom",
+        "given": "Elinor",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marco A. Janssen",
+        "family": "Janssen",
+        "given": "Marco A.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "John M. Anderies",
+        "family": "Anderies",
+        "given": "John M.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Proceedings of the National Academy of Sciences",
+    "Year": 2007,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Going beyond panaceas",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

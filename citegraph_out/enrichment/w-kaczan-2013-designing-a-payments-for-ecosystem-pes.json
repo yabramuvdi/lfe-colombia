@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "580d60155258d69e1363db277151a7b3d49b34c278de21de130071b6e21084fd",
+  "result_fingerprint": "08fde3b77ef0cd10509c7d7412dc4fd554b1c2c252bed75afcd5f9781e077203",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2013.07.011",
+    "Title": "Designing a payments for ecosystem services (PES) program to reduce deforestation in Tanzania: An assessment of payment approaches",
+    "Authors_List": [
+      "David Kaczan",
+      "Brent M. Swallow",
+      "W.L. (Vic) Adamowicz"
+    ],
+    "Authors": "David Kaczan, Brent M. Swallow, W.L. (Vic) Adamowicz",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "David Kaczan",
+        "family": "Kaczan",
+        "given": "David",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Brent M. Swallow",
+        "family": "Swallow",
+        "given": "Brent M.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "W.L. (Vic) Adamowicz",
+        "family": "Adamowicz",
+        "given": "W.L. (Vic)",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2013,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Designing a payments for ecosystem services (PES) program to reduce deforestation in Tanzania: An assessment of payment approaches",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

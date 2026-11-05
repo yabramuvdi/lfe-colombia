@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5baba0c8fb7d22c977423fdc224a92cf691a61e7f5c2c4f8241e2c3eaf2f72b0",
+  "result_fingerprint": "e7c293fc2d4fbf2d1a99fdc81b582935bee5258e0e86eeec086d0fda28432ef6",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "year_mismatch",
+    "enrichment_title_score": 97.9020979020979,
+    "enrichment_adjusted_score": 89.9020979020979,
+    "enrichment_candidate_title": "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 15,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

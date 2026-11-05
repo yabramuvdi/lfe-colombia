@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "3c4cfa3da362dd8007c24eca720e5a06b312669d945ec09ef71d331d582f1337",
+  "result_fingerprint": "25fc38a3320bc2645334e7f29ceb330d80447ac9d38f5f363b7d884fc69c342b",
+  "result": {
+    "doi": "10.1093/jeea/jvy051",
+    "Title": "Learning The Hard Way: The Effect of Violent Conflict on Student Academic Achievement",
+    "Authors_List": [
+      "Tilman Brück",
+      "Michele Di Maio",
+      "Sami H Miaari"
+    ],
+    "Authors": "Tilman Brück, Michele Di Maio, Sami H Miaari",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Tilman Brück",
+        "family": "Brück",
+        "given": "Tilman",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Michele Di Maio",
+        "family": "Di Maio",
+        "given": "Michele",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sami H Miaari",
+        "family": "Miaari",
+        "given": "Sami H",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of the European Economic Association",
+    "Year": 2019,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Learning The Hard Way: The Effect of Violent Conflict on Student Academic Achievement",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

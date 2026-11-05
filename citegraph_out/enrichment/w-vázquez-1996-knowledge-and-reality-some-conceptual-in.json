@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "60a96d9b510e2defb2c576a359794def2eeb834900571edf8a59acd723f885ed",
+  "result_fingerprint": "992d8a1bdbd68e6e3b6969b682e2de6dfd155ee54c4d8572c13c6c8e51288905",
+  "result": {
+    "doi": "10.1002/(sici)1099-1727(199621)12:1<21::aid-sdr95>3.0.co;2-s",
+    "Title": "Knowledge and reality: some conceptual issues in system dynamics modeling",
+    "Authors_List": [
+      "Margarita Vázquez",
+      "Manuel Liz",
+      "Javier Aracil"
+    ],
+    "Authors": "Margarita Vázquez, Manuel Liz, Javier Aracil",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Margarita Vázquez",
+        "family": "Vázquez",
+        "given": "Margarita",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Manuel Liz",
+        "family": "Liz",
+        "given": "Manuel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Javier Aracil",
+        "family": "Aracil",
+        "given": "Javier",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "System Dynamics Review",
+    "Year": 1996,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Knowledge and reality: some conceptual issues in system dynamics modeling",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

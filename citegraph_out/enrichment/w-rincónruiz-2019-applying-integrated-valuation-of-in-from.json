@@ -1,0 +1,264 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5f0b35ed7338c2bbd4ff9e04fde9fe7e72ced2e80309e046e851fee0fc757055",
+  "result_fingerprint": "519f05f2bda8cca55b68ad6080e6828969a8787efbd6ef0329f1e472600ef565",
+  "result": {
+    "doi": "10.1016/j.ecoser.2019.100901",
+    "Title": "Applying integrated valuation of ecosystem services in Latin America: Insights from 21 case studies",
+    "Authors_List": [
+      "Alexander Rincón-Ruiz",
+      "Paola Arias-Arévalo",
+      "Juan Manuel Núñez Hernández",
+      "Helena Cotler",
+      "Mateo Aguado Caso",
+      "Paula Meli",
+      "Alejandra Tauro",
+      "Víctor Daniel Ávila Akerberg",
+      "V. Sophie Avila-Foucat",
+      "Johanna Paola Cardenas",
+      "Luis Alfonso Castillo Hernández",
+      "Luis Guillermo Castro",
+      "Victor Alfonso Cerón Hernández",
+      "Andrea Contreras Araque",
+      "Jimena Deschamps-Lomeli",
+      "J. Mauricio Galeana-Pizaña",
+      "Keila Guillén Oñate",
+      "José Antonio Hernández Aguilar",
+      "Aldo Daniel Jimenez",
+      "Luis Ángel López Mathamba",
+      "Lizbeth Márquez Pérez",
+      "Mary Luz Moreno Díaz",
+      "Wilmer Marín Marín",
+      "Vivian Ochoa",
+      "Miguel Ángel Sarmiento",
+      "Alejandra Tauro",
+      "Julián Díaz Timote",
+      "Luisa Lorena Tique Cardozo",
+      "Angélica Trujillo Acosta",
+      "Talía Waldron"
+    ],
+    "Authors": "Alexander Rincón-Ruiz, Paola Arias-Arévalo, Juan Manuel Núñez Hernández, Helena Cotler, Mateo Aguado Caso, Paula Meli, Alejandra Tauro, Víctor Daniel Ávila Akerberg, V. Sophie Avila-Foucat, Johanna Paola Cardenas, Luis Alfonso Castillo Hernández, Luis Guillermo Castro, Victor Alfonso Cerón Hernández, Andrea Contreras Araque, Jimena Deschamps-Lomeli, J. Mauricio Galeana-Pizaña, Keila Guillén Oñate, José Antonio Hernández Aguilar, Aldo Daniel Jimenez, Luis Ángel López Mathamba, Lizbeth Márquez Pérez, Mary Luz Moreno Díaz, Wilmer Marín Marín, Vivian Ochoa, Miguel Ángel Sarmiento, Alejandra Tauro, Julián Díaz Timote, Luisa Lorena Tique Cardozo, Angélica Trujillo Acosta, Talía Waldron",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Alexander Rincón-Ruiz",
+        "family": "Rincón-Ruiz",
+        "given": "Alexander",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Paola Arias-Arévalo",
+        "family": "Arias-Arévalo",
+        "given": "Paola",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Juan Manuel Núñez Hernández",
+        "family": "Núñez Hernández",
+        "given": "Juan Manuel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Helena Cotler",
+        "family": "Cotler",
+        "given": "Helena",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Mateo Aguado Caso",
+        "family": "Aguado Caso",
+        "given": "Mateo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Paula Meli",
+        "family": "Meli",
+        "given": "Paula",
+        "openalex_id": null,
+        "orcid": "0000-0002-0540-9417"
+      },
+      {
+        "display_name": "Alejandra Tauro",
+        "family": "Tauro",
+        "given": "Alejandra",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Víctor Daniel Ávila Akerberg",
+        "family": "Ávila Akerberg",
+        "given": "Víctor Daniel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "V. Sophie Avila-Foucat",
+        "family": "Avila-Foucat",
+        "given": "V. Sophie",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Johanna Paola Cardenas",
+        "family": "Cardenas",
+        "given": "Johanna Paola",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Luis Alfonso Castillo Hernández",
+        "family": "Castillo Hernández",
+        "given": "Luis Alfonso",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Luis Guillermo Castro",
+        "family": "Castro",
+        "given": "Luis Guillermo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Victor Alfonso Cerón Hernández",
+        "family": "Cerón Hernández",
+        "given": "Victor Alfonso",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Andrea Contreras Araque",
+        "family": "Contreras Araque",
+        "given": "Andrea",
+        "openalex_id": null,
+        "orcid": "0000-0002-9835-0599"
+      },
+      {
+        "display_name": "Jimena Deschamps-Lomeli",
+        "family": "Deschamps-Lomeli",
+        "given": "Jimena",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "J. Mauricio Galeana-Pizaña",
+        "family": "Galeana-Pizaña",
+        "given": "J. Mauricio",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Keila Guillén Oñate",
+        "family": "Guillén Oñate",
+        "given": "Keila",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "José Antonio Hernández Aguilar",
+        "family": "Hernández Aguilar",
+        "given": "José Antonio",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Aldo Daniel Jimenez",
+        "family": "Jimenez",
+        "given": "Aldo Daniel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Luis Ángel López Mathamba",
+        "family": "López Mathamba",
+        "given": "Luis Ángel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Lizbeth Márquez Pérez",
+        "family": "Márquez Pérez",
+        "given": "Lizbeth",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Mary Luz Moreno Díaz",
+        "family": "Moreno Díaz",
+        "given": "Mary Luz",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Wilmer Marín Marín",
+        "family": "Marín Marín",
+        "given": "Wilmer",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Vivian Ochoa",
+        "family": "Ochoa",
+        "given": "Vivian",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Miguel Ángel Sarmiento",
+        "family": "Sarmiento",
+        "given": "Miguel Ángel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Alejandra Tauro",
+        "family": "Tauro",
+        "given": "Alejandra",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Julián Díaz Timote",
+        "family": "Díaz Timote",
+        "given": "Julián",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Luisa Lorena Tique Cardozo",
+        "family": "Tique Cardozo",
+        "given": "Luisa Lorena",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Angélica Trujillo Acosta",
+        "family": "Trujillo Acosta",
+        "given": "Angélica",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Talía Waldron",
+        "family": "Waldron",
+        "given": "Talía",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecosystem Services",
+    "Year": 2019,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Applying integrated valuation of ecosystem services in Latin America: Insights from 21 case studies",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

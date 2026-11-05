@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "dc3ee3ea6e90ff14465aed449c34ac75f9eca554f98ccda7fca712a819aae5e0",
+  "result_fingerprint": "5f44fab89f83a2b836b7ad0e8a911509bd55ac9f2459f26e3a4b4bb34140ef51",
+  "result": {
+    "doi": null,
+    "Title": "Experimentos en ciencias sociales: usos, métodos y aplicaciones",
+    "Authors_List": [
+      "Andrés Casas Casas",
+      "Nathalie Méndez"
+    ],
+    "Authors": "Andrés Casas Casas, Nathalie Méndez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Andrés Casas Casas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5023087563",
+        "orcid": null
+      },
+      {
+        "display_name": "Nathalie Méndez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5064501519",
+        "orcid": "0000-0003-3070-292X"
+      }
+    ],
+    "Journal": "Editorial Pontificia Universidad Javeriana eBooks",
+    "Year": 2013,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Experimentos en ciencias sociales: usos, métodos y aplicaciones",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

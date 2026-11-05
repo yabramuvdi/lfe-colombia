@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "ef83af2f0c8f020afcbb7b8a8e4698c9d8ebca4ed8dcc12683bd01d989396a4f",
+  "result_fingerprint": "26adfd1d6c3909e69f726c0a681a6f9612e727edc789080a3644d3ed5eecad74",
+  "result": {
+    "doi": "10.2307/2799051",
+    "Title": "The Gift Relationship: From Human Blood to Social Policy.",
+    "Authors_List": [
+      "Mary Douglas",
+      "Richard M. Titmuss"
+    ],
+    "Authors": "Mary Douglas, Richard M. Titmuss",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Mary Douglas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5109985607",
+        "orcid": null
+      },
+      {
+        "display_name": "Richard M. Titmuss",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5026594764",
+        "orcid": null
+      }
+    ],
+    "Journal": "Man",
+    "Year": 1971,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 96.55172413793103,
+    "enrichment_adjusted_score": 96.55172413793103,
+    "enrichment_candidate_title": "The Gift Relationship: From Human Blood to Social Policy.",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "enrichment_author_agreement": "match"
+  }
+}

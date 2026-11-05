@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "e5bab04958f2bdf60e6c0c03c84bdf72de75efe52b3f73fbea737da0e7b7506e",
+  "result_fingerprint": "d562063d317df40543cbe9d73e7461d4038147c134901b4a19ff2e797a123312",
+  "result": {
+    "doi": "10.1016/j.cosust.2016.02.003",
+    "Title": "Towards an ecosystem services approach that addresses social power relations",
+    "Authors_List": [
+      "Marta Berbés-Blázquez",
+      "José A González",
+      "Unai Pascual"
+    ],
+    "Authors": "Marta Berbés-Blázquez, José A González, Unai Pascual",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Marta Berbés-Blázquez",
+        "family": "Berbés-Blázquez",
+        "given": "Marta",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "José A González",
+        "family": "González",
+        "given": "José A",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Unai Pascual",
+        "family": "Pascual",
+        "given": "Unai",
+        "openalex_id": null,
+        "orcid": "0000-0002-5696-236X"
+      }
+    ],
+    "Journal": "Current Opinion in Environmental Sustainability",
+    "Year": 2016,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Towards an ecosystem services approach that addresses social power relations",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

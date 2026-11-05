@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2bfebc001a62eaabe157ef077b99fa5bc7f86951f7dea1f80a759d275e337168",
+  "result_fingerprint": "3e76954b9b8685aef0e1ca1b499c528e10817b159a69e13d5e6c5e82cc544f9b",
+  "result": {
+    "doi": null,
+    "Title": "The War on Illegal Drug Production and Trafficking: An Economic Evaluation of Plan Colombia",
+    "Authors_List": [
+      "Daniel Mejía",
+      "Pascual Restrepo"
+    ],
+    "Authors": "Daniel Mejía, Pascual Restrepo",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Daniel Mejía",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5063432875",
+        "orcid": "0000-0001-9811-3713"
+      },
+      {
+        "display_name": "Pascual Restrepo",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5011062401",
+        "orcid": null
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2008,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 94.79768786127167,
+    "enrichment_adjusted_score": 94.79768786127167,
+    "enrichment_candidate_title": "The War on Illegal Drug Production and Trafficking: An Economic Evaluation of Plan Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

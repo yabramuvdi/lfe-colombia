@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "81959e37ae92f522cbf3170553d8a0f3d1f00791933fdd31c0f6cf915576eba1",
+  "result_fingerprint": "85876bea85d92d6142bd59c3e4bb7c4b170e40a18154a29a68aa5c597737ed3c",
+  "result": {
+    "doi": null,
+    "Title": "The Emotional Brain: The Mysterious Underpinnings of Emotional Life",
+    "Authors_List": [
+      "Joseph E. LeDoux"
+    ],
+    "Authors": "Joseph E. LeDoux",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Joseph E. LeDoux",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5009472826",
+        "orcid": "0000-0001-8518-132X"
+      }
+    ],
+    "Journal": "Medical Entomology and Zoology",
+    "Year": 2004,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "The Emotional Brain: The Mysterious Underpinnings of Emotional Life",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 6,
+    "enrichment_author_agreement": "match"
+  }
+}

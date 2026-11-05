@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f5b6b257a05ecb0dbc27edc69a61cf7db2ccf660cc344a42b3783353e50c2440",
+  "result_fingerprint": "3f1407b5e281323f3829fca14c137c144b6afa53d627b7685719efebdadbb28f",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2009.11.007",
+    "Title": "The history of ecosystem services in economic theory and practice: From early notions to markets and payment schemes",
+    "Authors_List": [
+      "Erik Gómez-Baggethun",
+      "Rudolf de Groot",
+      "Pedro L. Lomas",
+      "Carlos Montes"
+    ],
+    "Authors": "Erik Gómez-Baggethun, Rudolf de Groot, Pedro L. Lomas, Carlos Montes",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Erik Gómez-Baggethun",
+        "family": "Gómez-Baggethun",
+        "given": "Erik",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Rudolf de Groot",
+        "family": "de Groot",
+        "given": "Rudolf",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Pedro L. Lomas",
+        "family": "Lomas",
+        "given": "Pedro L.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Carlos Montes",
+        "family": "Montes",
+        "given": "Carlos",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "The history of ecosystem services in economic theory and practice: From early notions to markets and payment schemes",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

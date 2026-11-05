@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "049146bd8d1fec1284a0f9f391557e602466119d7d0afd2d1ae8a8f26f6c5089",
+  "result_fingerprint": "7b711138ca0b8634a8bb27d53085737f9a6c44ab632fd5a1bfdaa761b183a8f5",
+  "result": {
+    "doi": null,
+    "Title": "\"Todos somos hijos del café\": sociología política del Paro Nacional Cafetero",
+    "Authors_List": [
+      "Edwin Cruz-Rodríguez"
+    ],
+    "Authors": "Edwin Cruz-Rodríguez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Edwin Cruz-Rodríguez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5058427990",
+        "orcid": null
+      }
+    ],
+    "Journal": "Dialnet (Universidad de la Rioja)",
+    "Year": 2013,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.01324503311258,
+    "enrichment_adjusted_score": 98.01324503311258,
+    "enrichment_candidate_title": "\"Todos somos hijos del café\": sociología política del Paro Nacional Cafetero",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

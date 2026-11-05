@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f887f92949cd7c7e407258162c177bfb4ad8362967b4eeb724cdf037e9a1662e",
+  "result_fingerprint": "9e7018b7220dbf122e56601c0c565a0aee4fcf52448fca18747e1e1a5cab0688",
+  "result": {
+    "doi": null,
+    "Title": "Do Men Really have no Shame",
+    "Authors_List": [
+      "Abigail Barr",
+      "Bill Kinsey"
+    ],
+    "Authors": "Abigail Barr, Bill Kinsey",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Abigail Barr",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5067051983",
+        "orcid": "0000-0002-1241-9162"
+      },
+      {
+        "display_name": "Bill Kinsey",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5055888853",
+        "orcid": null
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2002,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.18181818181819,
+    "enrichment_adjusted_score": 98.18181818181819,
+    "enrichment_candidate_title": "Do Men Really have no Shame",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

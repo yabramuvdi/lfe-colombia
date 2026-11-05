@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "04e5534188529e5e0d4a358cf9ca32d33d40a6d910a57bbffca8cec89952a00a",
+  "result_fingerprint": "cb9d2f2a6045761ba61914c0dd8a1d33b86c8a4ae7b18e7f709f15d776dddcef",
+  "result": {
+    "doi": "10.1257/000282803321455359",
+    "Title": "Monetary and Nonmonetary Punishment in the Voluntary Contributions Mechanism",
+    "Authors_List": [
+      "David Masclet",
+      "Charles Noussair",
+      "Steven Tucker",
+      "Marie-Claire Villeval"
+    ],
+    "Authors": "David Masclet, Charles Noussair, Steven Tucker, Marie-Claire Villeval",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "David Masclet",
+        "family": "Masclet",
+        "given": "David",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Charles Noussair",
+        "family": "Noussair",
+        "given": "Charles",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Steven Tucker",
+        "family": "Tucker",
+        "given": "Steven",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marie-Claire Villeval",
+        "family": "Villeval",
+        "given": "Marie-Claire",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Economic Review",
+    "Year": 2003,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.34640522875817,
+    "enrichment_adjusted_score": 99.34640522875817,
+    "enrichment_candidate_title": "Monetary and Nonmonetary Punishment in the Voluntary Contributions Mechanism",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

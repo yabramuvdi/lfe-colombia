@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5d0fbd531250e2a1eec6c28ab4ec6713fcb1d514babe38c2870eef2ee01f9c0b",
+  "result_fingerprint": "36fcde667a370351091996883b80f048bf9e8817160d69be3a9bad84c6713901",
+  "result": {
+    "doi": "10.2277/0521862922",
+    "Title": "Parish and Belonging: Community, Identity and Welfare in England and Wales, 1700–1950",
+    "Authors_List": [
+      "Keith Snell"
+    ],
+    "Authors": "Keith Snell",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Keith Snell",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5113439900",
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2006,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.82352941176471,
+    "enrichment_adjusted_score": 90.82352941176471,
+    "enrichment_candidate_title": "Parish and Belonging: Community, Identity and Welfare in England and Wales, 1700–1950",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 3,
+    "enrichment_author_agreement": "match"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "61aa37709ab7497d29fb1b57dcb6378f3a27b9bf79cef053688a8c7354318a95",
+  "result_fingerprint": "9e18432ac7912406953b732a3ca7819d3f43feb46f6e235111cf0a080002c3b8",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 59.57446808510638,
+    "enrichment_adjusted_score": 51.57446808510638,
+    "enrichment_candidate_title": "El modelo CANVAS en la formulación de proyectos",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 15,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

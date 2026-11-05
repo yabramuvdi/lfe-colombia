@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a62eee63e6d30795ccbf1999baae39083862f6cc6be34e5cc4ed42f835f230ac",
+  "result_fingerprint": "cfe3da3d833242cb6bdc20389edb0a68c261e046eb22299224f3db7653c39e0b",
+  "result": {
+    "doi": null,
+    "Title": "Una evaluación del Plan de Consolidación Integral de la Macarena (PCIM)",
+    "Authors_List": [
+      "Daniel Mejía",
+      "María José Uribe",
+      "Ana María Ibáñez"
+    ],
+    "Authors": "Daniel Mejía, María José Uribe, Ana María Ibáñez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Daniel Mejía",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5063432875",
+        "orcid": "0000-0001-9811-3713"
+      },
+      {
+        "display_name": "María José Uribe",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5080421263",
+        "orcid": null
+      },
+      {
+        "display_name": "Ana María Ibáñez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5005975223",
+        "orcid": "0000-0003-2008-7134"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2011,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Una evaluación del Plan de Consolidación Integral de la Macarena (PCIM)",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

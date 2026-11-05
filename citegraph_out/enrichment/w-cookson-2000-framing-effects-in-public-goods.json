@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "222d03612482d354754e7ddac603d5806b08404b33cc67d424ee84275e0caaa1",
+  "result_fingerprint": "66a5ac4e83e80d833d765bccf4735f31724b16c6f87d3234458f12d8166f4281",
+  "result": {
+    "doi": "10.1023/a:1009994008166",
+    "Title": "Framing Effects in Public Goods Experiments",
+    "Authors_List": [
+      "R. Cookson"
+    ],
+    "Authors": "R. Cookson",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "R. Cookson",
+        "family": "Cookson",
+        "given": "R.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Experimental Economics",
+    "Year": 2000,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Framing Effects in Public Goods Experiments",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

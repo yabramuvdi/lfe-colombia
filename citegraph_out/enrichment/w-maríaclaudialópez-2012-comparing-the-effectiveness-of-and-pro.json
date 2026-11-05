@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "59f2f6d6ee1d1b1fdb43f474a1765e07ca57ea84c26874d1690e72c16364cee4",
+  "result_fingerprint": "1a1042915ce5f31153df821a56300957deb0c49d66afb84ff9f8aca3d5a8e9fb",
+  "result": {
+    "doi": "10.2139/ssrn.1476848",
+    "Title": "Comparing the Effectiveness of Regulation and Pro-Social Emotions to Enhance Cooperation: Experimental Evidence from Fishing Communities in Colombia",
+    "Authors_List": [
+      "Maria Claudia Lopez",
+      "James J. Murphy",
+      "John M. Spraggon",
+      "John Stranlund"
+    ],
+    "Authors": "Maria Claudia Lopez, James J. Murphy, John M. Spraggon, John Stranlund",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Maria Claudia Lopez",
+        "family": "Lopez",
+        "given": "Maria Claudia",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "James J. Murphy",
+        "family": "Murphy",
+        "given": "James J.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "John M. Spraggon",
+        "family": "Spraggon",
+        "given": "John M.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "John Stranlund",
+        "family": "Stranlund",
+        "given": "John",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2009,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Comparing the Effectiveness of Regulation and Pro-Social Emotions to Enhance Cooperation: Experimental Evidence from Fishing Communities in Colombia",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 3
+  }
+}

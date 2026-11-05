@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2670f607fac42285795c4176461bfd61d6297ccaf5a7d6ebe5d25941e5d3f395",
+  "result_fingerprint": "27337e545310541e2ca79f0292f330003e3b26201f685196e9f86c164418e656",
+  "result": {
+    "doi": "10.2139/ssrn.1806180",
+    "Title": "Gender and Cooperation in Children: Experiments in Colombia and Sweden",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas",
+      "Anna Dreber",
+      "Emma von Essen",
+      "Eva Ranehill"
+    ],
+    "Authors": "Juan-Camilo Cárdenas, Anna Dreber, Emma von Essen, Eva Ranehill",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan-Camilo",
+        "openalex_id": null,
+        "orcid": "0000-0003-0005-7595"
+      },
+      {
+        "display_name": "Anna Dreber",
+        "family": "Dreber",
+        "given": "Anna",
+        "openalex_id": null,
+        "orcid": "0000-0003-3989-9941"
+      },
+      {
+        "display_name": "Emma von Essen",
+        "family": "von Essen",
+        "given": "Emma",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Eva Ranehill",
+        "family": "Ranehill",
+        "given": "Eva",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2011,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Gender and Cooperation in Children: Experiments in Colombia and Sweden",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

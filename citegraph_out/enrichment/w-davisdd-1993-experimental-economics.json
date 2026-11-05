@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0eee6620e723549107b14183bc414ed00677881ccdedd8c9fc1c3ce361cf9e59",
+  "result_fingerprint": "dba53dfff465767717ce8b46ffd9fad9a07c20b1dd2018065edd676a30d04048",
+  "result": {
+    "doi": "10.1515/9780691233376",
+    "Title": "Experimental Economics",
+    "Authors_List": [
+      "Douglas D. Davis",
+      "Charles A. Holt"
+    ],
+    "Authors": "Douglas D. Davis, Charles A. Holt",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Douglas D. Davis",
+        "family": "Davis",
+        "given": "Douglas D.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Charles A. Holt",
+        "family": "Holt",
+        "given": "Charles A.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 1993,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Experimental Economics",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

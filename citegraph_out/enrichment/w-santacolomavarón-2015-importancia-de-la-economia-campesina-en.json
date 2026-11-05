@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "14a527229dbc501b783613b5ebf83d0178dedc60100c68699067e3df2d8a980b",
+  "result_fingerprint": "119227cd209ddd2e54612d569c8b02cd5762979377ea37cb6fba83c1a22af453",
+  "result": {
+    "doi": "10.18041/entramado.2015v11n2.22210",
+    "Title": "Importancia de la economía campesina en los contextos contemporáneos: una mirada al caso colombiano",
+    "Authors_List": [
+      "Luz Elena Santacoloma-Varón"
+    ],
+    "Authors": "Luz Elena Santacoloma-Varón",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Luz Elena Santacoloma-Varón",
+        "family": "Santacoloma-Varón",
+        "given": "Luz Elena",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "ENTRAMADO",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Importancia de la economía campesina en los contextos contemporáneos: una mirada al caso colombiano",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

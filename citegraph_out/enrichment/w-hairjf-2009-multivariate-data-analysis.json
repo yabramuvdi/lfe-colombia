@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d677113b3b06d4f6b8ad2b567f260d1b19c17373968e9bae52f1e79ef88d4072",
+  "result_fingerprint": "6c9c2b82fd59a04ea44299b436ba3cbedaea9c78425ebe01148bdfeed1506d0a",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Multivariate Data Analysis",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 12,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

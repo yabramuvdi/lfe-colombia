@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2ccacd9c5484e66f914750719e06212177d79df7899b8c886d6074d547b0ffb8",
+  "result_fingerprint": "878108154600efe7eee24530e7d70f0e1cc279933cb6ea83fb0106c57117a3ec",
+  "result": {
+    "doi": "10.1007/s10683-006-9126-0",
+    "Title": "“Si él lo necesita”: Gypsy fairness in Vallecas",
+    "Authors_List": [
+      "Pablo Brabas-Garza",
+      "Ramon Cobo-Reyes",
+      "Almudena Domínguez"
+    ],
+    "Authors": "Pablo Brabas-Garza, Ramon Cobo-Reyes, Almudena Domínguez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Pablo Brabas-Garza",
+        "family": "Brabas-Garza",
+        "given": "Pablo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ramon Cobo-Reyes",
+        "family": "Cobo-Reyes",
+        "given": "Ramon",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Almudena Domínguez",
+        "family": "Domínguez",
+        "given": "Almudena",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Experimental Economics",
+    "Year": 2006,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 97.82608695652173,
+    "enrichment_adjusted_score": 97.82608695652173,
+    "enrichment_candidate_title": "“Si él lo necesita”: Gypsy fairness in Vallecas",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

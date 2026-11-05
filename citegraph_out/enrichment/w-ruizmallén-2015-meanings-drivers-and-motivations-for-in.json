@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4ae6375a859db5526ef3d922292b22f1a3efa6689d2a081efda49651bc4565d3",
+  "result_fingerprint": "ec9f6c0c5a40621ff98c697d405ee35c8e651582a7a7a9fc071b56673b63c86d",
+  "result": {
+    "doi": "10.5751/es-07733-200333",
+    "Title": "Meanings, drivers, and motivations for community-based conservation in Latin America",
+    "Authors_List": [
+      "Isabel Ruiz-Mallén",
+      "Christoph Schunko",
+      "Esteve Corbera",
+      "Matthias Rös",
+      "Victoria Reyes-García"
+    ],
+    "Authors": "Isabel Ruiz-Mallén, Christoph Schunko, Esteve Corbera, Matthias Rös, Victoria Reyes-García",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Isabel Ruiz-Mallén",
+        "family": "Ruiz-Mallén",
+        "given": "Isabel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Christoph Schunko",
+        "family": "Schunko",
+        "given": "Christoph",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Esteve Corbera",
+        "family": "Corbera",
+        "given": "Esteve",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Matthias Rös",
+        "family": "Rös",
+        "given": "Matthias",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Victoria Reyes-García",
+        "family": "Reyes-García",
+        "given": "Victoria",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecology and Society",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 90.9090909090909,
+    "enrichment_adjusted_score": 90.9090909090909,
+    "enrichment_candidate_title": "Meanings, drivers, and motivations for community-based conservation in Latin America",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b08c74cd3b26145552d9e015aa1f1549f8c820ee95fd96cd0a91dc702f63ad69",
+  "result_fingerprint": "5a929437a6fc42e94578a33d8763c653287de5a875e480864900acb7739ce921",
+  "result": {
+    "doi": "10.18235/0010889",
+    "Title": "Stated Social Behavior and Revealed Actions: Evidence from 6 Latin American Countries Using Representative Samples",
+    "Authors_List": [
+      "Juan Camilo Cárdenas",
+      "Alberto E. Chong",
+      "Hugo R. Ñopo"
+    ],
+    "Authors": "Juan Camilo Cárdenas, Alberto E. Chong, Hugo R. Ñopo",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan Camilo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Alberto E. Chong",
+        "family": "Chong",
+        "given": "Alberto E.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hugo R. Ñopo",
+        "family": "Ñopo",
+        "given": "Hugo R.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.26086956521739,
+    "enrichment_adjusted_score": 98.26086956521739,
+    "enrichment_candidate_title": "Stated Social Behavior and Revealed Actions: Evidence from 6 Latin American Countries Using Representative Samples",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

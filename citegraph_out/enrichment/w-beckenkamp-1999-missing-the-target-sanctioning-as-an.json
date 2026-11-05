@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "9342be5a1f91b70ea19911426f9a633fe53a36e341f0b8e1a876e2f1f2ef4da3",
+  "result_fingerprint": "3ba2c6722b640ac46ce67be657f31a6551054786dcb519aa8470851f1eebe458",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 99.25925925925925,
+    "enrichment_adjusted_score": 91.25925925925925,
+    "enrichment_candidate_title": "Missing the Target? Sanctioning as an Ambiguous Structural Solution",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 14,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4396e4108c332bb3cfcf15a320428a803af2d51d1195dca8ce7d0272933a86d9",
+  "result_fingerprint": "63858ea8b0e30ef2ba4de8401d9172eb2a5f8c327d18118d7bfd9b2f2af12779",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 48.88888888888889,
+    "enrichment_adjusted_score": 40.88888888888889,
+    "enrichment_candidate_title": "Reducing mercury pollution from artisanal gold mining in Munhena, Mozambique",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

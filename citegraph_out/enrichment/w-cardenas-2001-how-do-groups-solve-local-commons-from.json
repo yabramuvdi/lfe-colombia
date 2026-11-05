@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b7c9e986b7e29dec29cd32e8e866f5c225d0727a32b80042eaa49151ff6a42fd",
+  "result_fingerprint": "6496765ae2f57c0d84259444f52f45bcdff26e762a9541577cbca315d98aed19",
+  "result": {
+    "doi": null,
+    "Title": "How do groups solve local commons dilemmas? Lessons from experimental economics in the field",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas"
+    ],
+    "Authors": "Juan-Camilo Cárdenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5042502300",
+        "orcid": "0000-0003-0005-7595"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2001,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "How do groups solve local commons dilemmas? Lessons from experimental economics in the field",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

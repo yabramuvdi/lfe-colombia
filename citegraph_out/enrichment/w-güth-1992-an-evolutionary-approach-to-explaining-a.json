@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f45073099d84ee3aa6e0a690711f62beb11e8940cca0d43151d1f22057258566",
+  "result_fingerprint": "d04ef67db2d77c729b095e2e21c08dcc422492c8e4285541208b3af85a910591",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 46.783625730994146,
+    "enrichment_adjusted_score": 38.783625730994146,
+    "enrichment_candidate_title": "Indirect reciprocity and strategic reputation building in an experimental helping game",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 17,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

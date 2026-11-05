@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "e7138668c49d63e940e29efdd93e8b9b516cf1caaed9cc5e4e13d072716986a7",
+  "result_fingerprint": "6433a579994b4deb36f4edcb74230faf08bf277b9c1abcf66e3065637cb544c2",
+  "result": {
+    "doi": "10.1016/0167-2681(94)00071-l",
+    "Title": "On ultimatum bargaining experiments — A personal review",
+    "Authors_List": [
+      "Werner Güth"
+    ],
+    "Authors": "Werner Güth",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Werner Güth",
+        "family": "Güth",
+        "given": "Werner",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 1995,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 96.2962962962963,
+    "enrichment_adjusted_score": 96.2962962962963,
+    "enrichment_candidate_title": "On ultimatum bargaining experiments — A personal review",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

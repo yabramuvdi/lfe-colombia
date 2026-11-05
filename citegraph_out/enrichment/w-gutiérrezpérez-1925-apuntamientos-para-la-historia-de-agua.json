@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "35e7636c0c421fc841da1c1f72c2bfa90a988eeb44abb0601a408e782c0ed03f",
+  "result_fingerprint": "05d02d20a34b0df9e3dd357efd3ecc5d181a569a93effe2bbb835232019d7c2f",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 44.13793103448276,
+    "enrichment_adjusted_score": 36.13793103448276,
+    "enrichment_candidate_title": "Estrategias óptimas para la reducción de pérdidas de agua en sistemas de abastecimiento",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 69,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

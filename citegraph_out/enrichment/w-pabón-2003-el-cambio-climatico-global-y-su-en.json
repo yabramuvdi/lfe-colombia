@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "931efd83a7bb35e2a79b0e17eacc211783561411b78ccee0a1fe4f6eaf310c9a",
+  "result_fingerprint": "fa8c062a003b203b8ff6bd82500388cac8f49344fe3394d55ffd4515ca715e11",
+  "result": {
+    "doi": null,
+    "Title": "El cambio climático global y su manifestación en Colombia",
+    "Authors_List": [
+      "José Daniel Pabón"
+    ],
+    "Authors": "José Daniel Pabón",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "José Daniel Pabón",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5114014462",
+        "orcid": null
+      }
+    ],
+    "Journal": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+    "Year": 2003,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "El cambio climático global y su manifestación en Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

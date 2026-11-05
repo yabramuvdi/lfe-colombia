@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "source_file": "Cardenas__Communication_and_Cooperation_in_a_Common_Pool_Res.md",
+      "metadata_fingerprint": "514741896202724381cb931127239c5eaed70242892a2a60ba89eb86611505f9",
+      "id": "w-cardenas-2003-communication-and-cooperation-in-a-pool"
+    },
+    {
+      "source_file": "Cardenas__Discrimination-in-the-Provision-of-Social-Services-to-the-Poor-A-Field-Experimental-Study.md",
+      "metadata_fingerprint": "e311831713a53b7f847775b8f9e8f31cdef7fcb71e15694cb3f966997f8295f7",
+      "id": "w-rdenas-2008-discrimination-in-the-provision-of-to-a"
+    },
+    {
+      "source_file": "Cardenas__Dynamics_of_Rules_and_Resources_Three_New_Field_Ex.md",
+      "metadata_fingerprint": "0dfa71083e83965a66b243121a6babbb36463e90ba279d345f94135094a6b822",
+      "id": "w-cardenas-2008-dynamics-of-rules-and-resources-three-on"
+    },
+    {
+      "source_file": "Cardenas__MarketsReligionCommunity-2010.md",
+      "metadata_fingerprint": "f7d016be757d1285b221d762373892c48e2bdbe19ad30646af01e87fff17d475",
+      "id": "w-henrich-2010-markets-religion-community-size-and-the"
+    },
+    {
+      "source_file": "Cardenas__Rethinking_Local_Commons_Dilemmas_Lessons_from_Experimental_Economics_in_the_Field.md",
+      "metadata_fingerprint": "489be5a34862ae2cd20c7c36923a1e78bce59b98b700cdeadab02d5fa8422e16",
+      "id": "w-cardenas-2003-rethinking-local-commons-dilemmas-from"
+    },
+    {
+      "source_file": "Cardenas__Social_Learning_through_Economic_Games_i.md",
+      "metadata_fingerprint": "c3462a446bb07d80e197155a4fb34fd552310a447c2c33889f52d423bd1cce53",
+      "id": "w-bernal-2014-social-learning-through-economic-games"
+    },
+    {
+      "source_file": "Cardenas__breakin elected .md",
+      "metadata_fingerprint": "bb5d38ba427b8e0d4b33dad57c9100e93fb5617165598eef05d7effa32c57792",
+      "id": "w-janssen-2013-breaking-the-elected-rules-in-a-field-on"
+    },
+    {
+      "source_file": "Cardenas__ch 8_Should_the_State_regulate_the_Local_Comm-5-88-106.md",
+      "metadata_fingerprint": "d86ad1be1ca0fc003e6800d25d13b2743599e8d9ae89114187d87e9d8435c50d",
+      "id": "w-rdenas-1998-should-the-state-regulate-the-local-from"
+    },
+    {
+      "source_file": "Cardenas__collective-action-for-watershed-management-field-experiments-in-colombia-and-kenya.md",
+      "metadata_fingerprint": "e695ea21e2bab0686627455f5a36bcb6a85ec6f2c1da8c451ee4c3e8f5d34fb9",
+      "id": "w-cardenas-2010-collective-action-for-watershed-field-in"
+    },
+    {
+      "source_file": "Cardenas__context dependent cheating.md",
+      "metadata_fingerprint": "c787a17cde6dd35f724ab71c958f67bf11f9d14f9a230970763ede238b413454",
+      "id": "w-ezama-2015-context-dependent-cheating-experimental"
+    },
+    {
+      "source_file": "Cardenas__cooperativeness.md",
+      "metadata_fingerprint": "e372fd2596b1e42a94925e386ccf07ccefb49ded5b67f229dc000ec2e3332467",
+      "id": "w-rdenas-2015-cooperativeness-and-competitiveness-in"
+    },
+    {
+      "source_file": "Cardenas__costly punishment.md",
+      "metadata_fingerprint": "7679fd884c0b250f6f9b16bb01fdd778defe96a29c624472bb60aa7c3fedd9fb",
+      "id": "w-henrich-2010-costly-punishment-across-human-societies"
+    },
+    {
+      "source_file": "Cardenas__economic inequality.md",
+      "metadata_fingerprint": "1ac1a0b8b488e9d12d8b843df9ae78382a201e0543e99c7865bbd4d98fffc93e",
+      "id": "w-cardenas-2002-economic-inequality-and-burden-sharing"
+    },
+    {
+      "source_file": "Cardenas__field experiments on irrigation.md",
+      "metadata_fingerprint": "14027573a4746fa2dca9ac491b69499294019a2779b7bc9bab75f38b6fc425a2",
+      "id": "w-janssen-2012-field-experiments-on-irrigation-dilemmas"
+    },
+    {
+      "source_file": "Cardenas__fragility of the provision.md",
+      "metadata_fingerprint": "f6cf67b3e8f9c822ba3d5834485d9b641152f308a3e1564d5dbf0fd6ad81579e",
+      "id": "w-rdenas-2017-fragility-of-the-provision-of-local-to"
+    },
+    {
+      "source_file": "Cardenas__gender andchildren cooperation.md",
+      "metadata_fingerprint": "3ade35f43515602870c9657966b50c572153d70b15925d553bd4d311e1c59112",
+      "id": "w-cardenas-2014-gender-and-cooperation-in-children-in"
+    },
+    {
+      "source_file": "Cardenas__gender difference.md",
+      "metadata_fingerprint": "d4dbba0cafc6c65881f14cdf11fab9166363359dee51d771efd290f08bfab1dd",
+      "id": "w-rdenas-2011-gender-differences-in-competitiveness-in"
+    },
+    {
+      "source_file": "Cardenas__groups, commons and egulations.md",
+      "metadata_fingerprint": "28f15188128d58eed1b7fd9f5b47b2f735853823e71ef9673c40d20deca00ad3",
+      "id": "w-cardenas-2003-groups-commons-and-regulations-with-and"
+    },
+    {
+      "source_file": "Cardenas__head-enders.md",
+      "metadata_fingerprint": "38fd2a6a2396b2f8659404f95f19058c757215c620d2737e282b68a5c4f9ce00",
+      "id": "w-janssen-2011-head-enders-as-stationary-bandits-in-in"
+    },
+    {
+      "source_file": "Cardenas__how do groupe solve commons.md",
+      "metadata_fingerprint": "1983de333ec0375a18add1cdb4963e6159161c4fb3355415b757821f12da392e",
+      "id": "w-cardenas-2000-how-do-groups-solve-local-commons-from"
+    },
+    {
+      "source_file": "Cardenas__how-norms-help-reduce-the-tragedy-of-the-commons-a-multi-layer-framework-for-analyzing-field-experiments.md",
+      "metadata_fingerprint": "fad40c579a8a65d050d43e05afb028b2b123811d63cf18004de3c7579fe3c5ff",
+      "id": "w-cardenas-2004-how-norms-help-reduce-the-tragedy-of-the"
+    },
+    {
+      "source_file": "Cardenas__institutions influence preferences.md",
+      "metadata_fingerprint": "c456d4ad8b67b06d7bfbc493f42827eb03b54050655c122495e936e8ca00d64f",
+      "id": "w-sickert-2008-institutions-influence-preferences-from"
+    },
+    {
+      "source_file": "Cardenas__local environmental.md",
+      "metadata_fingerprint": "a30e543fbd4a04787815cb04c28cba2bdd6f14f4c435a18791d4e2986f3acd29",
+      "id": "w-cardenas-2000-local-environmental-control-and-crowding"
+    },
+    {
+      "source_file": "Cardenas__métodos experimentales.md",
+      "metadata_fingerprint": "4a4ec8122e498d04372382584146eae9c674951103a915b8efecfb864f3e4d11",
+      "id": "w-rdenas-2001-metodos-experimentales-y-participativos"
+    },
+    {
+      "source_file": "Cardenas__more altruistic.md",
+      "metadata_fingerprint": "834a5d8e92c10225cc987d92dc53403b4dadbe6ae79efeb7b86d8891cec40c91",
+      "id": "w-marlowe-2008-more-altruistic-punishment-in-larger"
+    },
+    {
+      "source_file": "Cardenas__norms from outside.md",
+      "metadata_fingerprint": "36f0194a616e63e12d270e8660d88ee6ac68a5383d204de32764cbfd807c92b0",
+      "id": "w-cardenas-2004-norms-from-outside-and-from-inside-an-on"
+    },
+    {
+      "source_file": "Cardenas__real wealth.md",
+      "metadata_fingerprint": "49bc12ac89f3ee072a368f7124694594fa88171c758e0443f93a675dffd7e6f5",
+      "id": "w-cardenas-2003-real-wealth-and-experimental-cooperation"
+    },
+    {
+      "source_file": "Cardenas__resource allocation .md",
+      "metadata_fingerprint": "6318589dfabf9dacea3ee16757c619211c4603c92b581dcc1839464c7aff73e4",
+      "id": "w-cardenas-2010-resource-allocation-in-public-agencies"
+    },
+    {
+      "source_file": "Cardenas__risk attitudes.md",
+      "metadata_fingerprint": "b0b55dfff27e318328e5934dd02c87c37a51d2968ad37962ea3420f6be5dea42",
+      "id": "w-cardenas-2013-risk-attitudes-and-economic-well-being"
+    },
+    {
+      "source_file": "Cardenas__risk pooling.md",
+      "metadata_fingerprint": "9093c2846f9a5d4f67ad495497630e2625d606a9a62ae3366f429ee423e08038",
+      "id": "w-attanasio-2012-risk-pooling-risk-preferences-and-social"
+    },
+    {
+      "source_file": "Cardenas__social norms.md",
+      "metadata_fingerprint": "13b8c372c357d8c204f482086f1c6d4766da1ccf24a8abed8d01ddd184bc4df0",
+      "id": "w-cardenas-2011-social-norms-and-behavior-in-the-local"
+    },
+    {
+      "source_file": "Cardenas__social preferencesSANQUIANGUA.md",
+      "metadata_fingerprint": "994b1b6948b6cfb2bcfa34e60079f26a18e5bd1a3e9eb944b616e0a75f1c4738",
+      "id": "w-cardenas-2008-social-preferences-among-the-people-of"
+    },
+    {
+      "source_file": "Cardenas__stated social behavior.md",
+      "metadata_fingerprint": "1ffc248f929a50c0bbf95ac5d5ea2708cb6be8c696be4ce60bbff7c897775eb4",
+      "id": "w-rdenas-2013-stated-social-behavior-and-revealed-from"
+    },
+    {
+      "source_file": "Cardenas__the challenge.md",
+      "metadata_fingerprint": "d5161d8452a90f33918e0eb48f81ebe6a021ffb95ace2a03b4dd032d792d7659",
+      "id": "w-anderies-2011-the-challenge-of-understanding-decisions"
+    },
+    {
+      "source_file": "Cardenas__the hidden face of justice.md",
+      "metadata_fingerprint": "62d16257d41af0081a2dbd16f0bbed3606a9839533e9c61e27153edc52a091c2",
+      "id": "w-rdenas-2013-the-hidden-face-of-justice-fairness-and"
+    },
+    {
+      "source_file": "Cardenas__to what extent.md",
+      "metadata_fingerprint": "c4c1c94c160892a528c9aca92393a7280ba8cab32c69a7ff3350a99277b8e15d",
+      "id": "w-rdenas-2009-to-what-extent-do-latin-americans-trust"
+    },
+    {
+      "source_file": "Cardenas__wealth inequality.md",
+      "metadata_fingerprint": "df642451cf02655df73592d15377add8e49e4d1106e1c5f828b4f7e038fa528d",
+      "id": "w-cardenas-2002-wealth-inequality-and-overexploitation"
+    },
+    {
+      "source_file": "Cardenas__what do people bring.md",
+      "metadata_fingerprint": "e82259db7a43faee318916b39ec87823e57ce5c677293caf7454320bc8fd45ec",
+      "id": "w-rdenas-2004-what-do-people-bring-into-the-game-in-in"
+    },
+    {
+      "source_file": "base 2026_Claude1__Agneman__HiCN-WP-379-2.md",
+      "metadata_fingerprint": "99a731d96dbd46b66dd01377c6b64e4243ef6d0a30b1a73114e4e673be67fabb",
+      "id": "w-agneman-2022-conflict-victimization-and-civilian-from"
+    },
+    {
+      "source_file": "base 2026_Claude1__Arango Aramburo__coffee farmers .md",
+      "metadata_fingerprint": "723494ac224cea5e71c018436654e6ac1dc8290c33c48725b7b8d86f64838e23",
+      "id": "w-aramburo-2019-the-influence-of-the-strength-of-and-the"
+    },
+    {
+      "source_file": "base 2026_Claude1__Arango Aramburo__gold mining.md",
+      "metadata_fingerprint": "f76977d9b5b172300908789e3aa46f61dd7ef604f007e0514975997bbc90fa3d",
+      "id": "w-isaza-2015-phasing-out-mercury-through-collective-a"
+    },
+    {
+      "source_file": "base 2026_Claude1__Bogliacino__crime related.md",
+      "metadata_fingerprint": "79731c54b49a38a465dc91c5763981ce07d0705b0fff505859d0f552a0834025",
+      "id": "w-bogliacino-2023-crime-related-exposure-to-violence-and"
+    },
+    {
+      "source_file": "base 2026_Claude1__Bogliacino__negative shocks .md",
+      "metadata_fingerprint": "94b950e1bed77ca6f4a3d863787dd49c07ecf244a94f3ce7b77d1b841fe6b98c",
+      "id": "w-bogliacino-2020-do-negative-economic-shocks-affect-to"
+    },
+    {
+      "source_file": "base 2026_Claude1__Bogliacino__socio-economic stratification.md",
+      "metadata_fingerprint": "79f0457924b70a9afea7dcdcf77d285ccd73cb888011d756248029d60a1a06cf",
+      "id": "w-bogliacino-2017-socioeconomic-stratification-and-lab-in"
+    },
+    {
+      "source_file": "base 2026_Claude1__Candelo__identity and social exclusion.md",
+      "metadata_fingerprint": "faa3ae35a4d08182b71e2dc0703b1f1ca64c255700702c4fad287cea21a581b8",
+      "id": "w-candelo-2017-identity-and-social-exclusion-an-with-in"
+    },
+    {
+      "source_file": "base 2026_Claude1__Candelo__social distance .md",
+      "metadata_fingerprint": "595a89e7f9fd85ad7d5a85b48d26ff18f2b50da12e8ca93536b7239efa7993f7",
+      "id": "w-candelo-2018-social-distance-matters-in-dictator-from"
+    },
+    {
+      "source_file": "base 2026_Claude1__Candelo__transmission of information .md",
+      "metadata_fingerprint": "c8e0219502e0c1542d4426b2aa1b2959a3d4a774f02dd80054e919c92d98c8c1",
+      "id": "w-candelo-2018-transmission-of-information-within-a"
+    },
+    {
+      "source_file": "base 2026_Claude1__Casas__capital social.md",
+      "metadata_fingerprint": "84e75c4026f1ad42866ed667fea4119670bb1ed5f4e15f99383d3f207c735961",
+      "id": "w-ndez-2017-capital-social-y-territorio-una-multi-a"
+    },
+    {
+      "source_file": "base 2026_Claude1__Castillo__Castillo simulation EE (2005).md",
+      "metadata_fingerprint": "fcadc20ee0afd5fdb18a3e6f51bcab47b69886fb301165c9c8f5696c13043416",
+      "id": "w-castillo-2005-simulation-of-common-pool-resource-field"
+    },
+    {
+      "source_file": "base 2026_Claude1__Castillo__Castillo, Cárdenas et al._EE (2011).md",
+      "metadata_fingerprint": "bc7572778e9e948f80b7d39c086612f37746ca4f4b422cacbbccc7fb3320ed59",
+      "id": "w-castillo-2011-context-matters-to-explain-field-results"
+    },
+    {
+      "source_file": "base 2026_Claude1__Guerra__Guerra_Thesis.md",
+      "metadata_fingerprint": "13ee7680727d01d7e6c8206ed1dfbd1b7000f2d67b45e82df8d6f9f5ca1e19ba",
+      "id": "w-forero-2013-essays-on-experimental-and-applied"
+    },
+    {
+      "source_file": "base 2026_Claude1__López__López_World Development (2017).md",
+      "metadata_fingerprint": "987c0f55a2dc7c5e4cdf59b1828ef07dce1bfee3829028162e1c321f2ef3b719",
+      "id": "w-exelle-2017-community-driven-reconstruction-in-an-of"
+    },
+    {
+      "source_file": "base 2026_Claude1__López__black box_Lopez and Villamayor (2017).md",
+      "metadata_fingerprint": "7968e068ad49c9ac7494b74e45d48a8f8aa8ee6f6869bbd555f843aa65119dfa",
+      "id": "w-lopez-2016-understanding-the-black-box-of-in-a-pool"
+    },
+    {
+      "source_file": "base 2026_Claude1__López__exogenour degradation .md",
+      "metadata_fingerprint": "c5d59bb33a8b003321898b4bad1690dd997d523164add9afc65d072f0c27a547",
+      "id": "w-blanco-2015-exogenous-degradation-in-the-commons"
+    },
+    {
+      "source_file": "base 2026_Claude1__López__group communication_journal.pone.0283196.md",
+      "metadata_fingerprint": "0dc590fda91937325a45fb2c635802f6735fbd1f4a68d00249b219bafecff8f9",
+      "id": "w-hoffmann-2023-analyzing-group-communication-dynamics-a"
+    },
+    {
+      "source_file": "base 2026_Claude1__López__working paper_Lopez.md",
+      "metadata_fingerprint": "8dd64f6079674a8237f45db2fa2e42277ff95bff2b323566bab7b8354f400f75",
+      "id": "w-lopez-2009-comparing-the-effectiveness-of-and-pro"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__can co-management.md",
+      "metadata_fingerprint": "5b9b745330b7b24d1f7223ebd7b88a40558a8eea51e8f38c592a0ac114ee9897",
+      "id": "w-sanchez-2009-can-co-management-improve-the-governance"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__derretimiento .md",
+      "metadata_fingerprint": "39ad7a19b84974ed4db17e4c5796ac6d7dedc1a053ea0a661f4f997c0fc66085",
+      "id": "w-escobar-2013-derretimiento-y-retroceso-glaciar-la-de"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__does exclusion matter.md",
+      "metadata_fingerprint": "feaeec345d75b38cdd164705cbaf576a0404124703c1d68413d8a358d3382fd6",
+      "id": "w-maldonado-2019-does-exclusion-matter-in-conservation-a"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__does scarcity.md",
+      "metadata_fingerprint": "3544deaebc77ccba4bd4aea1256056d7e42658e9e745319c8fbc212170f34b65",
+      "id": "w-maldonado-2008-does-scarcity-exacerbate-the-tragedy-of"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__evaluating the role .md",
+      "metadata_fingerprint": "298ca83cfee2ff12a8ff4ba7ab8c1490c1abf46f654381b956d33f1b58d6aa2f",
+      "id": "w-nchez-2010-evaluating-the-role-of-co-management-in"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maldonado__exacerbating the tragedy .md",
+      "metadata_fingerprint": "6ecaf0f6064b20bbd132b9d66af0c997ebcd3199359ae38042ad875fe8916515",
+      "id": "w-maldonado-2016-exacerbating-the-tragedy-of-the-commons"
+    },
+    {
+      "source_file": "base 2026_Claude1__Mantilla__land division.md",
+      "metadata_fingerprint": "315713149d083217d4bd80e90cde31c2ce959af25fd5512293d375e8c3c0ec98",
+      "id": "w-faro-2020-land-division-a-lab-in-the-field"
+    },
+    {
+      "source_file": "base 2026_Claude1__Maya__manglar.md",
+      "metadata_fingerprint": "371967b804908ba45b1c9d3acc6d4e72105a5d5c7d806c52885baec3b511b0c5",
+      "id": "w-maya-2006-el-rol-del-genero-en-el-manglar-e"
+    },
+    {
+      "source_file": "base 2026_Claude1__Moros__Temporary.md",
+      "metadata_fingerprint": "04aef897580ef73a1720d5b5363661c0c738c23b52144fc98c027552262f1e50",
+      "id": "w-moros-2023-temporary-pes-do-not-crowd-out-and-may"
+    },
+    {
+      "source_file": "base 2026_Claude1__Moros__payments for ecosystem services .md",
+      "metadata_fingerprint": "68bab8c97163eb9d1d38d18ba58ce2d4e544841596accaf8fc9155871b27b27a",
+      "id": "w-moros-2017-payments-for-ecosystem-services-and-in-s"
+    },
+    {
+      "source_file": "base 2026_Claude1__Moya__Violence psychological trauma .md",
+      "metadata_fingerprint": "22dc39bfeaa2ba793234215c9ded9161407791d2449f40392636709536aea6cf",
+      "id": "w-moya-2018-violence-psychological-trauma-and-risk"
+    },
+    {
+      "source_file": "base2026_Claude2__Polanía__building social capital_Polanía &Attanasio .md",
+      "metadata_fingerprint": "9e53754c149657166dd0735d0120e98fffc7a261cfe340ec6320f5abb66244a9",
+      "id": "w-attanasio-2015-building-social-capital-conditional-cash"
+    },
+    {
+      "source_file": "base2026_Claude2__Polanía__building trust_ Fiscal Studies - 2009 - Attanasio - Building Trust  Conditional Cash Transfer Programmes and Social Capital-4.md",
+      "metadata_fingerprint": "0c06b343cb595563feac3393ac7dd4e0b4e555e4aa116a73907de286d848fdac",
+      "id": "w-attanasio-2009-building-trust-conditional-cash-transfer"
+    },
+    {
+      "source_file": "base2026_Claude2__Polanía__social cognition_Polanía y Casas (2024)-working paper.md",
+      "metadata_fingerprint": "08e9c9c3244a4450673fc65bab32c43284944f04365cee4646e9a39d5edf669a",
+      "id": "w-reyes-2024-social-cognition-vs-affect-evidence-from"
+    },
+    {
+      "source_file": "base2026_Claude2__Ramos__RamosToro-SocialExclusionSocial-2023.md",
+      "metadata_fingerprint": "f5b466bc4715d6867610e1403b16e6d03437ab8e1b729fa83de251addabb9936",
+      "id": "w-toro-2023-social-exclusion-and-social-preferences"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__behavioral consequences.md",
+      "metadata_fingerprint": "f59e9bbc8dbab3c8a72ea19606f604eaada38b06a8260cf082d7b8d45a7369bf",
+      "id": "w-fatas-2021-the-behavioral-consequences-of-conflict"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__building inclusive institutions.md",
+      "metadata_fingerprint": "451efced164d6e730c31fe5bded488ac7089012eba95e7e22556df782c0c2155",
+      "id": "w-plaza-2022-building-inclusive-institutions-in"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__discrimination in posconflic.md",
+      "metadata_fingerprint": "0880b3421821d64826a38fe628a46b955948c5116108ca962488f583aca9759f",
+      "id": "w-unfried-2022-discrimination-in-post-conflict-settings"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__ingroup favoritism.md",
+      "metadata_fingerprint": "dc8937a4465f2119c991b84c0b9a54a9d16ae8a4ee5af645bad2e99b94833d44",
+      "id": "w-plaza-2022-when-ingroup-favoritism-is-not-the-norm"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__payment for ecosystem.md",
+      "metadata_fingerprint": "a13e7978e158d4bed6e04c68e4c239ab7b5f12d283b0f12353c6251bf6b361eb",
+      "id": "w-n-2021-payment-for-ecosystem-services-and-the"
+    },
+    {
+      "source_file": "base2026_Claude2__Restrepo-Plaza__when losses.md",
+      "metadata_fingerprint": "287c353b3e9aafbf893eb4a7a3f2ca67bd1d28b95bdd7ec90f64ae63a1e74f7f",
+      "id": "w-fatas-2022-when-losses-can-be-a-gain-a-large-lab-in"
+    },
+    {
+      "source_file": "base2026_Claude2__Rodriguez__RodriguezRamirez_duke_0066D_13647.md",
+      "metadata_fingerprint": "2ed942db9dd93f779e6ae2130e84bc7ecf4573ecb06962c5c2b599601fc5c4ad",
+      "id": "w-rodriguez-2011-on-the-regulation-of-small-actors-three"
+    },
+    {
+      "source_file": "base2026_Claude2__Rodriguez__graduate stringency.md",
+      "metadata_fingerprint": "87db419370eac6477fe753dcc0da343fb2faa3d32098e049c9be60eac4dabd90",
+      "id": "w-rodriguez-2019-graduated-stringency-within-collective"
+    },
+    {
+      "source_file": "base2026_Claude2__Rodriguez__leaders distributional.md",
+      "metadata_fingerprint": "1e5d99336d3d192012e5ba5f7f1c8a02d63d41f6b930af0642abd423625476ce",
+      "id": "w-rodriguez-2021-leaders-distributional-efficiency-in-to"
+    },
+    {
+      "source_file": "base2026_Claude2__Rodriguez__lideres.md",
+      "metadata_fingerprint": "dc9d72158ff3a8a2017e5dc5aa58609835dfab03efdc7fde5bc42ea9c92d3373",
+      "id": "w-guez-2013-el-papel-de-los-lideres-en-el-manejo-de"
+    },
+    {
+      "source_file": "base2026_Claude2__Saldarriaga-Isaza__Saldarriaga Isaaza thesis .md",
+      "metadata_fingerprint": "75548672f831321f2537a30565c5baf8f5e6f1acdeab174444dae62efb7a2d95",
+      "id": "w-isaza-2017-the-tragedy-of-the-commons-in-artisanal"
+    },
+    {
+      "source_file": "base2026_Claude2__Saldarriaga-Isaza__a beh model.md",
+      "metadata_fingerprint": "4144aaf5a6e7d18827f9ed9df43b032d7418fe30d766860829bbe6331108e9b1",
+      "id": "w-isaza-2015-a-behavioral-model-of-collective-action"
+    },
+    {
+      "source_file": "base2026_Claude2__Seither__Julia Seither.md",
+      "metadata_fingerprint": "afa8811e798a9442d50753d7ef2022bded147dc9a904c6640341182a3a1993b1",
+      "id": "w-list-2024-critical-thinking-and-misinformation"
+    },
+    {
+      "source_file": "base2026_Claude2__Velez__centralized .md",
+      "metadata_fingerprint": "7eb3d022192ea03469acb2e49927e4fa04860e930beb1c29c72b1d0a0cf54c88",
+      "id": "w-velez-2010-centralized-and-decentralized-management"
+    },
+    {
+      "source_file": "base2026_Claude2__Velez__contracts.md",
+      "metadata_fingerprint": "90bf61764b56617ec1dc8e7b353b01496c104932586b3910efa65f9abbf14b28",
+      "id": "w-pfaff-2018-contracts-versus-trust-for-transfers-of"
+    },
+    {
+      "source_file": "base2026_Claude2__Velez__prosocial.md",
+      "metadata_fingerprint": "4c2e0132066f9392f4d6ef746d9d02ffd003ffd9145b829df5e0433d1449cfc0",
+      "id": "w-lez-2016-prosocial-behavior-and-subjective-in"
+    },
+    {
+      "source_file": "base2026_Claude2__Velez__rules_Lopez&Velez-RulesComplianceAge-2013-2.md",
+      "metadata_fingerprint": "ad5101415046dac423a86516995366f2f4944d00e5c64ac4b99149418b34a883",
+      "id": "w-velez-2013-rules-compliance-and-age-experimental"
+    },
+    {
+      "source_file": "base2026_Claude2__Velez__what motivates CPR.md",
+      "metadata_fingerprint": "e426587cebd1f155cdaae27456b8769508d37efc06deb804fe3c3f3601a4b9bb",
+      "id": "w-velez-2009-what-motivates-common-pool-resource-from"
+    },
+    {
+      "source_file": "base2026_Claude2__Villegas__AFE Clara Villegas.md",
+      "metadata_fingerprint": "0d0c5ec9451487999ca8fc7c876de7bc81a9fcb4f47aae11f0087cbc629030cf",
+      "id": "w-n-2013-social-information-and-charitable-giving"
+    },
+    {
+      "source_file": "base2026_Claude2__Villegas__PhD dissertation Villegas.md",
+      "metadata_fingerprint": "0d01398e16b8472957b61d107255a3b33d1a7031544536606770f43611d154a8",
+      "id": "w-palacio-2010-formal-and-informal-regulations-and"
+    },
+    {
+      "source_file": "coca FFE_NER (2013).md",
+      "metadata_fingerprint": "2c6a8e5d0282b80b57a0df727f9f691b929f5bb84694831c0ad4e6b340ecae1b",
+      "id": "w-ibanez-2013-curbing-coca-cultivation-in-colombia-a"
+    },
+    {
+      "source_file": "chipping for cleaner energy.md",
+      "metadata_fingerprint": "1649d4ff102fde118d0d92065195fa31d01eeda53a0f538baa7dd7a4ed2454c2",
+      "id": "w-isaza-2018-chipping-in-for-a-cleaner-technology-a"
+    }
+  ],
+  "reserved_ids": [
+    "w-agneman-2022-conflict-victimization-and-civilian-from",
+    "w-anderies-2011-the-challenge-of-understanding-decisions",
+    "w-aramburo-2019-the-influence-of-the-strength-of-and-the",
+    "w-attanasio-2009-building-trust-conditional-cash-transfer",
+    "w-attanasio-2012-risk-pooling-risk-preferences-and-social",
+    "w-attanasio-2015-building-social-capital-conditional-cash",
+    "w-bernal-2014-social-learning-through-economic-games",
+    "w-blanco-2015-exogenous-degradation-in-the-commons",
+    "w-bogliacino-2017-socioeconomic-stratification-and-lab-in",
+    "w-bogliacino-2020-do-negative-economic-shocks-affect-to",
+    "w-bogliacino-2023-crime-related-exposure-to-violence-and",
+    "w-candelo-2017-identity-and-social-exclusion-an-with-in",
+    "w-candelo-2018-social-distance-matters-in-dictator-from",
+    "w-candelo-2018-transmission-of-information-within-a",
+    "w-cardenas-2000-how-do-groups-solve-local-commons-from",
+    "w-cardenas-2000-local-environmental-control-and-crowding",
+    "w-cardenas-2002-economic-inequality-and-burden-sharing",
+    "w-cardenas-2002-wealth-inequality-and-overexploitation",
+    "w-cardenas-2003-communication-and-cooperation-in-a-pool",
+    "w-cardenas-2003-groups-commons-and-regulations-with-and",
+    "w-cardenas-2003-real-wealth-and-experimental-cooperation",
+    "w-cardenas-2003-rethinking-local-commons-dilemmas-from",
+    "w-cardenas-2004-how-norms-help-reduce-the-tragedy-of-the",
+    "w-cardenas-2004-norms-from-outside-and-from-inside-an-on",
+    "w-cardenas-2008-dynamics-of-rules-and-resources-three-on",
+    "w-cardenas-2008-social-preferences-among-the-people-of",
+    "w-cardenas-2010-collective-action-for-watershed-field-in",
+    "w-cardenas-2010-resource-allocation-in-public-agencies",
+    "w-cardenas-2011-social-norms-and-behavior-in-the-local",
+    "w-cardenas-2013-risk-attitudes-and-economic-well-being",
+    "w-cardenas-2014-gender-and-cooperation-in-children-in",
+    "w-castillo-2005-simulation-of-common-pool-resource-field",
+    "w-castillo-2011-context-matters-to-explain-field-results",
+    "w-escobar-2013-derretimiento-y-retroceso-glaciar-la-de",
+    "w-exelle-2017-community-driven-reconstruction-in-an-of",
+    "w-ezama-2015-context-dependent-cheating-experimental",
+    "w-faro-2020-land-division-a-lab-in-the-field",
+    "w-fatas-2021-the-behavioral-consequences-of-conflict",
+    "w-fatas-2022-when-losses-can-be-a-gain-a-large-lab-in",
+    "w-forero-2013-essays-on-experimental-and-applied",
+    "w-guez-2013-el-papel-de-los-lideres-en-el-manejo-de",
+    "w-henrich-2010-costly-punishment-across-human-societies",
+    "w-henrich-2010-markets-religion-community-size-and-the",
+    "w-hoffmann-2023-analyzing-group-communication-dynamics-a",
+    "w-ibanez-2013-curbing-coca-cultivation-in-colombia-a",
+    "w-isaza-2015-a-behavioral-model-of-collective-action",
+    "w-isaza-2015-phasing-out-mercury-through-collective-a",
+    "w-isaza-2017-the-tragedy-of-the-commons-in-artisanal",
+    "w-isaza-2018-chipping-in-for-a-cleaner-technology-a",
+    "w-janssen-2011-head-enders-as-stationary-bandits-in-in",
+    "w-janssen-2012-field-experiments-on-irrigation-dilemmas",
+    "w-janssen-2013-breaking-the-elected-rules-in-a-field-on",
+    "w-lez-2016-prosocial-behavior-and-subjective-in",
+    "w-list-2024-critical-thinking-and-misinformation",
+    "w-lopez-2009-comparing-the-effectiveness-of-and-pro",
+    "w-lopez-2016-understanding-the-black-box-of-in-a-pool",
+    "w-maldonado-2008-does-scarcity-exacerbate-the-tragedy-of",
+    "w-maldonado-2016-exacerbating-the-tragedy-of-the-commons",
+    "w-maldonado-2019-does-exclusion-matter-in-conservation-a",
+    "w-marlowe-2008-more-altruistic-punishment-in-larger",
+    "w-maya-2006-el-rol-del-genero-en-el-manglar-e",
+    "w-moros-2017-payments-for-ecosystem-services-and-in-s",
+    "w-moros-2023-temporary-pes-do-not-crowd-out-and-may",
+    "w-moya-2018-violence-psychological-trauma-and-risk",
+    "w-n-2013-social-information-and-charitable-giving",
+    "w-n-2021-payment-for-ecosystem-services-and-the",
+    "w-nchez-2010-evaluating-the-role-of-co-management-in",
+    "w-ndez-2017-capital-social-y-territorio-una-multi-a",
+    "w-palacio-2010-formal-and-informal-regulations-and",
+    "w-pfaff-2018-contracts-versus-trust-for-transfers-of",
+    "w-plaza-2022-building-inclusive-institutions-in",
+    "w-plaza-2022-when-ingroup-favoritism-is-not-the-norm",
+    "w-rdenas-1998-should-the-state-regulate-the-local-from",
+    "w-rdenas-2001-metodos-experimentales-y-participativos",
+    "w-rdenas-2004-what-do-people-bring-into-the-game-in-in",
+    "w-rdenas-2008-discrimination-in-the-provision-of-to-a",
+    "w-rdenas-2009-to-what-extent-do-latin-americans-trust",
+    "w-rdenas-2011-gender-differences-in-competitiveness-in",
+    "w-rdenas-2013-stated-social-behavior-and-revealed-from",
+    "w-rdenas-2013-the-hidden-face-of-justice-fairness-and",
+    "w-rdenas-2015-cooperativeness-and-competitiveness-in",
+    "w-rdenas-2017-fragility-of-the-provision-of-local-to",
+    "w-reyes-2024-social-cognition-vs-affect-evidence-from",
+    "w-rodriguez-2011-on-the-regulation-of-small-actors-three",
+    "w-rodriguez-2019-graduated-stringency-within-collective",
+    "w-rodriguez-2021-leaders-distributional-efficiency-in-to",
+    "w-sanchez-2009-can-co-management-improve-the-governance",
+    "w-sickert-2008-institutions-influence-preferences-from",
+    "w-toro-2023-social-exclusion-and-social-preferences",
+    "w-unfried-2022-discrimination-in-post-conflict-settings",
+    "w-velez-2009-what-motivates-common-pool-resource-from",
+    "w-velez-2010-centralized-and-decentralized-management",
+    "w-velez-2013-rules-compliance-and-age-experimental"
+  ],
+  "collision_ids": []
+}

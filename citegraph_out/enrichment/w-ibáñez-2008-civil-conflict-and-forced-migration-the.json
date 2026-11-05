@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "125f3ae8e72fbd2a774ca8242318899576a2b91fcd8d523cb150e526315bd9cb",
+  "result_fingerprint": "33e0c58e6536e1da9f4a26601bc20fdde42e7ef764e1b7f8f10a39446e3794fb",
+  "result": {
+    "doi": "10.1016/j.worlddev.2007.04.013",
+    "Title": "Civil Conflict and Forced Migration: The Micro Determinants and Welfare Losses of Displacement in Colombia",
+    "Authors_List": [
+      "Ana María Ibáñez",
+      "Carlos Eduardo Vélez"
+    ],
+    "Authors": "Ana María Ibáñez, Carlos Eduardo Vélez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ana María Ibáñez",
+        "family": "Ibáñez",
+        "given": "Ana María",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Carlos Eduardo Vélez",
+        "family": "Vélez",
+        "given": "Carlos Eduardo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "World Development",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Civil Conflict and Forced Migration: The Micro Determinants and Welfare Losses of Displacement in Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

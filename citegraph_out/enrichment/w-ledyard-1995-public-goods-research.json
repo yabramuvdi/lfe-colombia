@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c6aa125558e614631f5f7afade96414551aef9449822cdf943239ad1ba83aae1",
+  "result_fingerprint": "41e2a2bc5d6c49be090a94b7361344a241932fb17a16e758f18d7464845dac02",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 74.28571428571429,
+    "enrichment_adjusted_score": 66.28571428571429,
+    "enrichment_candidate_title": "Public Goods:",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 25,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

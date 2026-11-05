@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d8b7e29ac10e0e26f88f0c02552566fdacd2bfef609b3f3e97cffaf0ba26fa8f",
+  "result_fingerprint": "45d661e1af16ae126fffc0b0df51f2ae3c0183ffd6a2181a1bac0b2d7ccf0c7c",
+  "result": {
+    "doi": "10.51438/djgaravito2010",
+    "Title": "Cortes y cambio social: Cómo la Corte Constitucional transformó el desplazamiento forzado en Colombia",
+    "Authors_List": [
+      "César A. Rodríguez Garavito",
+      "Diana Rodríguez Franco"
+    ],
+    "Authors": "César A. Rodríguez Garavito, Diana Rodríguez Franco",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "César A. Rodríguez Garavito",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5074755108",
+        "orcid": null
+      },
+      {
+        "display_name": "Diana Rodríguez Franco",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5059171134",
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2010,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.00990099009901,
+    "enrichment_adjusted_score": 99.00990099009901,
+    "enrichment_candidate_title": "Cortes y cambio social: Cómo la Corte Constitucional transformó el desplazamiento forzado en Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

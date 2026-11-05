@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "bc6285fb00df30102f94ac0917c793da27b87b728b0d014f87215a6ee0b3d0f1",
+  "result_fingerprint": "d0d21a8e17437e326205698ba3910a48d0ac5ed55d24d340fd1d3ed66ff435f9",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 75.0,
+    "enrichment_adjusted_score": 75.0,
+    "enrichment_candidate_title": "Ruggedness: The Blessing of Bad Geography in Africa",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

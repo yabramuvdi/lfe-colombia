@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "152c4f1246ec8bba12e62f950b227acdcbc8216c3475ef7cb055707313cadb0a",
+  "result_fingerprint": "e22e6d1960f77be297af15cc774572ea2439500fc53934b1a4d44c1ed371c83f",
+  "result": {
+    "doi": null,
+    "Title": "Adopción homoparental en Colombia y principio de progresividad en materia de Derechos Humanos",
+    "Authors_List": [
+      "Jorge David Vallejo Gómez"
+    ],
+    "Authors": "Jorge David Vallejo Gómez",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Jorge David Vallejo Gómez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5074612223",
+        "orcid": "0000-0003-1542-4597"
+      }
+    ],
+    "Journal": "Diálogos de Derecho y Política",
+    "Year": 2019,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.46524064171123,
+    "enrichment_adjusted_score": 99.46524064171123,
+    "enrichment_candidate_title": "Adopción homoparental en Colombia y principio de progresividad en materia de Derechos Humanos",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

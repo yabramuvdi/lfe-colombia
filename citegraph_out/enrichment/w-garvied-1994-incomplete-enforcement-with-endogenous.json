@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4d66e98b6a712caee3b63a6cb415950ab15305fd984cc0df693a2d625db11ee0",
+  "result_fingerprint": "709856a40d3eaf3f092a723cf8519d6ec6e2a710ba1b1a1d19fd1210860291b5",
+  "result": {
+    "doi": "10.1016/0047-2727(94)90085-x",
+    "Title": "Incomplete enforcement with endogenous regulatory choice",
+    "Authors_List": [
+      "Devon Garvie",
+      "Andrew Keeler"
+    ],
+    "Authors": "Devon Garvie, Andrew Keeler",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Devon Garvie",
+        "family": "Garvie",
+        "given": "Devon",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Andrew Keeler",
+        "family": "Keeler",
+        "given": "Andrew",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Public Economics",
+    "Year": 1994,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Incomplete enforcement with endogenous regulatory choice",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

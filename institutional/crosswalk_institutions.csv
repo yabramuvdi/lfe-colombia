@@ -1,0 +1,107 @@
+raw_key,raw_string,canonical_name,ror_id,campus,country,country_iso2,org_type,secondary_canonical_name,secondary_ror_id,resolved_from,ror_match_score,needs_review,notes
+Andrew Young School of Policy Studies,Andrew Young School of Policy Studies,Georgia State University,03qt6ba18,,United States,US,education;funder,,,hand+ror,100.0,0,school within Georgia State University; 2 candidate(s) rejected on country
+Arizona State University,Arizona State University,Arizona State University,03efmqc40,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+Boise State University in Boise,Boise State University in Boise,Boise State University,02e3zdp86,,United States,US,education;funder,,,hand+ror,100.0,0,trailing city; 9 candidate(s) rejected on country
+Brigham and Women's Hospital y la Harvard T.H. Chan School of Public Health.,Brigham and Women's Hospital y la Harvard T.H. Chan School of Public Health.,Brigham and Women's Hospital,04b6nzv94,,United States,US,funder;healthcare,Harvard T.H. Chan School of Public Health,,hand+ror,100.0,0,Ariadne Labs is a joint centre of both; Spanish connector and trailing period removed; 10 candidate(s) rejected on country
+Brown University,Brown University,Brown University,05gq02987,,United States,US,education;funder,,,verbatim+ror,100.0,0,6 candidate(s) rejected on country
+CSIRO,CSIRO,Commonwealth Scientific and Industrial Research Organisation,03qn8fb07,,Australia,AU,funder;government,,,verbatim+ror,100.0,0,
+CUNY Queens College,CUNY Queens College,"Queens College, CUNY",03v8adn41,,United States,US,education;funder,,,verbatim+ror,97.4,0,2 candidate(s) rejected on country
+Caltech,Caltech,California Institute of Technology,05dxps055,,United States,US,education;funder,,,hand+ror,100.0,0,abbreviation; 1 candidate(s) rejected on country
+Chulalongkorn University,Chulalongkorn University,Chulalongkorn University,028wp3y58,,Thailand,TH,education;funder,,,verbatim+ror,100.0,0,
+College of DuPage (Illinois).,College of DuPage (Illinois).,College of DuPage,0102yp030,,United States,US,education,,,hand+ror,100.0,0,trailing state + period; 4 candidate(s) rejected on country
+Columbia University,Columbia University,Columbia University,00hj8s172,,United States,US,education;funder,,,verbatim+ror,100.0,0,5 candidate(s) rejected on country
+"Columbia University, New York City","Columbia University, New York City",Columbia University,00hj8s172,,United States,US,education;funder,,,hand+ror,100.0,0,trailing city; 5 candidate(s) rejected on country
+Conservation Strategy Fund,Conservation Strategy Fund,Conservation Strategy Fund,,,,,,,,verbatim,,1,"no ROR record; CSF is a US 501(c)(3), distinct from The Conservation Fund"
+Copenhagen Business School,Copenhagen Business School,Copenhagen Business School,04sppb023,,Denmark,DK,education;funder,,,verbatim+ror,100.0,0,12 candidate(s) rejected on country
+Cornell University,Cornell University,Cornell University,05bnh6r87,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+Dartmouth College,Dartmouth College,Dartmouth College,049s0rh22,,United States,US,education;funder,,,verbatim+ror,100.0,0,4 candidate(s) rejected on country
+Duke University,Duke University,Duke University,00py81415,,United States,US,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Georgia State University,Georgia State University,Georgia State University,03qt6ba18,,United States,US,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Guilford College,Guilford College,Guilford College,04fq7xz90,,United States,US,education,,,verbatim+ror,100.0,0,4 candidate(s) rejected on country
+Harvard University,Harvard University,Harvard University,03vek6s52,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+Humboldt-Universität zu Berlin,Humboldt-Universität zu Berlin,Humboldt-Universität zu Berlin,01hcx6992,,Germany,DE,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+Indiana University,Indiana University,Indiana University Bloomington,02k40bc56,,United States,US,education;funder,,,hand+ror,100.0,0,campus implied
+Indiana University - Bloomington,Indiana University - Bloomington,Indiana University Bloomington,02k40bc56,,United States,US,education;funder,,,verbatim+ror,96.8,0,
+"Indiana University - Bloomington, USA","Indiana University - Bloomington, USA",Indiana University Bloomington,02k40bc56,,United States,US,education;funder,,,hand+ror,100.0,0,trailing country
+Indiana University Bloomington,Indiana University Bloomington,Indiana University Bloomington,02k40bc56,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+"Indiana University Bloomington, Arizona State University","Indiana University Bloomington, Arizona State University",Indiana University Bloomington,02k40bc56,,United States,US,education;funder,Arizona State University,03efmqc40,hand+ror,100.0,0,two institutions in one cell
+Institute for Advanced Study in Toulouse,Institute for Advanced Study in Toulouse,Institute for Advanced Study in Toulouse,03fg2km54,,France,FR,education;funder,,,verbatim+ror,100.0,0,13 candidate(s) rejected on country
+Institute for Financial Research,Institute for Financial Research,Institute for Financial Research,03k09ka51,,Sweden,SE,nonprofit,,,verbatim+ror,100.0,0,14 candidate(s) rejected on country
+"Institute of Sciences and Technology (ICTA), Universitat Autónoma de Barcelona","Institute of Sciences and Technology (ICTA), Universitat Autónoma de Barcelona",Universitat Autònoma de Barcelona,052g8jq94,,Spain,ES,education;funder,,,hand+ror,100.0,0,"ICTA = Institut de Ciencia i Tecnologia Ambientals, a UAB institute; 4 candidate(s) rejected on country"
+International Labour Organization,International Labour Organization,International Labour Organization,03tebpn36,,Switzerland,CH,funder;government,,,verbatim+ror,100.0,0,11 candidate(s) rejected on country
+Javeriana,Javeriana,Pontificia Universidad Javeriana,03etyjw28,,Colombia,CO,education;funder,,,hand+ror,100.0,0,local shorthand; 13 candidate(s) rejected on country
+Leipzig University,Leipzig University,Max Planck Institute for Evolutionary Anthropology,02a33b393,,Germany,DE,facility;funder,,,hand+ror,100.0,0,employer is MPI-EVA (the department cell names it); Leipzig is the city and the site of his honorary professorship; 2 candidate(s) rejected on country
+London School of Economics and Political Science,London School of Economics and Political Science,London School of Economics and Political Science,0090zs177,,United Kingdom,GB,education;funder,,,verbatim+ror,100.0,0,10 candidate(s) rejected on country
+Lund University,Lund University,Lund University,012a77v79,,Sweden,SE,education;funder,,,verbatim+ror,100.0,0,8 candidate(s) rejected on country
+MIT,MIT,Massachusetts Institute of Technology,042nb2s44,,United States,US,education;funder,,,hand+ror,100.0,0,abbreviation
+Maastricht University,Maastricht University,Maastricht University,02jz4aj89,,The Netherlands,NL,education;funder,,,verbatim+ror,100.0,0,7 candidate(s) rejected on country
+Max Planck Institute (Berlin),Max Planck Institute (Berlin),Max Planck Institute for Human Development,02pp7px91,,Germany,DE,facility;funder,,,hand+ror,100.0,0,Barrett's postdoc unit (Center for Adaptive Behavior and Cognition) sits at MPI-HD Berlin; 2 candidate(s) rejected on country
+Max Planck Institute for Evolutionary Anthropology,Max Planck Institute for Evolutionary Anthropology,Max Planck Institute for Evolutionary Anthropology,02a33b393,,Germany,DE,facility;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Max Planck Institute for Human Development,Max Planck Institute for Human Development,Max Planck Institute for Human Development,02pp7px91,,Germany,DE,facility;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Max Planck Institute for Social Anthropology,Max Planck Institute for Social Anthropology,Max Planck Institute for Social Anthropology,02mavc002,,Germany,DE,facility,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Max-Planck-Gesellschaft,Max-Planck-Gesellschaft,Max Planck Institute for Human Development,02pp7px91,,Germany,DE,facility;funder,,,hand+ror,100.0,0,McElreath's postdoc unit (Center for Adaptive Behavior and Cognition) sits at MPI-HD Berlin; 2 candidate(s) rejected on country
+Michigan State University,Michigan State University,Michigan State University,05hs6h993,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+New School for Social Research,New School for Social Research,New School,02tvcev59,,United States,US,education,,,verbatim+ror,93.8,0,10 candidate(s) rejected on country
+Northwestern University,Northwestern University,Northwestern University,000e0be47,,United States,US,education;funder,,,verbatim+ror,100.0,0,6 candidate(s) rejected on country
+Ohio State University,Ohio State University,The Ohio State University,00rs6vg23,,United States,US,education;funder,,,verbatim+ror,91.3,0,
+Osnabrück University,Osnabrück University,Osnabrück University,04qmmjx98,,Germany,DE,education;funder,,,hand+ror,100.0,0,3 candidate(s) rejected on country
+PSU,PSU,Prince of Songkla University,0575ycz84,,Thailand,TH,education;funder,,,hand+ror,100.0,0,"resolved by lookup: Worrapimphong is a lecturer in the Dept of Agricultural Development, Faculty of Natural Resources, PSU; 14 candidate(s) rejected on country"
+Prince of Songkla University,Prince of Songkla University,Prince of Songkla University,0575ycz84,,Thailand,TH,education;funder,,,verbatim+ror,100.0,0,14 candidate(s) rejected on country
+"St. Antony's College, University of Oxford","St. Antony's College, University of Oxford",University of Oxford,052gg0110,,United Kingdom,GB,education;funder,,,hand+ror,100.0,0,college within Oxford; 2 candidate(s) rejected on country
+Stockholm School of Economics,Stockholm School of Economics,Stockholm School of Economics,01s5jzh92,,Sweden,SE,education,,,verbatim+ror,100.0,0,12 candidate(s) rejected on country
+Stockholm University,Stockholm University,Stockholm University,05f0yaq80,,Sweden,SE,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+Swiss Federal Institute for Forest Snow and Landscape Research WSL,Swiss Federal Institute for Forest Snow and Landscape Research WSL,"Swiss Federal Institute for Forest, Snow and Landscape Research",04bs5yc70,,Switzerland,CH,facility;funder,,,verbatim+ror,96.1,0,9 candidate(s) rejected on country
+Texas A&M University,Texas A&M University,Texas A&M University,01f5ytq51,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+UC Santa Barbara,UC Santa Barbara,"University of California, Santa Barbara",02t274463,,United States,US,education;funder,,,hand+ror,100.0,0,abbreviation; 1 candidate(s) rejected on country
+UCL,UCL,University College London,02jx3x895,,United Kingdom,GB,education;funder,,,hand+ror,100.0,0,abbreviation; 1 candidate(s) rejected on country
+UCLA,UCLA,"University of California, Los Angeles",046rm7j60,,United States,US,education;funder,,,hand+ror,100.0,0,abbreviation; 1 candidate(s) rejected on country
+UNAL Bogotá,UNAL Bogotá,Universidad Nacional de Colombia,059yx9a68,Bogota,Colombia,CO,education;funder,,,hand+ror,100.0,0,campus: Bogota
+UNAL Medellín,UNAL Medellín,Universidad Nacional de Colombia,059yx9a68,Medellin,Colombia,CO,education;funder,,,hand+ror,100.0,0,campus: Medellin
+Uniandes,Uniandes,Universidad de Los Andes,02mhbdp94,,Colombia,CO,education;funder,,,hand+ror,100.0,0,local shorthand; 13 candidate(s) rejected on country
+Universidad Europea de Valencia,Universidad Europea de Valencia,Universidad Europea de Valencia,05m35m789,,Spain,ES,education,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+Universidad de Pavia,Universidad de Pavia,University of Pavia,00s6t1f81,,Italy,IT,education;funder,,,hand+ror,100.0,0,Spanish spelling of an Italian university; 6 candidate(s) rejected on country
+Universidade Nova de Lisboa,Universidade Nova de Lisboa,Universidade Nova de Lisboa,02xankh89,,Portugal,PT,education;funder,,,verbatim+ror,100.0,0,
+Universitat Autònoma de Barcelona,Universitat Autònoma de Barcelona,Universitat Autònoma de Barcelona,052g8jq94,,Spain,ES,education;funder,,,hand+ror,100.0,0,4 candidate(s) rejected on country
+Universitat de València,Universitat de València,Universitat de València,043nxc105,,Spain,ES,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+University of Alaska Anchorage,University of Alaska Anchorage,University of Alaska Anchorage,03k3c2t50,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+University of Bergen,University of Bergen,University of Bergen,03zga2b32,,Norway,NO,education;funder,,,verbatim+ror,100.0,0,5 candidate(s) rejected on country
+University of British Columbia,University of British Columbia,University of British Columbia,03rmrcq20,,Canada,CA,education;funder,,,verbatim+ror,100.0,0,
+University of California|mcelreath,University of California,"University of California, Los Angeles",046rm7j60,,United States,US,education;funder,,,hand+ror,100.0,0,campus resolved by lookup: PhD 2001 under Robert Boyd at UCLA; 1 candidate(s) rejected on country
+University of California|murphy,University of California,"University of California, Davis",05rrcem69,,United States,US,education;funder,,,hand+ror,100.0,0,campus resolved by lookup: PhD Agricultural & Resource Economics UC Davis 1999; 1 candidate(s) rejected on country
+University of California|stranlund,University of California,"University of California, Santa Barbara",02t274463,,United States,US,education;funder,,,hand+ror,100.0,0,campus resolved by lookup: PhD Economics UCSB 1992; 1 candidate(s) rejected on country
+"University of California, Davis","University of California, Davis","University of California, Davis",05rrcem69,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+"University of California, Los Angeles","University of California, Los Angeles","University of California, Los Angeles",046rm7j60,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+"University of California, San Diego","University of California, San Diego",University of California San Diego,0168r3w48,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+"University of California, Santa Barbara","University of California, Santa Barbara","University of California, Santa Barbara",02t274463,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+University of Cambridge,University of Cambridge,University of Cambridge,013meh722,,United Kingdom,GB,education;funder,,,verbatim+ror,100.0,0,5 candidate(s) rejected on country
+University of Chicago,University of Chicago,University of Chicago,024mw5h28,,United States,US,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+University of Colorado Denver,University of Colorado Denver,University of Colorado Denver,02hh7en24,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Copenhagen,University of Copenhagen,University of Copenhagen,035b05819,,Denmark,DK,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+University of East Anglia,University of East Anglia,University of East Anglia,026k5mg93,,United Kingdom,GB,education;funder,,,verbatim+ror,100.0,0,10 candidate(s) rejected on country
+University of Gothenburg,University of Gothenburg,University of Gothenburg,01tm6cn81,,Sweden,SE,education;funder,,,verbatim+ror,100.0,0,8 candidate(s) rejected on country
+University of Göttingen,University of Göttingen,University of Göttingen,01y9bpm73,,Germany,DE,education;funder,,,verbatim+ror,100.0,0,
+University of Lugano,University of Lugano,Università della Svizzera italiana,03c4atk17,,Switzerland,CH,education;funder,,,hand+ror,100.0,0,official name; 8 candidate(s) rejected on country
+University of Massachusetts Amherst,University of Massachusetts Amherst,University of Massachusetts Amherst,0072zz521,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Michigan,University of Michigan,University of Michigan,00jmfr291,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Minnesota,University of Minnesota,University of Minnesota,017zqws13,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Navarra,University of Navarra,Universidad de Navarra,02rxc7m23,,Spain,ES,education;funder,,,verbatim+ror,100.0,0,1 candidate(s) rejected on country
+University of New Mexico,University of New Mexico,University of New Mexico,05fs6jp91,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Notre Dame,University of Notre Dame,University of Notre Dame,00mkhxb43,,United States,US,education;funder,,,verbatim+ror,100.0,0,10 candidate(s) rejected on country
+University of Nottingham,University of Nottingham,University of Nottingham,01ee9ar58,,United Kingdom,GB,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+University of Siena,University of Siena,University of Siena,01tevnk56,,Italy,IT,education;funder,,,verbatim+ror,100.0,0,9 candidate(s) rejected on country
+University of Texas at Dallas,University of Texas at Dallas,The University of Texas at Dallas,049emcs32,,United States,US,education;funder,,,verbatim+ror,93.5,0,1 candidate(s) rejected on country
+University of Virginia,University of Virginia,University of Virginia,0153tk833,,United States,US,education;funder,,,verbatim+ror,100.0,0,
+University of Zurich,University of Zurich,University of Zurich,02crff812,,Switzerland,CH,education;funder,,,verbatim+ror,100.0,0,
+University of göttingen,University of göttingen,University of Göttingen,01y9bpm73,,Germany,DE,education;funder,,,hand+ror,100.0,0,lowercase g
+Università Cattolica del Sacro Cuore,Università Cattolica del Sacro Cuore,Università Cattolica del Sacro Cuore,03h7r5v07,,Italy,IT,education;funder,,,verbatim+ror,100.0,0,3 candidate(s) rejected on country
+Università degli Studi di Genova,Università degli Studi di Genova,University of Genoa,0107c5v14,,Italy,IT,education;funder,,,verbatim+ror,100.0,0,
+Università della Svizzera italiana,Università della Svizzera italiana,Università della Svizzera italiana,03c4atk17,,Switzerland,CH,education;funder,,,verbatim+ror,100.0,0,10 candidate(s) rejected on country
+Università di Pavia,Università di Pavia,University of Pavia,00s6t1f81,,Italy,IT,education;funder,,,verbatim+ror,100.0,0,9 candidate(s) rejected on country
+Université Lyon 1,Université Lyon 1,Université Claude Bernard Lyon 1,029brtt94,,France,FR,education;funder,,,hand+ror,100.0,0,official name; 5 candidate(s) rejected on country
+Université Paris Ouest Nanterre La Défense,Université Paris Ouest Nanterre La Défense,Université Paris Nanterre,013bkhk48,,France,FR,education,,,hand+ror,100.0,0,renamed in 2017
+Université de Montpellier,Université de Montpellier,Université de Montpellier,051escj72,,France,FR,education;funder,,,verbatim+ror,100.0,0,12 candidate(s) rejected on country
+Vrije Universiteit,Vrije Universiteit,Vrije Universiteit Amsterdam,008xxew50,,The Netherlands,NL,education;funder,,,hand+ror,100.0,0,disambiguated from VU Brussel; 6 candidate(s) rejected on country
+Washington University,Washington University,Washington University in St. Louis,01yc7t268,,United States,US,education;funder,,,hand+ror,100.0,0,short form; 2 candidate(s) rejected on country
+Washington University in St. Louis,Washington University in St. Louis,Washington University in St. Louis,01yc7t268,,United States,US,education;funder,,,verbatim+ror,100.0,0,2 candidate(s) rejected on country
+World Bank,World Bank,World Bank,00ae7jd04,,United States,US,funder;other,,,verbatim+ror,100.0,0,6 candidate(s) rejected on country
+Yale University,Yale University,Yale University,03v76x132,,United States,US,education;funder,,,verbatim+ror,100.0,0,6 candidate(s) rejected on country

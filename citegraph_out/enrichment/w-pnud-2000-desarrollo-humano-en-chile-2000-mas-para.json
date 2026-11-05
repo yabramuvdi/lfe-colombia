@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "fdcefa37c2e118d8d6a616651260cc50601da7116d152d0030fec97981ce52e6",
+  "result_fingerprint": "87cc4faa6756c61de381a1afc7e0117afa868090e7b94d0617037e73d4be292b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "year_mismatch",
+    "enrichment_title_score": 90.78014184397163,
+    "enrichment_adjusted_score": 82.78014184397163,
+    "enrichment_candidate_title": "DESARROLLO HUMANO EN CHILE : MÁS SOCIEDAD PARA GOBERNAR EL FUTURO : 2000",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 18,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

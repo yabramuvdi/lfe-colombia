@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "04bd680541827362641b9777f05ada19a124d54f347ad861b85d6b2ce0f814bd",
+  "result_fingerprint": "37b6cfe23a9c6f63bc025a66d07077f8f2e810805d126b642cea72bd31275b33",
+  "result": {
+    "doi": "10.1016/0167-2681(82)90011-7",
+    "Title": "An experimental analysis of ultimatum bargaining",
+    "Authors_List": [
+      "Werner Güth",
+      "Rolf Schmittberger",
+      "Bernd Schwarze"
+    ],
+    "Authors": "Werner Güth, Rolf Schmittberger, Bernd Schwarze",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Werner Güth",
+        "family": "Güth",
+        "given": "Werner",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Rolf Schmittberger",
+        "family": "Schmittberger",
+        "given": "Rolf",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Bernd Schwarze",
+        "family": "Schwarze",
+        "given": "Bernd",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 1982,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "An experimental analysis of ultimatum bargaining",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

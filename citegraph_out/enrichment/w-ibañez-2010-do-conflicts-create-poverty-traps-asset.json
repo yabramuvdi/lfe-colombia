@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "e730116908178233bbb34f99681ef09ac5c525005f9d09e779a9a8e4d8447942",
+  "result_fingerprint": "a2722651ed2c1105c5295b80f0eef2648e5f6af21f3edb8a8b87b406fff063e0",
+  "result": {
+    "doi": null,
+    "Title": "Do Conflicts Create Poverty Traps? Asset Losses and Recovery for Displaced Households in Colombia",
+    "Authors_List": [
+      "Ana María Ibáñez",
+      "Andrés Moya"
+    ],
+    "Authors": "Ana María Ibáñez, Andrés Moya",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ana María Ibáñez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5005975223",
+        "orcid": "0000-0003-2008-7134"
+      },
+      {
+        "display_name": "Andrés Moya",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5102739955",
+        "orcid": "0000-0003-0640-5802"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2010,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Do Conflicts Create Poverty Traps? Asset Losses and Recovery for Displaced Households in Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

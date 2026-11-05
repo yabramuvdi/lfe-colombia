@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "660c942a1c95030fdc647a3a177624c143fa9619affce06d64c5799b3920a0a3",
+  "result_fingerprint": "256d484e26e420d84b7d102bcb53ef768e9ee56629d8d9baca219e3b4cf55a77",
+  "result": {
+    "doi": "10.2139/ssrn.203194",
+    "Title": "Cooperation and Punishment in Public Goods Experiments",
+    "Authors_List": [
+      "Ernst Fehr",
+      "Simon Gächter"
+    ],
+    "Authors": "Ernst Fehr, Simon Gächter",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ernst Fehr",
+        "family": "Fehr",
+        "given": "Ernst",
+        "openalex_id": null,
+        "orcid": "0000-0001-6325-7821"
+      },
+      {
+        "display_name": "Simon Gächter",
+        "family": "Gächter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2000,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.06542056074767,
+    "enrichment_adjusted_score": 99.06542056074767,
+    "enrichment_candidate_title": "Cooperation and Punishment in Public Goods Experiments",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

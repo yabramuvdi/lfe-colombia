@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d58ac7a34327aac51ced9535c9f32d5566329df592bfa06d7b62260573fc2fc6",
+  "result_fingerprint": "6b5407f2fa2dc304387b40f3390b570459f89143545b1ec27cd1e71128783245",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 42.06008583690986,
+    "enrichment_adjusted_score": 34.06008583690986,
+    "enrichment_candidate_title": "Factores de influencia en la coordinación logística para la preparación y atención de desastres – Una revisión de literatura",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 15,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

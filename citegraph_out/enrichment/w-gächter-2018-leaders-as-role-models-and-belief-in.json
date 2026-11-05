@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "1b951c8b17bd31d04ed4b5f21ffe70314ff16b558d847b6cef5b2e1a000a7c66",
+  "result_fingerprint": "bd95467efa27fff3a04b184c8496ef590285a3f030880db2b20062efa278fedc",
+  "result": {
+    "doi": "10.1016/j.jebo.2018.08.001",
+    "Title": "Leaders as role models and ‘belief managers’ in social dilemmas",
+    "Authors_List": [
+      "Simon Gächter",
+      "Elke Renner"
+    ],
+    "Authors": "Simon Gächter, Elke Renner",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Simon Gächter",
+        "family": "Gächter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": "0000-0002-7182-8505"
+      },
+      {
+        "display_name": "Elke Renner",
+        "family": "Renner",
+        "given": "Elke",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2018,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 96.06299212598425,
+    "enrichment_adjusted_score": 96.06299212598425,
+    "enrichment_candidate_title": "Leaders as role models and ‘belief managers’ in social dilemmas",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

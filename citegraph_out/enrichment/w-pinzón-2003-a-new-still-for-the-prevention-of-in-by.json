@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7f294e6f29f1781f6af66a07a954fa3c31f969c8801b4498d1496b7bb610ac55",
+  "result_fingerprint": "30100dae7cc63f03fa6c0d0009027bfb6f35c2edaeba6fad83a322ca8f1a8510",
+  "result": {
+    "doi": "10.22201/igeof.00167169p.2003.42.4.318",
+    "Title": "A new still for the prevention of mercury poisoning in small-scale gold mining by amalgam extraction",
+    "Authors_List": [
+      "J. M. Pinzón",
+      "R. Contreras",
+      "C. Bernardy"
+    ],
+    "Authors": "J. M. Pinzón, R. Contreras, C. Bernardy",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "J. M. Pinzón",
+        "family": "Pinzón",
+        "given": "J. M.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "R. Contreras",
+        "family": "Contreras",
+        "given": "R.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "C. Bernardy",
+        "family": "Bernardy",
+        "given": "C.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Geofísica Internacional",
+    "Year": 2003,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "A new still for the prevention of mercury poisoning in small-scale gold mining by amalgam extraction",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

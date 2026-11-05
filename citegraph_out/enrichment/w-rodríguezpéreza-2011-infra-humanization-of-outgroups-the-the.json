@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7b89352947afae36cb2d4941f64de969dfa3151cc2be70daba794d90503cf2d0",
+  "result_fingerprint": "73e40085a255701dbbe6e41db55d774a7288c6bf03edcd5062e352bf506c0e98",
+  "result": {
+    "doi": null,
+    "Title": "Infra-humanization of outgroups throughout the world. The role of similarity, intergroup friendship, knowledge of the outgroup, and status",
+    "Authors_List": [
+      "Armando Rodríguez Pérez",
+      "Naira Delgado",
+      "Verónica Betancor",
+      "Jacques‐Philippe Leyens",
+      "Jeroen Vaes"
+    ],
+    "Authors": "Armando Rodríguez Pérez, Naira Delgado, Verónica Betancor, Jacques‐Philippe Leyens, Jeroen Vaes",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Armando Rodríguez Pérez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5072088141",
+        "orcid": "0000-0001-7279-3546"
+      },
+      {
+        "display_name": "Naira Delgado",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5076106208",
+        "orcid": "0000-0003-0803-2667"
+      },
+      {
+        "display_name": "Verónica Betancor",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5088978301",
+        "orcid": "0000-0001-5663-9055"
+      },
+      {
+        "display_name": "Jacques‐Philippe Leyens",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5108350206",
+        "orcid": null
+      },
+      {
+        "display_name": "Jeroen Vaes",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5022888591",
+        "orcid": "0000-0003-2256-2453"
+      }
+    ],
+    "Journal": "Digitum: Institutional Repository of the University of Murcia (University of Murcia)",
+    "Year": 2011,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Infra-humanization of outgroups throughout the world. The role of similarity, intergroup friendship, knowledge of the outgroup, and status",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

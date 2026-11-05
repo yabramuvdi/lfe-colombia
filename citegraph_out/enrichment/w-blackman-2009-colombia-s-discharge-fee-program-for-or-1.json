@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4974c1f30e8b3865677b9ab3157c5d2a408689b4a931d14058f1003504e38be8",
+  "result_fingerprint": "e1168ea371fb2f99f5bce135a3a20d04fa888fea6aa21d85749f9d8ed0e0d8a9",
+  "result": {
+    "doi": "10.1016/j.jenvman.2007.08.010",
+    "Title": "Colombia's discharge fee program: Incentives for polluters or regulators?",
+    "Authors_List": [
+      "Allen Blackman"
+    ],
+    "Authors": "Allen Blackman",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Allen Blackman",
+        "family": "Blackman",
+        "given": "Allen",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Environmental Management",
+    "Year": 2009,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Colombia's discharge fee program: Incentives for polluters or regulators?",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

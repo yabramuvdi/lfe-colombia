@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b70e935d2fa0d6458cabf16ac7a57a833ad1c11e952db597a40103c12bb54641",
+  "result_fingerprint": "7ff66963ad75fb0faeb7cf1c26e6e74b3eb50065ba3859da911be7cdf12bb041",
+  "result": {
+    "doi": "10.1016/j.agsy.2004.07.008",
+    "Title": "What do people bring into the game? Experiments in the field about cooperation in the commons",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas",
+      "Elinor Ostrom"
+    ],
+    "Authors": "Juan-Camilo Cárdenas, Elinor Ostrom",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan-Camilo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Elinor Ostrom",
+        "family": "Ostrom",
+        "given": "Elinor",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Agricultural Systems",
+    "Year": 2004,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "What do people bring into the game? Experiments in the field about cooperation in the commons",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

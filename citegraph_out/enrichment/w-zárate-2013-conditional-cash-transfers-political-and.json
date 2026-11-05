@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d28ebbf3c53c40a83f5a08b9c3faddf1ec3e18672ba5baa2f5421cc25c5cdbaf",
+  "result_fingerprint": "45ce5a6f7242b39ed23217d773360165f3d11719ab89084ccd41a9380a44105e",
+  "result": {
+    "doi": "10.2139/ssrn.2158012",
+    "Title": "Conditional Cash Transfers, Political Participation, and Voting Behavior",
+    "Authors_List": [
+      "Javier Baez",
+      "Adriana Camacho",
+      "Emily Conover",
+      "Román Zárate"
+    ],
+    "Authors": "Javier Baez, Adriana Camacho, Emily Conover, Román Zárate",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Javier Baez",
+        "family": "Baez",
+        "given": "Javier",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Adriana Camacho",
+        "family": "Camacho",
+        "given": "Adriana",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Emily Conover",
+        "family": "Conover",
+        "given": "Emily",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Román Zárate",
+        "family": "Zárate",
+        "given": "Román",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2012,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Conditional Cash Transfers, Political Participation, and Voting Behavior",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

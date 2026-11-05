@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "05df6059024529b1a6ba8d2bf30a8082d3e15928760ac8eab0e2115dc069fb5a",
+  "result_fingerprint": "88014214e85816200a8fe6fad93b53b205ad99d86bb9e33f4d81d9cdd8538809",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Lawlessness and Economics: Alternative Modes of Governance",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

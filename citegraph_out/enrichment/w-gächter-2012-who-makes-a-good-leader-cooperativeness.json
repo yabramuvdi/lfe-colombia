@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c4e1f07c2e200f7a54ced6cf3d10afcc6060b87bc5c630118ba13bdda368b845",
+  "result_fingerprint": "ef4a794ea91505562bf54f8564e4b9d4ca65a3f48f4ddcd3aa70755ad327e9f3",
+  "result": {
+    "doi": "10.1111/j.1465-7295.2010.00295.x",
+    "Title": "WHO MAKES A GOOD LEADER? COOPERATIVENESS, OPTIMISM, AND LEADING‐BY‐EXAMPLE",
+    "Authors_List": [
+      "SIMON GÄCHTER",
+      "DANIELE NOSENZO",
+      "ELKE RENNER",
+      "MARTIN SEFTON"
+    ],
+    "Authors": "SIMON GÄCHTER, DANIELE NOSENZO, ELKE RENNER, MARTIN SEFTON",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "SIMON GÄCHTER",
+        "family": "GÄCHTER",
+        "given": "SIMON",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "DANIELE NOSENZO",
+        "family": "NOSENZO",
+        "given": "DANIELE",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "ELKE RENNER",
+        "family": "RENNER",
+        "given": "ELKE",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "MARTIN SEFTON",
+        "family": "SEFTON",
+        "given": "MARTIN",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Economic Inquiry",
+    "Year": 2012,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 96.64429530201343,
+    "enrichment_adjusted_score": 96.64429530201343,
+    "enrichment_candidate_title": "WHO MAKES A GOOD LEADER? COOPERATIVENESS, OPTIMISM, AND LEADING‐BY‐EXAMPLE",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

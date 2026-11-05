@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a5323f2207207e2b44b35d9bf24c2ee68d17704cffd4e2622981465448c69251",
+  "result_fingerprint": "d09b588ac3e021f744796eb7f03981c42d334a04603a0c022b5c2cb7fea66ca3",
+  "result": {
+    "doi": "10.1111/j.1465-7295.2008.00125.x",
+    "Title": "CENTRALIZED AND DECENTRALIZED MANAGEMENT OF LOCAL COMMON POOL RESOURCES IN THE DEVELOPING WORLD: EXPERIMENTAL EVIDENCE FROM FISHING COMMUNITIES IN COLOMBIA",
+    "Authors_List": [
+      "MARIA ALEJANDRA VELEZ",
+      "JAMES J. MURPHY",
+      "JOHN K. STRANLUND"
+    ],
+    "Authors": "MARIA ALEJANDRA VELEZ, JAMES J. MURPHY, JOHN K. STRANLUND",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "MARIA ALEJANDRA VELEZ",
+        "family": "VELEZ",
+        "given": "MARIA ALEJANDRA",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "JAMES J. MURPHY",
+        "family": "MURPHY",
+        "given": "JAMES J.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "JOHN K. STRANLUND",
+        "family": "STRANLUND",
+        "given": "JOHN K.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Economic Inquiry",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.36065573770492,
+    "enrichment_adjusted_score": 98.36065573770492,
+    "enrichment_candidate_title": "CENTRALIZED AND DECENTRALIZED MANAGEMENT OF LOCAL COMMON POOL RESOURCES IN THE DEVELOPING WORLD: EXPERIMENTAL EVIDENCE FROM FISHING COMMUNITIES IN COLOMBIA",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2d891ff43eb68c30a3f7acf4a503fc5a1eedeebe0438f4d9034842281bd48632",
+  "result_fingerprint": "a67603fed3900b69d3d91806e2f6e292967dffb0e116a69711d5734a6d8dd385",
+  "result": {
+    "doi": "10.1162/jeea.2008.6.4.845",
+    "Title": "Crowding Out in Blood Donation: Was Titmuss Right?",
+    "Authors_List": [
+      "Carl Mellström",
+      "Magnus Johannesson"
+    ],
+    "Authors": "Carl Mellström, Magnus Johannesson",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Carl Mellström",
+        "family": "Mellström",
+        "given": "Carl",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Magnus Johannesson",
+        "family": "Johannesson",
+        "given": "Magnus",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of the European Economic Association",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Crowding Out in Blood Donation: Was Titmuss Right?",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

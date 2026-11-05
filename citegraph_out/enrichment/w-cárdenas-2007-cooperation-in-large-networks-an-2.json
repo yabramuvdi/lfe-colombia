@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "44a0a4be74da68e89d6218bfb1358ca8db646bcb478c840d126fc89c0f15fca6",
+  "result_fingerprint": "5357fd41fef6f0e62b32af48e92a27f23c0ed74f5d7517ad1f6d351468353b6c",
+  "result": {
+    "doi": null,
+    "Title": "Title: Cooperation in Large Networks: An Experimental Approach",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas",
+      "R H Christian Jaramillo"
+    ],
+    "Authors": "Juan-Camilo Cárdenas, R H Christian Jaramillo",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5042502300",
+        "orcid": "0000-0003-0005-7595"
+      },
+      {
+        "display_name": "R H Christian Jaramillo",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5004792255",
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2007,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 94.01709401709401,
+    "enrichment_adjusted_score": 94.01709401709401,
+    "enrichment_candidate_title": "Title: Cooperation in Large Networks: An Experimental Approach",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

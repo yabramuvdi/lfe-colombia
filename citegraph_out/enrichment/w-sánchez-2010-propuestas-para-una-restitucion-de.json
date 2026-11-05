@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "978f10c7b03ed42e8c9ca7931e2e1f559fe7f08cf4ddab104e8d12c9a637bdb8",
+  "result_fingerprint": "01ad4539a438d1104e95afdb2f2a00a7e2974aecc81910e72efc0143a1e4e5ac",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 62.5,
+    "enrichment_adjusted_score": 54.5,
+    "enrichment_candidate_title": "La restitución de tierras y territorios",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 7,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

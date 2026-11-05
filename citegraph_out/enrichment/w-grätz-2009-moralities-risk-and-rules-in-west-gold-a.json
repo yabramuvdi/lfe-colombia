@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "8793582e07c2d86113710ab888fd3b742d3bb4dff1a5741a62eb011479b32a7a",
+  "result_fingerprint": "a4b850e77c8ad2d779f4ad25d99bb1c31c3c47f17f2996c74ef0f0690a05ec02",
+  "result": {
+    "doi": "10.1016/j.resourpol.2008.11.002",
+    "Title": "Moralities, risk and rules in West African artisanal gold mining communities: A case study of Northern Benin",
+    "Authors_List": [
+      "Tilo Grätz"
+    ],
+    "Authors": "Tilo Grätz",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Tilo Grätz",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5066607464",
+        "orcid": "0000-0001-9652-456X"
+      }
+    ],
+    "Journal": "Resources Policy",
+    "Year": 2009,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Moralities, risk and rules in West African artisanal gold mining communities: A case study of Northern Benin",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

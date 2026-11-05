@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7362a27cd2dc7ba0e847130eb456bd5a7ff04a521f54627dd13705a4d78cea41",
+  "result_fingerprint": "5fc0bc395a32f21ba44c0ba4332681ace2d2f0a8eddeb71debe9d67a03828eed",
+  "result": {
+    "doi": "10.1257/aer.90.1.166",
+    "Title": "ERC: A Theory of Equity, Reciprocity, and Competition",
+    "Authors_List": [
+      "Gary E Bolton",
+      "Axel Ockenfels"
+    ],
+    "Authors": "Gary E Bolton, Axel Ockenfels",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Gary E Bolton",
+        "family": "Bolton",
+        "given": "Gary E",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Axel Ockenfels",
+        "family": "Ockenfels",
+        "given": "Axel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Economic Review",
+    "Year": 2000,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 94.0,
+    "enrichment_adjusted_score": 94.0,
+    "enrichment_candidate_title": "ERC: A Theory of Equity, Reciprocity, and Competition",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

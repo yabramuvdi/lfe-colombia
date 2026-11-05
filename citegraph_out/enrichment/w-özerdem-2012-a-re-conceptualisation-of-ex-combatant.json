@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "bb381a2b8a5f4fc272ca169d1a483df88bb6c2f6bcd59e5298f3ba1c4bc3a036",
+  "result_fingerprint": "4d1c1b7fa777445b1c4f531432246dcdad8924596b97ce49ff78ab235862f7e4",
+  "result": {
+    "doi": "10.1080/14678802.2012.667661",
+    "Title": "A re-conceptualisation of ex-combatant reintegration: ‘social reintegration’ approach",
+    "Authors_List": [
+      "Alpaslan Özerdem"
+    ],
+    "Authors": "Alpaslan Özerdem",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Alpaslan Özerdem",
+        "family": "Özerdem",
+        "given": "Alpaslan",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Conflict, Security &amp; Development",
+    "Year": 2012,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 97.6470588235294,
+    "enrichment_adjusted_score": 97.6470588235294,
+    "enrichment_candidate_title": "A re-conceptualisation of ex-combatant reintegration: ‘social reintegration’ approach",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4b8de715f40adba02f015e53b3613e28f0239c91cb78d8a05f37fd75eaf05cf5",
+  "result_fingerprint": "484e9088926b26348680007bf51cbde3bd9acb832b24dd475ff437769381a9a2",
+  "result": {
+    "doi": null,
+    "Title": "The Colony: The Harrowing True Story of the Exiles of Molokai",
+    "Authors_List": [
+      "John Tayman"
+    ],
+    "Authors": "John Tayman",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "John Tayman",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5085705292",
+        "orcid": null
+      }
+    ],
+    "Journal": "DigitalGeorgetown (Georgetown University Library)",
+    "Year": 2006,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.1869918699187,
+    "enrichment_adjusted_score": 91.1869918699187,
+    "enrichment_candidate_title": "The Colony: The Harrowing True Story of the Exiles of Molokai",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "enrichment_author_agreement": "match"
+  }
+}

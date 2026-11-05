@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "6cd2425419bb5f117686b02499cd1ff8eddb1014a37abb1f0fbcc74a0b9e6aec",
+  "result_fingerprint": "b53af8304b6fc132397d6f4b6e6bab1b085ff620e0bc39d9ac6d7afef4f4d819",
+  "result": {
+    "doi": null,
+    "Title": "Batallas contra la lepra: estado, medicina y ciencia en Colombia",
+    "Authors_List": [
+      "Diana Obregón Torres"
+    ],
+    "Authors": "Diana Obregón Torres",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Diana Obregón Torres",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5020902431",
+        "orcid": null
+      }
+    ],
+    "Journal": "",
+    "Year": 2002,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.2248062015504,
+    "enrichment_adjusted_score": 91.2248062015504,
+    "enrichment_candidate_title": "Batallas contra la lepra: estado, medicina y ciencia en Colombia",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 2,
+    "enrichment_author_agreement": "match"
+  }
+}

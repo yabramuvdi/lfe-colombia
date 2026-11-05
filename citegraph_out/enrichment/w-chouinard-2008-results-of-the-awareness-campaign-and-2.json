@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a6b61ebf7fb5796ab89db045c55fac14cf7dea28df5ce73a9a29c62b9c853e86",
+  "result_fingerprint": "3320c6e6f57e5e2b4ac5965b6b7a36068d8f68942d72ceacd1794ea3f1f13f9d",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 53.503184713375795,
+    "enrichment_adjusted_score": 45.503184713375795,
+    "enrichment_candidate_title": "Reducing mercury pollution by training Peruvian artisanal gold miners",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 7,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

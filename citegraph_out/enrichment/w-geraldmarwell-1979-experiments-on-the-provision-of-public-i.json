@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4a409b746ced25e41fb7dc8616a0772b99e2fdd45722d0501b50c1126c87b281",
+  "result_fingerprint": "ff66da160fb81b96ab3d75ab274e22a00a0305e705e9c33a0f871410a1c2fca5",
+  "result": {
+    "doi": "10.1086/226937",
+    "Title": "Experiments on the Provision of Public Goods. I. Resources, Interest, Group Size, and the Free-Rider Problem",
+    "Authors_List": [
+      "Gerald Marwell",
+      "Ruth E. Ames"
+    ],
+    "Authors": "Gerald Marwell, Ruth E. Ames",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Gerald Marwell",
+        "family": "Marwell",
+        "given": "Gerald",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ruth E. Ames",
+        "family": "Ames",
+        "given": "Ruth E.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Journal of Sociology",
+    "Year": 1979,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.6046511627907,
+    "enrichment_adjusted_score": 98.6046511627907,
+    "enrichment_candidate_title": "Experiments on the Provision of Public Goods. I. Resources, Interest, Group Size, and the Free-Rider Problem",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

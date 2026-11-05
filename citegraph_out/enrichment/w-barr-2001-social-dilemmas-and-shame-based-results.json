@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "3577872761bc657b70609f7116476b68f8bd8601ccd4cd183765986b877b81ae",
+  "result_fingerprint": "81e4d3f687f71d1964c62af9e8a328b5c6eb061821f296a42b86befbab152176",
+  "result": {
+    "doi": null,
+    "Title": "Social Dilemmas and Shame-based Sanctions: Experimental results from rural Zimbabwe",
+    "Authors_List": [
+      "Abigail Barr"
+    ],
+    "Authors": "Abigail Barr",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Abigail Barr",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5067051983",
+        "orcid": "0000-0002-1241-9162"
+      }
+    ],
+    "Journal": "Oxford University Research Archive (ORA) (University of Oxford)",
+    "Year": 2001,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.40119760479041,
+    "enrichment_adjusted_score": 99.40119760479041,
+    "enrichment_candidate_title": "Social Dilemmas and Shame-based Sanctions: Experimental results from rural Zimbabwe",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

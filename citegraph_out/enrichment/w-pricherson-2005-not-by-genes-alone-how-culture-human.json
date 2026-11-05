@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4381e18b363962d0e97209d761d903179ce7b47b4a997733ecc5334dc1cd4ef1",
+  "result_fingerprint": "dda5f36b594f2bc9f2459081c90b092fa054c54c743d8d916839541b395ad578",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Not by Genes Alone: How Culture Transformed Human Evolution",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

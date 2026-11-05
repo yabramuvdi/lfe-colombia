@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "71e5b4990b36831cf8e603f7ec451736698b901eaac3f8428538cad17137981b",
+  "result_fingerprint": "87551596bddbdaa8c75561685f33535b8293b9ff22c7e79b2d75be68383653d1",
+  "result": {
+    "doi": "10.1016/j.jebo.2004.10.005",
+    "Title": "Poverty in dictator games: Awakening solidarity",
+    "Authors_List": [
+      "Pablo Brañas-Garza"
+    ],
+    "Authors": "Pablo Brañas-Garza",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Pablo Brañas-Garza",
+        "family": "Brañas-Garza",
+        "given": "Pablo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2006,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Poverty in dictator games: Awakening solidarity",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

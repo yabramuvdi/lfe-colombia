@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7eba9da90808325ba799ccd99dcf135e7245332552fa5c3613f320c0789b0118",
+  "result_fingerprint": "d4bdce0984b4cc7fcd26879c3e1e01508de322051ae3c82910bc5bbe5ea80de4",
+  "result": {
+    "doi": "10.1016/j.jebo.2006.10.004",
+    "Title": "Risk-sharing networks",
+    "Authors_List": [
+      "Yann Bramoullé",
+      "Rachel Kranton"
+    ],
+    "Authors": "Yann Bramoullé, Rachel Kranton",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Yann Bramoullé",
+        "family": "Bramoullé",
+        "given": "Yann",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Rachel Kranton",
+        "family": "Kranton",
+        "given": "Rachel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2007,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 97.67441860465115,
+    "enrichment_adjusted_score": 97.67441860465115,
+    "enrichment_candidate_title": "Risk-sharing networks",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

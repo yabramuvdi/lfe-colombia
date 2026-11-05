@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "53e50387744160a70ee89b001732c1fb2556d27403f8cabae1440129d52f8f2d",
+  "result_fingerprint": "bbb286474022f6498e5c2d16ebffa495c1fc34bd4355f14a822461abb8c89bf5",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 45.78313253012048,
+    "enrichment_adjusted_score": 37.78313253012048,
+    "enrichment_candidate_title": "Étude de la Transconformation Thermique du Na-DNA en Solution par la Spectrographie de Bruit",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 48,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

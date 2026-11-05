@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b2150da843087757b853ab732e6d490c18c46c421d609f8f0d9de240ebf4a4f5",
+  "result_fingerprint": "30ae761d055d41047e6b76faffe17acea0bdfe1933ce43e3b389cb88530181b2",
+  "result": {
+    "doi": "10.1098/rstb.2010.0120",
+    "Title": "Forecasting phenology under global warming",
+    "Authors_List": [
+      "Inés Ibáñez",
+      "Richard B. Primack",
+      "Abraham J. Miller-Rushing",
+      "Elizabeth Ellwood",
+      "Hiroyoshi Higuchi",
+      "Sang Don Lee",
+      "Hiromi Kobori",
+      "John A. Silander"
+    ],
+    "Authors": "Inés Ibáñez, Richard B. Primack, Abraham J. Miller-Rushing, Elizabeth Ellwood, Hiroyoshi Higuchi, Sang Don Lee, Hiromi Kobori, John A. Silander",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Inés Ibáñez",
+        "family": "Ibáñez",
+        "given": "Inés",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Richard B. Primack",
+        "family": "Primack",
+        "given": "Richard B.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Abraham J. Miller-Rushing",
+        "family": "Miller-Rushing",
+        "given": "Abraham J.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Elizabeth Ellwood",
+        "family": "Ellwood",
+        "given": "Elizabeth",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hiroyoshi Higuchi",
+        "family": "Higuchi",
+        "given": "Hiroyoshi",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sang Don Lee",
+        "family": "Lee",
+        "given": "Sang Don",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hiromi Kobori",
+        "family": "Kobori",
+        "given": "Hiromi",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "John A. Silander",
+        "family": "Silander",
+        "given": "John A.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Forecasting phenology under global warming",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

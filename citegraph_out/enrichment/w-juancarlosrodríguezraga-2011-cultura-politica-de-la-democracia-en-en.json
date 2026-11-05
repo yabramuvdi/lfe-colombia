@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "1c5871523d09e8d04b54ea304aacc2881f211179336b44eab6b7c8d12db79542",
+  "result_fingerprint": "8fd39b047584b63b3b84a3216a6c7f6f1bc8f352d9746ea6660a210e11802477",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 50.60240963855422,
+    "enrichment_adjusted_score": 42.60240963855422,
+    "enrichment_candidate_title": "Consultas populares mineras: ¿La imposibilidad de la democracia en Colombia?",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 12,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

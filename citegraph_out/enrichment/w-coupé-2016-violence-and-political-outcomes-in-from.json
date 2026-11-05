@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b778d3fa7e80161fb7f0be7ff9aa26d4cb1b2db6b53823aebb32d8e4457c7ecf",
+  "result_fingerprint": "b2fdcbcf91f4b6b157e24da35874b679c8f3855fda83cbd9f4df28d01f108ae5",
+  "result": {
+    "doi": "10.1016/j.jce.2015.10.001",
+    "Title": "Violence and political outcomes in Ukraine—Evidence from Sloviansk and Kramatorsk",
+    "Authors_List": [
+      "Tom Coupé",
+      "Maksym Obrizan"
+    ],
+    "Authors": "Tom Coupé, Maksym Obrizan",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Tom Coupé",
+        "family": "Coupé",
+        "given": "Tom",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Maksym Obrizan",
+        "family": "Obrizan",
+        "given": "Maksym",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Comparative Economics",
+    "Year": 2016,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.76543209876543,
+    "enrichment_adjusted_score": 98.76543209876543,
+    "enrichment_candidate_title": "Violence and political outcomes in Ukraine—Evidence from Sloviansk and Kramatorsk",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

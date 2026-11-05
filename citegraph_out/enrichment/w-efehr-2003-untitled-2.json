@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "9ee5a3d5171e2f269216a0ccd7b1dd2b69bc522a57328d3e2b62790248e3e21b",
+  "result_fingerprint": "fa6339c239726512ca5871b704108139b1aa81f831e20572508711405e050e8c",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "empty_title",
+    "enrichment_title_score": null,
+    "enrichment_adjusted_score": null,
+    "enrichment_candidate_title": null,
+    "enrichment_year_match": null,
+    "enrichment_year_delta": null,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "e64a05614939bdd75d0abab310bc241187a2ecb9960d87fde3a635641c18f39a",
+  "result_fingerprint": "dfdc36c4d6bb071c8c7a8f5cfcbe53579e3a8ae77f581bfc22b4c0027b808f2b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 43.67816091954023,
+    "enrichment_adjusted_score": 35.67816091954023,
+    "enrichment_candidate_title": "Movements and media: Selection processes and evolutionary dynamics in the public sphere",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 6,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

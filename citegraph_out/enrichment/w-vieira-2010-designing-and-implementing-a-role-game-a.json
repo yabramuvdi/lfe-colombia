@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "614aafc09ae709dc86d071c51dfc57a8eae101d9deb30f895f93b6eb15ca0fd5",
+  "result_fingerprint": "6a5cf67e29d7490ab3f08c0d9ee9d8aaf7600bec5183b8af4a07f9a60879ed5b",
+  "result": {
+    "doi": "10.1016/j.envsoft.2010.03.015",
+    "Title": "Designing and implementing a Role-Playing Game: A tool to explain factors, decision making and landscape transformation",
+    "Authors_List": [
+      "Manuela Vieira Pak",
+      "Daniel Castillo Brieva"
+    ],
+    "Authors": "Manuela Vieira Pak, Daniel Castillo Brieva",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Manuela Vieira Pak",
+        "family": "Vieira Pak",
+        "given": "Manuela",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Daniel Castillo Brieva",
+        "family": "Castillo Brieva",
+        "given": "Daniel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Environmental Modelling &amp; Software",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Designing and implementing a Role-Playing Game: A tool to explain factors, decision making and landscape transformation",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

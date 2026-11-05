@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "cefd261431800a42cd4f57b4214e153fa2e9f1aca2104a8e9d0a5c1173ddabda",
+  "result_fingerprint": "ed369d3b8b9fb557c691c7fff01f4111e4eafe73aa80c8c39d58a058d4c3889f",
+  "result": {
+    "doi": "10.2139/ssrn.1166142",
+    "Title": "Imperfect Enforcement of Emissions Trading and Industry Welfare: A Laboratory Investigation",
+    "Authors_List": [
+      "John K. Stranlund",
+      "James J. Murphy",
+      "John M. Spraggon"
+    ],
+    "Authors": "John K. Stranlund, James J. Murphy, John M. Spraggon",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "John K. Stranlund",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5080367730",
+        "orcid": null
+      },
+      {
+        "display_name": "James J. Murphy",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5103245616",
+        "orcid": "0000-0001-5619-5693"
+      },
+      {
+        "display_name": "John M. Spraggon",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5000653256",
+        "orcid": null
+      }
+    ],
+    "Journal": "SSRN Electronic Journal",
+    "Year": 2008,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Imperfect Enforcement of Emissions Trading and Industry Welfare: A Laboratory Investigation",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

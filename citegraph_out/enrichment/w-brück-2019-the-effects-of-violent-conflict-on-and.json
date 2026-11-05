@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "be62303ea610029629f30a547973958a77df701c849b56ed4556b60ef62bdc8f",
+  "result_fingerprint": "9e47a0a2efd667d01eecc5f1568587bb7d4e9dc6188098a8b8bfce37057408a0",
+  "result": {
+    "doi": "10.1016/j.worlddev.2018.05.008",
+    "Title": "The effects of violent conflict on household resilience and food security: Evidence from the 2014 Gaza conflict",
+    "Authors_List": [
+      "Tilman Brück",
+      "Marco d’Errico",
+      "Rebecca Pietrelli"
+    ],
+    "Authors": "Tilman Brück, Marco d’Errico, Rebecca Pietrelli",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Tilman Brück",
+        "family": "Brück",
+        "given": "Tilman",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marco d’Errico",
+        "family": "d’Errico",
+        "given": "Marco",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Rebecca Pietrelli",
+        "family": "Pietrelli",
+        "given": "Rebecca",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "World Development",
+    "Year": 2019,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "The effects of violent conflict on household resilience and food security: Evidence from the 2014 Gaza conflict",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "9c91d76832a7490a9a96d9344ee50e00d5c1583903a1c001c6d67dbf5eef1ebf",
+  "result_fingerprint": "41679e22a9fd92e5b998a9928d5e9689f5900ccbd08db5a30ab6c1643d3d104a",
+  "result": {
+    "doi": "10.1628/0932456012974468",
+    "Title": "On the Incentives Created by Policy Instruments to Adopt Advanced Abatement Technology if Firms are Asymmetric",
+    "Authors_List": [
+      "Till Requate",
+      "Wolfram Unold"
+    ],
+    "Authors": "Till Requate, Wolfram Unold",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Till Requate",
+        "family": "Requate",
+        "given": "Till",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Wolfram Unold",
+        "family": "Unold",
+        "given": "Wolfram",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Institutional and Theoretical Economics",
+    "Year": 2001,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "On the Incentives Created by Policy Instruments to Adopt Advanced Abatement Technology if Firms are Asymmetric",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

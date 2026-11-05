@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c0c7792a26526d5b24b2b0798ffd3bbbb338e6e3f482c0ad74509d32689b9133",
+  "result_fingerprint": "b6c3cb300f1823492c32dcd435d8506ea768f27e098b3746850aae1355d4afea",
+  "result": {
+    "doi": "10.2307/3146384",
+    "Title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+    "Authors_List": [
+      "Barry C. Field",
+      "Elinor Ostrom"
+    ],
+    "Authors": "Barry C. Field, Elinor Ostrom",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Barry C. Field",
+        "family": "Field",
+        "given": "Barry C.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Elinor Ostrom",
+        "family": "Ostrom",
+        "given": "Elinor",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Land Economics",
+    "Year": 1992,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 2,
+    "enrichment_author_agreement": "match"
+  }
+}

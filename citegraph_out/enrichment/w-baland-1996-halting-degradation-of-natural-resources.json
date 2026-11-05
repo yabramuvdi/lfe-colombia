@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a1b33d0436f8cb0635f0af75912201e4688a5b2dcbea21318d42825d16edd81f",
+  "result_fingerprint": "75a804e2f1bc3fe175b07452ca55cf14965a297c28675b2f890e5992a90eeded",
+  "result": {
+    "doi": null,
+    "Title": "Halting Degradation of Natural Resources: Is There a Role for Rural Communities?",
+    "Authors_List": [
+      "Jean‐Marie Baland",
+      "Jean‐Philippe Platteau"
+    ],
+    "Authors": "Jean‐Marie Baland, Jean‐Philippe Platteau",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Jean‐Marie Baland",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5002063960",
+        "orcid": "0000-0002-7985-2518"
+      },
+      {
+        "display_name": "Jean‐Philippe Platteau",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5045308174",
+        "orcid": "0000-0002-6650-9390"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2000,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Halting Degradation of Natural Resources: Is There a Role for Rural Communities?",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "enrichment_author_agreement": "match"
+  }
+}

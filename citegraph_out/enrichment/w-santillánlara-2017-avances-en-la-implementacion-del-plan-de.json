@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "617800a88c2f0c897470696a54ae5cb5fe99a6176b03a338bf5999ea5fdbb0a5",
+  "result_fingerprint": "92584a9c62088c376b73bd4510995aa62104e8c30e84ddee1b6cd8df4269ef3b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 50.64935064935065,
+    "enrichment_adjusted_score": 50.64935064935065,
+    "enrichment_candidate_title": "Avances en el esclarecimiento de la autenticidad de la miel",
+    "enrichment_year_match": null,
+    "enrichment_year_delta": null,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

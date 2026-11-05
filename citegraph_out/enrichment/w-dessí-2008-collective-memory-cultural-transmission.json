@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "14e5aa11b46ff362c0aea833024ab6fec497e042d06e1669b44e9f3ab515c876",
+  "result_fingerprint": "f421fd6643fe3038e5ce20341defd7113f33682469340843223fee273d898321",
+  "result": {
+    "doi": "10.1257/aer.98.1.534",
+    "Title": "Collective Memory, Cultural Transmission, and Investments",
+    "Authors_List": [
+      "Roberta Dessí"
+    ],
+    "Authors": "Roberta Dessí",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Roberta Dessí",
+        "family": "Dessí",
+        "given": "Roberta",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Economic Review",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.1304347826087,
+    "enrichment_adjusted_score": 99.1304347826087,
+    "enrichment_candidate_title": "Collective Memory, Cultural Transmission, and Investments",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

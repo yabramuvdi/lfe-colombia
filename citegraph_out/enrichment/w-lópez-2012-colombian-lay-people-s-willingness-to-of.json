@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "833ce1eec7fce8f27ee5347bb3bb439fd655051056dde46c12d3ffc5343fdcd1",
+  "result_fingerprint": "77e32b04a0da201271e2c6fee963b1935a38dc890de6710349db91a6d2c4e168",
+  "result": {
+    "doi": null,
+    "Title": "Colombian Lay People's Willingness to Forgive Different Actors of the Armed Conflict: Results from a Pilot Study",
+    "Authors_List": [
+      "Wilson López‐López",
+      "Claudia Pineda‐Marín",
+      "María Camila",
+      "Murcia León",
+      "Diana Carolina",
+      "Perilla Garzón",
+      "Étienne Mullet"
+    ],
+    "Authors": "Wilson López‐López, Claudia Pineda‐Marín, María Camila, Murcia León, Diana Carolina, Perilla Garzón, Étienne Mullet",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Wilson López‐López",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5037516240",
+        "orcid": "0000-0002-2964-0402"
+      },
+      {
+        "display_name": "Claudia Pineda‐Marín",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5011188201",
+        "orcid": "0000-0002-0952-6522"
+      },
+      {
+        "display_name": "María Camila",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5111446539",
+        "orcid": null
+      },
+      {
+        "display_name": "Murcia León",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5022580608",
+        "orcid": "0000-0003-1861-8557"
+      },
+      {
+        "display_name": "Diana Carolina",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5108364405",
+        "orcid": null
+      },
+      {
+        "display_name": "Perilla Garzón",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5081194955",
+        "orcid": null
+      },
+      {
+        "display_name": "Étienne Mullet",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5076695443",
+        "orcid": "0000-0002-1707-3914"
+      }
+    ],
+    "Journal": "Psicologica",
+    "Year": 2012,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Colombian Lay People's Willingness to Forgive Different Actors of the Armed Conflict: Results from a Pilot Study",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

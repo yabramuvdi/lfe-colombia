@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "254e0ea274ebb927471cce79a73c65a1a5b5b86dd47453a1610e4be124023960",
+  "result_fingerprint": "155c9c24c055c37fe3bad8aa9f8818fedf0927aa98ab91720c0553910ddc2b03",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2013.02.002",
+    "Title": "Motivation for conservation: Assessing integrated conservation and development projects and payments for environmental services in La Sepultura Biosphere Reserve, Chiapas, Mexico",
+    "Authors_List": [
+      "Luis Rico García-Amado",
+      "Manuel Ruiz Pérez",
+      "Sara Barrasa García"
+    ],
+    "Authors": "Luis Rico García-Amado, Manuel Ruiz Pérez, Sara Barrasa García",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Luis Rico García-Amado",
+        "family": "Rico García-Amado",
+        "given": "Luis",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Manuel Ruiz Pérez",
+        "family": "Ruiz Pérez",
+        "given": "Manuel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sara Barrasa García",
+        "family": "Barrasa García",
+        "given": "Sara",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2013,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 95.50561797752809,
+    "enrichment_adjusted_score": 95.50561797752809,
+    "enrichment_candidate_title": "Motivation for conservation: Assessing integrated conservation and development projects and payments for environmental services in La Sepultura Biosphere Reserve, Chiapas, Mexico",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

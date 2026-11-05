@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4de0ba213572a8b065351f8217047767dbb4b50b96733726797b52a3a01b1eec",
+  "result_fingerprint": "6c71be57354cdb9686d1d2b43c500a77af88c3f15dbabae95df33ce6bccd6e41",
+  "result": {
+    "doi": "10.2139/ssrn.1010597",
+    "Title": "Individual-Level Loss Aversion in Riskless and Risky Choices",
+    "Authors_List": [
+      "Simon Gachter",
+      "Eric J. Johnson",
+      "Andreas Herrmann"
+    ],
+    "Authors": "Simon Gachter, Eric J. Johnson, Andreas Herrmann",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Simon Gachter",
+        "family": null,
+        "given": null,
+        "openalex_id": null,
+        "orcid": "0000-0002-7182-8505"
+      },
+      {
+        "display_name": "Eric J. Johnson",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5032996798",
+        "orcid": "0000-0001-7797-8347"
+      },
+      {
+        "display_name": "Andreas Herrmann",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5056889851",
+        "orcid": "0000-0002-8886-0894"
+      }
+    ],
+    "Journal": "SSRN Electronic Journal",
+    "Year": 2007,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Individual-Level Loss Aversion in Riskless and Risky Choices",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 3
+  }
+}

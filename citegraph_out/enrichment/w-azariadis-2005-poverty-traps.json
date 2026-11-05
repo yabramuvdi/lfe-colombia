@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d0ee7715814399b07dccf3816e2a6a3ce431e3937f6893ff1e0af0b9500a4413",
+  "result_fingerprint": "f238f87ad14af40fad2445d1facbe0295c59deb73543e6c9202e688747374576",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 58.53658536585367,
+    "enrichment_adjusted_score": 50.53658536585367,
+    "enrichment_candidate_title": "Ending Africa's Poverty Trap",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a0b75f8644103b40a2352d4a6cbd86af285b094b097b7f871f2699d519e16f94",
+  "result_fingerprint": "18eaf009eaf38645f570887854e5cb56d1bfa9c385f5ce167fced9b91f2ff032",
+  "result": {
+    "doi": "10.1016/s0167-2681(99)00045-1",
+    "Title": "Collective action as a social exchange",
+    "Authors_List": [
+      "Simon Gächter",
+      "Ernst Fehr"
+    ],
+    "Authors": "Simon Gächter, Ernst Fehr",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Simon Gächter",
+        "family": "Gächter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ernst Fehr",
+        "family": "Fehr",
+        "given": "Ernst",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 1999,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Collective action as a social exchange",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

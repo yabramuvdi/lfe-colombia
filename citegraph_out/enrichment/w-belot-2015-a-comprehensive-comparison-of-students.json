@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f8cbe5d95992a4b3707e3738304817c7d039ebb53773ca6cc603dca08472e95f",
+  "result_fingerprint": "348233c6361018406eb5faedda201a5bcebd23ae248a7213229fb19871b79e93",
+  "result": {
+    "doi": "10.1016/j.jebo.2015.02.007",
+    "Title": "A comprehensive comparison of students and non-students in classic experimental games",
+    "Authors_List": [
+      "Michele Belot",
+      "Raymond Duch",
+      "Luis Miller"
+    ],
+    "Authors": "Michele Belot, Raymond Duch, Luis Miller",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Michele Belot",
+        "family": "Belot",
+        "given": "Michele",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Raymond Duch",
+        "family": "Duch",
+        "given": "Raymond",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Luis Miller",
+        "family": "Miller",
+        "given": "Luis",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.40828402366864,
+    "enrichment_adjusted_score": 99.40828402366864,
+    "enrichment_candidate_title": "A comprehensive comparison of students and non-students in classic experimental games",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

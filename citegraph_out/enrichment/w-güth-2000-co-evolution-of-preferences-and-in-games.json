@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "d395df39cf77c18c57ddcb46523a4ffd46e539ab67cf274f1b67ea61b48c1142",
+  "result_fingerprint": "7c80ed276575fb171d1c96390ca2b1c25dc5837e48d646489bdfddd627fdd601",
+  "result": {
+    "doi": "10.1111/1468-0475.00006",
+    "Title": "Co-evolution of Preferences and Information in Simple Games of Trust",
+    "Authors_List": [
+      "Werner Güth",
+      "Hartmut Kliemt",
+      "Bezalel Peleg"
+    ],
+    "Authors": "Werner Güth, Hartmut Kliemt, Bezalel Peleg",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Werner Güth",
+        "family": "Güth",
+        "given": "Werner",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hartmut Kliemt",
+        "family": "Kliemt",
+        "given": "Hartmut",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Bezalel Peleg",
+        "family": "Peleg",
+        "given": "Bezalel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "German Economic Review",
+    "Year": 2000,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Co-evolution of Preferences and Information in Simple Games of Trust",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

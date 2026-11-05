@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b99122af17e6a813e958b4d8c5a99c8299a72c5b250c5cc2b44ae6a26ea28e58",
+  "result_fingerprint": "58d8adc9c4acd1f11e992c426b318fc0e4b019b681b37e60f1ad53f2e60a023c",
+  "result": {
+    "doi": "10.2139/ssrn.923547",
+    "Title": "The Limits of Self-Governance in the Presence of Spite: Experimental Evidence from Urban and Rural Russia",
+    "Authors_List": [
+      "Simon Gachter",
+      "Benedikt Herrmann"
+    ],
+    "Authors": "Simon Gachter, Benedikt Herrmann",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Simon Gachter",
+        "family": "Gachter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": "0000-0002-7182-8505"
+      },
+      {
+        "display_name": "Benedikt Herrmann",
+        "family": "Herrmann",
+        "given": "Benedikt",
+        "openalex_id": null,
+        "orcid": "0000-0003-2970-8953"
+      }
+    ],
+    "Journal": "",
+    "Year": 2006,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "The Limits of Self-Governance in the Presence of Spite: Experimental Evidence from Urban and Rural Russia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

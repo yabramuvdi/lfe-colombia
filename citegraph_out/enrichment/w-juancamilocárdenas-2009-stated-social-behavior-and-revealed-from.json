@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4861e7924fdee22e4698c8fec6b6dc5b919d8e6a9eec8755fc8f2b7093f598d1",
+  "result_fingerprint": "c4c88de632e3703ce8ef3985b4dbbfa503b54764f4e82923bd47651cc74cff60",
+  "result": {
+    "doi": "10.1016/j.jdeveco.2013.04.002",
+    "Title": "Stated social behavior and revealed actions: Evidence from six Latin American countries",
+    "Authors_List": [
+      "Juan Camilo Cárdenas",
+      "Alberto Chong",
+      "Hugo Ñopo"
+    ],
+    "Authors": "Juan Camilo Cárdenas, Alberto Chong, Hugo Ñopo",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan Camilo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Alberto Chong",
+        "family": "Chong",
+        "given": "Alberto",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hugo Ñopo",
+        "family": "Ñopo",
+        "given": "Hugo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Development Economics",
+    "Year": 2013,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Stated social behavior and revealed actions: Evidence from six Latin American countries",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4
+  }
+}

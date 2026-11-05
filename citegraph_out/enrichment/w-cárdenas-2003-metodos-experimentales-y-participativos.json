@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "9a543793f2e4e4fae55b3fc76c83dbb853274a1730cc9007d6ee9b1464766fee",
+  "result_fingerprint": "35ac557d828d731e51a0b7f9869975a5b84a2a9bc28f30f58a39279a9fd88104",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 51.315789473684205,
+    "enrichment_adjusted_score": 43.315789473684205,
+    "enrichment_candidate_title": "Los intentos de formación de marcos para la acción colectiva en el caso de la defensa del agua en el área metropolitana de Guadalajara, México",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 17,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

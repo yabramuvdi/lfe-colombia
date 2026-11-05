@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0da36bb9b8001cd30d54b1f5582b458322781633b922ea6e597ac6fd66cfb6d4",
+  "result_fingerprint": "263751b9105e5e0ffd628d179560588ec6728af7cc76c4d4679daf79fed4f718",
+  "result": {
+    "doi": "10.1023/a:1011205901283",
+    "Title": "Provision of Step-Level Public Goods with Uncertain Provision Threshold and Continuous Contribution",
+    "Authors_List": [
+      "Ramzi Suleiman",
+      "David V. Budescu",
+      "Amnon Rapoport"
+    ],
+    "Authors": "Ramzi Suleiman, David V. Budescu, Amnon Rapoport",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ramzi Suleiman",
+        "family": "Suleiman",
+        "given": "Ramzi",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "David V. Budescu",
+        "family": "Budescu",
+        "given": "David V.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Amnon Rapoport",
+        "family": "Rapoport",
+        "given": "Amnon",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Group Decision and Negotiation",
+    "Year": 2001,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Provision of Step-Level Public Goods with Uncertain Provision Threshold and Continuous Contribution",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "e898ca2f4fcabd53704d6fc3289fb209140a33aa212ab88fb970eb5900921e94",
+  "result_fingerprint": "208b165dc8506745081cae45b23c0ebfedadf3b71dab564ee21ae2171665ba85",
+  "result": {
+    "doi": null,
+    "Title": "Behavioural Development Economics: Lessons from field labs in the developing world",
+    "Authors_List": [
+      "Jeffery Carpenter",
+      "Juan-Camilo Cárdenas"
+    ],
+    "Authors": "Jeffery Carpenter, Juan-Camilo Cárdenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Jeffery Carpenter",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5110289659",
+        "orcid": null
+      },
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5042502300",
+        "orcid": "0000-0003-0005-7595"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2006,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Behavioural Development Economics: Lessons from field labs in the developing world",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

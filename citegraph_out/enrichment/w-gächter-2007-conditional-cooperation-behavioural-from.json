@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4d859a19d4d9aa044dcbe12f9507c2b9f66dbb781d67b7567126f6dc2214f931",
+  "result_fingerprint": "7205f396696cdcc5b6fabbedaf0a6c651ea6255d36f36e485d3097fd210742e5",
+  "result": {
+    "doi": "10.7551/mitpress/2604.003.0006",
+    "Title": "Conditional Cooperation: Behavioral Regularities from the Lab and the Field and Their Policy Implications",
+    "Authors_List": [
+      "Simon Gächter"
+    ],
+    "Authors": "Simon Gächter",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Simon Gächter",
+        "family": "Gächter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Economics and Psychology",
+    "Year": 2007,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.52606635071089,
+    "enrichment_adjusted_score": 99.52606635071089,
+    "enrichment_candidate_title": "Conditional Cooperation: Behavioral Regularities from the Lab and the Field and Their Policy Implications",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

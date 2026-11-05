@@ -1,0 +1,5 @@
+# Postdoc / visiting supervision ties. EMPTY ON PURPOSE.
+# Maria decided 2026-09-12 not to model postdoc supervision; the seven researched
+# rows are parked in supervision_seed.parked.csv. Copy them back here to re-enable.
+# The relation_type machinery in build_clean_base.py stays in place either way.
+advisee_name,advisor_name,relation_type,institution,year_start,year_end,confidence,evidence

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "88acf95e99403decca551dbb79b83f545fe647021e45904c6e188e352fc32b28",
+  "result_fingerprint": "e23f6e2d1f733dbffaa354acc72386f4b637a0d8f7bd1e1c3bd4100b8076ab08",
+  "result": {
+    "doi": "10.3386/w14356",
+    "Title": "Field Experiments in Economics: The Past, The Present, and The Future",
+    "Authors_List": [
+      "Steven D. Levitt",
+      "John A. List"
+    ],
+    "Authors": "Steven D. Levitt, John A. List",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Steven D. Levitt",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5110461946",
+        "orcid": null
+      },
+      {
+        "display_name": "John A. List",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5083530241",
+        "orcid": "0000-0002-1740-3848"
+      }
+    ],
+    "Journal": "National Bureau of Economic Research",
+    "Year": 2008,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Field Experiments in Economics: The Past, The Present, and The Future",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

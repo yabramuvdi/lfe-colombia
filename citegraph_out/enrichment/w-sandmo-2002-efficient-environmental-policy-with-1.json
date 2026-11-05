@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c969b42fa72d3d0494d77a03cd0cdf5b71e4d1f3082ffca5b881519035131e92",
+  "result_fingerprint": "5162ae9f66a36f37660c824ab7858ec3a48adadd0ca04a1e180e330c6ee48da0",
+  "result": {
+    "doi": "10.1023/a:1020236324130",
+    "Title": "Efficient Environmental Policy with Imperfect Compliance",
+    "Authors_List": [
+      "Agnar Sandmo"
+    ],
+    "Authors": "Agnar Sandmo",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Agnar Sandmo",
+        "family": "Sandmo",
+        "given": "Agnar",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Environmental and Resource Economics",
+    "Year": 2002,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Efficient Environmental Policy with Imperfect Compliance",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

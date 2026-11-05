@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b7b605721665cc5befa92aad61a7a78179aa28e5ccb5910a637104d09ffb8c54",
+  "result_fingerprint": "8e7ba6dd306b4318ab6c96a5f878fd6a4d9ddc5e997ca2c2a4a65bacbf49896e",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 57.14285714285714,
+    "enrichment_adjusted_score": 49.14285714285714,
+    "enrichment_candidate_title": "Choose Your Level: Using Games and Gamification to Create Personalized Instruction",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

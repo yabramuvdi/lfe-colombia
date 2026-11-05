@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "36b93bac66cd7b02db3a9dc382f51087880ccf94a57729647cb9d9e468527438",
+  "result_fingerprint": "dc35f14246d3735496a60083a8b117dbc26d8eed3ad5815d2250fbf88f399c0e",
+  "result": {
+    "doi": "10.1007/s12232-017-0285-4",
+    "Title": "Socioeconomic stratification and stereotyping: lab-in-the-field evidence from Colombia",
+    "Authors_List": [
+      "Francesco Bogliacino",
+      "Laura Jiménez Lozano",
+      "Daniel Reyes"
+    ],
+    "Authors": "Francesco Bogliacino, Laura Jiménez Lozano, Daniel Reyes",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Francesco Bogliacino",
+        "family": "Bogliacino",
+        "given": "Francesco",
+        "openalex_id": null,
+        "orcid": "0000-0001-8874-8846"
+      },
+      {
+        "display_name": "Laura Jiménez Lozano",
+        "family": "Jiménez Lozano",
+        "given": "Laura",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Daniel Reyes",
+        "family": "Reyes",
+        "given": "Daniel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "International Review of Economics",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.41520467836258,
+    "enrichment_adjusted_score": 91.41520467836258,
+    "enrichment_candidate_title": "Socioeconomic stratification and stereotyping: lab-in-the-field evidence from Colombia",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

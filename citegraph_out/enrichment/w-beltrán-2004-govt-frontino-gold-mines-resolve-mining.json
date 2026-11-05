@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7734f1f64c26675bc17d667d26ae687ca4fb223c3649917fca7d30bc80476e15",
+  "result_fingerprint": "5a22253a13becdb600f5eea5e5b289136a82042effa50366e19a3954a671842e",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 49.62406015037594,
+    "enrichment_adjusted_score": 41.62406015037594,
+    "enrichment_candidate_title": "LA TRATA DE PERSONAS EN COLOMBIA - HUMAN TRAFFICKING IN COLOMBIA",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 14,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

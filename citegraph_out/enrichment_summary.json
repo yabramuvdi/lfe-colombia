@@ -1,0 +1,33 @@
+{
+  "n_references": 3277,
+  "n_matched": 2629,
+  "n_missed": 648,
+  "match_rate": 0.8022581629539213,
+  "sources": {
+    "crossref": 2232,
+    "miss": 648,
+    "openalex": 397
+  },
+  "config": {
+    "contact_email": "",
+    "openalex_api_key": "***",
+    "title_match_threshold": 90.0,
+    "timeout_s": 15.0,
+    "rows": 3,
+    "max_workers": 8,
+    "year_mismatch_penalty": 8.0,
+    "author_name_fuzz": 85.0,
+    "retry_attempts": 3,
+    "retry_wait_s": 0.25
+  },
+  "by_ring": {
+    "0": {
+      "n": 93,
+      "n_matched": 86
+    },
+    "1": {
+      "n": 3184,
+      "n_matched": 2543
+    }
+  }
+}

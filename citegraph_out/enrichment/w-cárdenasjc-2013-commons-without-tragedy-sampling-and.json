@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "154503368962601fcf55732c6157ae383f620537cec39e18d8b817648fb36ce4",
+  "result_fingerprint": "a632cc824b27dd82b095d93a1687b4d269217db3d175a109ec0f928fd6df5439",
+  "result": {
+    "doi": "10.2139/ssrn.2304566",
+    "Title": "Commons Without Tragedy: Sampling Dynamics and Cooperative Resource Extraction",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas",
+      "César Mantilla",
+      "Rajiv Sethi"
+    ],
+    "Authors": "Juan-Camilo Cárdenas, César Mantilla, Rajiv Sethi",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5042502300",
+        "orcid": "0000-0003-0005-7595"
+      },
+      {
+        "display_name": "César Mantilla",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5081337798",
+        "orcid": "0000-0002-4752-4448"
+      },
+      {
+        "display_name": "Rajiv Sethi",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5065695849",
+        "orcid": "0000-0003-2631-5644"
+      }
+    ],
+    "Journal": "SSRN Electronic Journal",
+    "Year": 2013,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Commons Without Tragedy: Sampling Dynamics and Cooperative Resource Extraction",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

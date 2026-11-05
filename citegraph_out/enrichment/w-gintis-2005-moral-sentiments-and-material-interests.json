@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "3eb959bf7417fc1741aa41698915a08d37e3a150450be8efe0153e1a12f91ae9",
+  "result_fingerprint": "77af734ba5c22cd68e01b952483d7ada1963f6ff6b0028b394174c2759e548fc",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Moral sentiments and material interests: The foundations of cooperation in economic life",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a3768a798f8323168e9308fb55d25e7a0387b05ceca6e9ed26e2994b81215419",
+  "result_fingerprint": "52a0ac63aafecae075f2c68732a0052990c395ef7b33aa2d751989a533202ac5",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "year_mismatch",
+    "enrichment_title_score": 90.0,
+    "enrichment_adjusted_score": 82.0,
+    "enrichment_candidate_title": "2008 Corruption Perceptions Index",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "enrichment_author_agreement": "unknown",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "1649d4ff102fde118d0d92065195fa31d01eeda53a0f538baa7dd7a4ed2454c2",
+  "result_fingerprint": "d3dee2ac7e93af38a0f957cf9e0925f2fd9cda3099cc81c39183ae224fa64eaa",
+  "result": {
+    "doi": "10.1016/j.socec.2018.11.004",
+    "Title": "Chipping in for a cleaner technology: Experimental evidence from a framed threshold public good game with students and artisanal miners",
+    "Authors_List": [
+      "Adrian Saldarriaga-Isaza",
+      "Clara Villegas-Palacio",
+      "Santiago Arango"
+    ],
+    "Authors": "Adrian Saldarriaga-Isaza, Clara Villegas-Palacio, Santiago Arango",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Adrian Saldarriaga-Isaza",
+        "family": "Saldarriaga-Isaza",
+        "given": "Adrian",
+        "openalex_id": null,
+        "orcid": "0000-0002-3064-5251"
+      },
+      {
+        "display_name": "Clara Villegas-Palacio",
+        "family": "Villegas-Palacio",
+        "given": "Clara",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Santiago Arango",
+        "family": "Arango",
+        "given": "Santiago",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Behavioral and Experimental Economics",
+    "Year": 2019,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Chipping in for a cleaner technology: Experimental evidence from a framed threshold public good game with students and artisanal miners",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

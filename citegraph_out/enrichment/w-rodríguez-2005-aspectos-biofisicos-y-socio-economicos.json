@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "dfa62f4adaa152f6253abc14e167601a45bfc2fb4765fdacf1175b14d600822b",
+  "result_fingerprint": "7a9b1bac055c1a300a01f74f7be78769a0ea0b13b2a30bdf3b096fd18218c354",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 64.88888888888889,
+    "enrichment_adjusted_score": 56.888888888888886,
+    "enrichment_candidate_title": "Análisis espaciotemporal de la incidencia antrópica en la cuenca del río Cauca, en el departamento del Valle, Colombia",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 12,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

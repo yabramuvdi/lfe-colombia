@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "16cc2557e26bbc0750f57d20b94dc1ff3c17efc29673749c6f42d9dfa78e4f00",
+  "result_fingerprint": "3850310e8dbcef9149e5d1569dd4173e4cda87e48afd40b79fa1381d5f78d8b5",
+  "result": {
+    "doi": "10.1016/j.joep.2019.06.009",
+    "Title": "Responsibility and limited liability in decision making for others – An experimental consideration",
+    "Authors_List": [
+      "Sascha Füllbrunn",
+      "Wolfgang J. Luhan"
+    ],
+    "Authors": "Sascha Füllbrunn, Wolfgang J. Luhan",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Sascha Füllbrunn",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5081183102",
+        "orcid": "0000-0002-3862-5722"
+      },
+      {
+        "display_name": "Wolfgang J. Luhan",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5030337500",
+        "orcid": "0000-0002-1026-4339"
+      }
+    ],
+    "Journal": "Journal of Economic Psychology",
+    "Year": 2019,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.46153846153847,
+    "enrichment_adjusted_score": 90.46153846153847,
+    "enrichment_candidate_title": "Responsibility and limited liability in decision making for others – An experimental consideration",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

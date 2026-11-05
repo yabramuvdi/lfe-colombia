@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "ec24d6ec8a0f74c39d455b1035227433fa02d97d5498002940c2b3b9fc9156ad",
+  "result_fingerprint": "c31533767e1538b5338f10241adc52c438cd3d69bef5a899193a2f459f4681a9",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 98.63013698630137,
+    "enrichment_adjusted_score": 90.63013698630137,
+    "enrichment_candidate_title": "Governing the commons: The evolution of institutions of collective action",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 16,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

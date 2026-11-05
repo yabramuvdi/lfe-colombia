@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "bbe93266202812710a4a15726e57a9b2b10667df6267b78f6dc62c97536885a5",
+  "result_fingerprint": "64147b6afb1af379eba17079df9a149e1f5a6153d61ccde746861c1b56b56fd9",
+  "result": {
+    "doi": "10.1016/j.worlddev.2017.03.020",
+    "Title": "The Effectiveness of Payments for Environmental Services",
+    "Authors_List": [
+      "Jan Börner",
+      "Kathy Baylis",
+      "Esteve Corbera",
+      "Driss Ezzine-de-Blas",
+      "Jordi Honey-Rosés",
+      "U. Martin Persson",
+      "Sven Wunder"
+    ],
+    "Authors": "Jan Börner, Kathy Baylis, Esteve Corbera, Driss Ezzine-de-Blas, Jordi Honey-Rosés, U. Martin Persson, Sven Wunder",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Jan Börner",
+        "family": "Börner",
+        "given": "Jan",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Kathy Baylis",
+        "family": "Baylis",
+        "given": "Kathy",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Esteve Corbera",
+        "family": "Corbera",
+        "given": "Esteve",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Driss Ezzine-de-Blas",
+        "family": "Ezzine-de-Blas",
+        "given": "Driss",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Jordi Honey-Rosés",
+        "family": "Honey-Rosés",
+        "given": "Jordi",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "U. Martin Persson",
+        "family": "Persson",
+        "given": "U. Martin",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sven Wunder",
+        "family": "Wunder",
+        "given": "Sven",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "World Development",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "The Effectiveness of Payments for Environmental Services",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

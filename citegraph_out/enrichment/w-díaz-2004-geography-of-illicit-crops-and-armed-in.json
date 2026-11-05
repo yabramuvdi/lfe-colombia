@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "323c0f916c1a07300202778e1f09f4c036d17547fec345410f67dfd23b5553c5",
+  "result_fingerprint": "7feb4944cc91e2e52ff5255bf95ee8fe11c539c945f447fa35cde6e7a95ab412",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 54.385964912280706,
+    "enrichment_adjusted_score": 46.385964912280706,
+    "enrichment_candidate_title": "Literature Review on Legalizing Illicit Crops in Colombia",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 21,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

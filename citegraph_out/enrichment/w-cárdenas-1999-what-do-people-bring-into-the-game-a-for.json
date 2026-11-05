@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0981263d4e7b84961586da4ad09c826e5d204113405e988460f0eeb76da3b933",
+  "result_fingerprint": "150484bcb01c4c2612ec0e9bd00d1c8e9016bba83ac1ad3abe2ea815cfa41f55",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 59.2964824120603,
+    "enrichment_adjusted_score": 51.2964824120603,
+    "enrichment_candidate_title": "What do people bring into the game? Experiments in the field about cooperation in the commons",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 5,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "a9f456804d7173de2ceeb2d45b22a9f9772424c288e515555e0067229cf011f1",
+  "result_fingerprint": "b55674ccafa58f2ff9156bf79793057baeab9eeaac8ff0ea17af0fcee582b86f",
+  "result": {
+    "doi": "10.1257/app.2.3.60",
+    "Title": "Microfinance Games",
+    "Authors_List": [
+      "Xavier Giné",
+      "Pamela Jakiela",
+      "Dean Karlan",
+      "Jonathan Morduch"
+    ],
+    "Authors": "Xavier Giné, Pamela Jakiela, Dean Karlan, Jonathan Morduch",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Xavier Giné",
+        "family": "Giné",
+        "given": "Xavier",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Pamela Jakiela",
+        "family": "Jakiela",
+        "given": "Pamela",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Dean Karlan",
+        "family": "Karlan",
+        "given": "Dean",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Jonathan Morduch",
+        "family": "Morduch",
+        "given": "Jonathan",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Economic Journal: Applied Economics",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 97.2972972972973,
+    "enrichment_adjusted_score": 97.2972972972973,
+    "enrichment_candidate_title": "Microfinance Games",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

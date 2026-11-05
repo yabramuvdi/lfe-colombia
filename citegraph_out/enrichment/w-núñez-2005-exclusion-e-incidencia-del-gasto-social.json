@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2a2e9f58f2012d8dc6ee33b263e1656cacb1ed4e52327d12c3de4d19c71ab4ca",
+  "result_fingerprint": "951d9992c42749374feab5d0f1e5a1f9cbd81da612ffc380ea92c2b8a0f6bffb",
+  "result": {
+    "doi": null,
+    "Title": "EXCLUSIÓN E INCIDENCIA DEL GASTO SOCIAL",
+    "Authors_List": [
+      "Jairo Nunez",
+      "Sílvia Espinosa"
+    ],
+    "Authors": "Jairo Nunez, Sílvia Espinosa",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Jairo Nunez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5017413296",
+        "orcid": null
+      },
+      {
+        "display_name": "Sílvia Espinosa",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5009395335",
+        "orcid": null
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2005,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "EXCLUSIÓN E INCIDENCIA DEL GASTO SOCIAL",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

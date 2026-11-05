@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0f3bf888a70f168b19560472765f78b375fc99e395c271380bf99a5eb4576c64",
+  "result_fingerprint": "99a324a785745d7b1d1b88719788fd4710f3da6e9c427fff96da79741b2ff98f",
+  "result": {
+    "doi": null,
+    "Title": "Real wealth and experimental cooperation: Evidence from field experiments",
+    "Authors_List": [
+      "Juan-Camilo Cárdenas"
+    ],
+    "Authors": "Juan-Camilo Cárdenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cárdenas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5042502300",
+        "orcid": "0000-0003-0005-7595"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2002,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Real wealth and experimental cooperation: Evidence from field experiments",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

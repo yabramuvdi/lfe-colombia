@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "233b0e5f36f9988f167b754c88c2f047cea44313f0fd858ece3332b784852e1b",
+  "result_fingerprint": "65b3310f8d9f0bbc928d85be0a832d47229ca4d9810e11e5bae5d9ab78608a11",
+  "result": {
+    "doi": "10.11144/javeriana.mys18-36.phhb",
+    "Title": "Problemática de higiene y hacinamiento en Bogotá a finales del siglo xix e inicios del siglo xx y primer barrio para obreros",
+    "Authors_List": [
+      "Ángela Isabel Rodríguez Leuro"
+    ],
+    "Authors": "Ángela Isabel Rodríguez Leuro",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ángela Isabel Rodríguez Leuro",
+        "family": "Rodríguez Leuro",
+        "given": "Ángela Isabel",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Memoria y Sociedad",
+    "Year": 2014,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.59839357429718,
+    "enrichment_adjusted_score": 99.59839357429718,
+    "enrichment_candidate_title": "Problemática de higiene y hacinamiento en Bogotá a finales del siglo xix e inicios del siglo xx y primer barrio para obreros",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

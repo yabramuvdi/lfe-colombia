@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "bb406a4e097a5896b2749f3f01c580cf54b2da55f03bf0fc1b8bf383be20b38e",
+  "result_fingerprint": "f093f216220e7b5bd208a4653e15ee07a7c349c858c7bde1fb211d3d968bbdfd",
+  "result": {
+    "doi": "10.4337/9781781009079.00020",
+    "Title": "Dynamics of rules and resources: three new field experiments on water, forests and fisheries",
+    "Authors_List": [
+      "Juan-Camilo Cardenas",
+      "Marco Janssen",
+      "Francois Bousquet"
+    ],
+    "Authors": "Juan-Camilo Cardenas, Marco Janssen, Francois Bousquet",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cardenas",
+        "family": "Cardenas",
+        "given": "Juan-Camilo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marco Janssen",
+        "family": "Janssen",
+        "given": "Marco",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Francois Bousquet",
+        "family": "Bousquet",
+        "given": "Francois",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Handbook on Experimental Economics and the Environment",
+    "Year": 2013,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.4535519125683,
+    "enrichment_adjusted_score": 99.4535519125683,
+    "enrichment_candidate_title": "Dynamics of rules and resources: three new field experiments on water, forests and fisheries",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

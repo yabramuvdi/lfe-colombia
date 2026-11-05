@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "bc1704694097b7b57bf5ddf98988f00d2d0903a2afb3272c8c80fe4108408795",
+  "result_fingerprint": "758169871a8809daaebfd3cdbd261a019b5148e87894650c949a99197171255b",
+  "result": {
+    "doi": null,
+    "Title": "Programa de tasas retributivas en Colombia: una evaluación del diseño de fiscalización y su cumplimiento en el caso de corpochivor",
+    "Authors_List": [
+      "Sandra C Briceño P",
+      "Carlos A Chávez R"
+    ],
+    "Authors": "Sandra C Briceño P, Carlos A Chávez R",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Sandra C Briceño P",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5089612288",
+        "orcid": null
+      },
+      {
+        "display_name": "Carlos A Chávez R",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5030109772",
+        "orcid": null
+      }
+    ],
+    "Journal": "Repositorio Institucional UN - Biblioteca Digital",
+    "Year": 2007,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.23076923076923,
+    "enrichment_adjusted_score": 99.23076923076923,
+    "enrichment_candidate_title": "Programa de tasas retributivas en Colombia: una evaluación del diseño de fiscalización y su cumplimiento en el caso de corpochivor",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

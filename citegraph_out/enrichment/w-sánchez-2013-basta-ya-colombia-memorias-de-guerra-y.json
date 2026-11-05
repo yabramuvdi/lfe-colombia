@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "3e47f11ee48e703868e77ee567175b8cef758ccb9824c2e74f0953883ccd31f6",
+  "result_fingerprint": "5147be59564e53065d0deb67fc93ac98029d0cb969c00747e181a059f6a01e4b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 42.10526315789473,
+    "enrichment_adjusted_score": 34.10526315789473,
+    "enrichment_candidate_title": "Jim Higgins, Luchando por la democracia. Memorias de un activista canadiense en la guerra civil española",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 10,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c757577f927bd5d53dededb6544361bf5e5626a280ca0d0f0c35147774ff35da",
+  "result_fingerprint": "ca4f1daa00b7e0f172e752fef3c24a250beb959b5e00daf2b65229d8301bb97d",
+  "result": {
+    "doi": "10.1086/703989",
+    "Title": "On the Origins of the State: Stationary Bandits and Taxation in Eastern Congo",
+    "Authors_List": [
+      "Raúl Sánchez de la Sierra"
+    ],
+    "Authors": "Raúl Sánchez de la Sierra",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Raúl Sánchez de la Sierra",
+        "family": "Sánchez de la Sierra",
+        "given": "Raúl",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Political Economy",
+    "Year": 2020,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "On the Origins of the State: Stationary Bandits and Taxation in Eastern Congo",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

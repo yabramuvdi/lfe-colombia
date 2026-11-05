@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "02ca55c79ba59100f113136290d10574132bc727adf68d9c8e093a6245b7d751",
+  "result_fingerprint": "25642976d5f3411a9636dcf3209e133b0143a33a10daa4668bd4bd1bc9066d5b",
+  "result": {
+    "doi": "10.1086/380104",
+    "Title": "Recrafting Rights over Common Property Resources in Mexico",
+    "Authors_List": [
+      "Carlos Muñoz‐Piña",
+      "Alain de Janvry",
+      "Élisabeth Sadoulet"
+    ],
+    "Authors": "Carlos Muñoz‐Piña, Alain de Janvry, Élisabeth Sadoulet",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Carlos Muñoz‐Piña",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5032008183",
+        "orcid": null
+      },
+      {
+        "display_name": "Alain de Janvry",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5091854898",
+        "orcid": null
+      },
+      {
+        "display_name": "Élisabeth Sadoulet",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5034392804",
+        "orcid": null
+      }
+    ],
+    "Journal": "Economic Development and Cultural Change",
+    "Year": 2003,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Recrafting Rights over Common Property Resources in Mexico",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

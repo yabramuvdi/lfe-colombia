@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "dc507e27ea88f4f1f8dca31237decdb1515c2858e1b9adca5a5f66af6ad30048",
+  "result_fingerprint": "c178cbc5266ef2b4857a6e157f0b349e7e0f9f2c9b9003497347efe77e4e487c",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2016.08.008",
+    "Title": "A framework for mapping and comparing behavioural theories in models of social-ecological systems",
+    "Authors_List": [
+      "Maja Schlüter",
+      "Andres Baeza",
+      "Gunnar Dressler",
+      "Karin Frank",
+      "Jürgen Groeneveld",
+      "Wander Jager",
+      "Marco A. Janssen",
+      "Ryan R.J. McAllister",
+      "Birgit Müller",
+      "Kirill Orach",
+      "Nina Schwarz",
+      "Nanda Wijermans"
+    ],
+    "Authors": "Maja Schlüter, Andres Baeza, Gunnar Dressler, Karin Frank, Jürgen Groeneveld, Wander Jager, Marco A. Janssen, Ryan R.J. McAllister, Birgit Müller, Kirill Orach, Nina Schwarz, Nanda Wijermans",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Maja Schlüter",
+        "family": "Schlüter",
+        "given": "Maja",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Andres Baeza",
+        "family": "Baeza",
+        "given": "Andres",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Gunnar Dressler",
+        "family": "Dressler",
+        "given": "Gunnar",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Karin Frank",
+        "family": "Frank",
+        "given": "Karin",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Jürgen Groeneveld",
+        "family": "Groeneveld",
+        "given": "Jürgen",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Wander Jager",
+        "family": "Jager",
+        "given": "Wander",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marco A. Janssen",
+        "family": "Janssen",
+        "given": "Marco A.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ryan R.J. McAllister",
+        "family": "McAllister",
+        "given": "Ryan R.J.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Birgit Müller",
+        "family": "Müller",
+        "given": "Birgit",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Kirill Orach",
+        "family": "Orach",
+        "given": "Kirill",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Nina Schwarz",
+        "family": "Schwarz",
+        "given": "Nina",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Nanda Wijermans",
+        "family": "Wijermans",
+        "given": "Nanda",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "A framework for mapping and comparing behavioural theories in models of social-ecological systems",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

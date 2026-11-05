@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c9b428448aea23d516647d452902f250b2d687a7340aba3b6692841bd5248984",
+  "result_fingerprint": "fdfa249d1573125243c79a9e06a64f1956fb545d994f2353ac15a0c4e5109731",
+  "result": {
+    "doi": "10.1038/nclimate3397",
+    "Title": "Cash incentives avert deforestation",
+    "Authors_List": [
+      "Juan Camilo Cárdenas"
+    ],
+    "Authors": "Juan Camilo Cárdenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan Camilo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Nature Climate Change",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.59154929577466,
+    "enrichment_adjusted_score": 98.59154929577466,
+    "enrichment_candidate_title": "Cash incentives avert deforestation",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "4e7ae6c139530701651a224767737e74f97934183e2599919c303fdc4ce7968f",
+  "result_fingerprint": "debfd1f5805773ae2d887db497ee673e0496d176bf4af58689909858ec6dedf6",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 56.790123456790134,
+    "enrichment_adjusted_score": 48.790123456790134,
+    "enrichment_candidate_title": "Planes de igualdad en la Universidad y evaluación de impacto de género",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 13,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

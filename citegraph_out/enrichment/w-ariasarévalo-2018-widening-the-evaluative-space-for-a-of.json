@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "9985ba7ea92c612d00a74cf903da87dd61dd574a58dfd8a5b360f0545fc52580",
+  "result_fingerprint": "0e86ad9e0cf03c6ee702fc193f1894ed45efd49615adb668d68091265d220373",
+  "result": {
+    "doi": "10.3197/096327118x15144698637513",
+    "Title": "Widening the Evaluative Space for Ecosystem Services: A Taxonomy of Plural Values and Valuation Methods",
+    "Authors_List": [
+      "Paola Arias-Arévalo",
+      "Erik Gómez-Baggethun",
+      "Berta Martín-López",
+      "Mario Pérez-Rincón"
+    ],
+    "Authors": "Paola Arias-Arévalo, Erik Gómez-Baggethun, Berta Martín-López, Mario Pérez-Rincón",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Paola Arias-Arévalo",
+        "family": "Arias-Arévalo",
+        "given": "Paola",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Erik Gómez-Baggethun",
+        "family": "Gómez-Baggethun",
+        "given": "Erik",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Berta Martín-López",
+        "family": "Martín-López",
+        "given": "Berta",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Mario Pérez-Rincón",
+        "family": "Pérez-Rincón",
+        "given": "Mario",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Environmental Values",
+    "Year": 2018,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Widening the Evaluative Space for Ecosystem Services: A Taxonomy of Plural Values and Valuation Methods",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

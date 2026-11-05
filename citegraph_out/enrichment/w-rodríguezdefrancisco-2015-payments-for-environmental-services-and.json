@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5c10e8b2b8df38f4a16cfb18ab617d73f20cda3d5903ff242ccb20491717e06c",
+  "result_fingerprint": "9bdfedfa4d485d2a74cf40e0c9904b277abc550581fb106aee4f0aa716c241fd",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2014.05.003",
+    "Title": "Payments for environmental services and control over conservation of natural resources: The role of public and private sectors in the conservation of the Nima watershed, Colombia",
+    "Authors_List": [
+      "J.C. Rodríguez-de-Francisco",
+      "J. Budds"
+    ],
+    "Authors": "J.C. Rodríguez-de-Francisco, J. Budds",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "J.C. Rodríguez-de-Francisco",
+        "family": "Rodríguez-de-Francisco",
+        "given": "J.C.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "J. Budds",
+        "family": "Budds",
+        "given": "J.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Payments for environmental services and control over conservation of natural resources: The role of public and private sectors in the conservation of the Nima watershed, Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

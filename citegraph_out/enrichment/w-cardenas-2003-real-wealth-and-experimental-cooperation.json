@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "49bc12ac89f3ee072a368f7124694594fa88171c758e0443f93a675dffd7e6f5",
+  "result_fingerprint": "cc4655888a3ebabf2a1085e5024aa2b169e7f96c835a529a3536572fff535f5f",
+  "result": {
+    "doi": "10.1016/s0304-3878(02)00098-6",
+    "Title": "Real wealth and experimental cooperation: experiments in the field lab",
+    "Authors_List": [
+      "Juan-Camilo Cardenas"
+    ],
+    "Authors": "Juan-Camilo Cardenas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Juan-Camilo Cardenas",
+        "family": "Cardenas",
+        "given": "Juan-Camilo",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Development Economics",
+    "Year": 2003,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Real wealth and experimental cooperation: experiments in the field lab",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

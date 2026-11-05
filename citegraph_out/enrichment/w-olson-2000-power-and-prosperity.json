@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "3227acf75dee8b582ae4591d1e815c906462bb10c60155dfbf63550ca869857b",
+  "result_fingerprint": "317c6e70dab9c640dfea30572df655549899f4768bbcdbd1a11a0cc66550ffc1",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 72.22222222222221,
+    "enrichment_adjusted_score": 64.22222222222221,
+    "enrichment_candidate_title": "Power and Theory",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 15,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

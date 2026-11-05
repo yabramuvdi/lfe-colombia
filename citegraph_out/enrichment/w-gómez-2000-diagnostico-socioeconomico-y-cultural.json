@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2bc16ee259d786c7dc82ccd4491b6d327b9688fe431195adab4595aef1dde6ee",
+  "result_fingerprint": "a78f953db32e930d1176cf3b8c948e12dff105c16a63f03dbdd0fb4412a811c8",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 55.62913907284768,
+    "enrichment_adjusted_score": 47.62913907284768,
+    "enrichment_candidate_title": "DIAGNÓSTICO DO ENTORNO DO PARQUE NATURAL MUNICIPALFAZENDA SANTA CECÍLIA DO INGÁ",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 20,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

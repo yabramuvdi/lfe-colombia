@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c82f58242f133b10d8149642df922b13659e0b17d47549ba22b6a62049ef37d4",
+  "result_fingerprint": "7969283f3f711c2684f06992731114faf89e45af13e4754b3930acb7c4e84375",
+  "result": {
+    "doi": "10.1111/ecin.12187",
+    "Title": "NORMS OF PUNISHMENT: EXPERIMENTS WITH STUDENTS AND THE GENERAL POPULATION",
+    "Authors_List": [
+      "Stefania Bortolotti",
+      "Marco Casari",
+      "Francesca Pancotto"
+    ],
+    "Authors": "Stefania Bortolotti, Marco Casari, Francesca Pancotto",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Stefania Bortolotti",
+        "family": "Bortolotti",
+        "given": "Stefania",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Marco Casari",
+        "family": "Casari",
+        "given": "Marco",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Francesca Pancotto",
+        "family": "Pancotto",
+        "given": "Francesca",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Economic Inquiry",
+    "Year": 2014,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "NORMS OF PUNISHMENT: EXPERIMENTS WITH STUDENTS AND THE GENERAL POPULATION",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

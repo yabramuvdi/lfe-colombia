@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "6b6131f8934f8fa8090e038ca8de86a19d89aa3604ab6bd5121ee2da11870d7f",
+  "result_fingerprint": "4738563bfcfce6633b64396ef0a0ca635c2d7a374b994598958e740567027f01",
+  "result": {
+    "doi": "10.35188/unu-wider/2019/720-0",
+    "Title": "The effects of wartime institutions on households’ ability to cope with shocks: Evidence for Colombia",
+    "Authors_List": [
+      "Ana Mariá Ibáñez",
+      "Julián Arteaga",
+      "Juan Camilo Cárdenas",
+      "Ana Arjona",
+      "Patricia Justino"
+    ],
+    "Authors": "Ana Mariá Ibáñez, Julián Arteaga, Juan Camilo Cárdenas, Ana Arjona, Patricia Justino",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ana Mariá Ibáñez",
+        "family": "Ibáñez",
+        "given": "Ana Mariá",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Julián Arteaga",
+        "family": "Arteaga",
+        "given": "Julián",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Juan Camilo Cárdenas",
+        "family": "Cárdenas",
+        "given": "Juan Camilo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Ana Arjona",
+        "family": "Arjona",
+        "given": "Ana",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Patricia Justino",
+        "family": "Justino",
+        "given": "Patricia",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "WIDER Working Paper",
+    "Year": 2019,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.00990099009901,
+    "enrichment_adjusted_score": 99.00990099009901,
+    "enrichment_candidate_title": "The effects of wartime institutions on households’ ability to cope with shocks: Evidence for Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

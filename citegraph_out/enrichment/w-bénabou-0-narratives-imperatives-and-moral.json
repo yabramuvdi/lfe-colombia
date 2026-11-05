@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "feba6ee8a1e1b921c13209e199a01a6963a761c72ae0078567cff43301af167f",
+  "result_fingerprint": "e4f631a3e2d6120bde351c534c39b1b954c5a21752a365f5438ed37f5c6ca9c5",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 88.88888888888889,
+    "enrichment_adjusted_score": 88.88888888888889,
+    "enrichment_candidate_title": "Narratives, Imperatives, and Moral Reasoning",
+    "enrichment_year_match": null,
+    "enrichment_year_delta": null,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

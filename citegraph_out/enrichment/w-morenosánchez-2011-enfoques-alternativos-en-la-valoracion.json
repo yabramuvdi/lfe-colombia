@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c1447b89a03ebeb2d429a4f09388cd27933a82f9e30f59b5b18dd25cca0c4bc5",
+  "result_fingerprint": "70cfeddb82332745f112113aedf1633daa8dade2c1bf9178c8fe53737629869a",
+  "result": {
+    "doi": null,
+    "Title": "Enfoques alternativos en la valoración de ecosistemas: explorando la participación de los usuarios locales",
+    "Authors_List": [
+      "Rocio Eugenia Moreno Sanchez",
+      "Jorge Higinio Maldonado"
+    ],
+    "Authors": "Rocio Eugenia Moreno Sanchez, Jorge Higinio Maldonado",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Rocio Eugenia Moreno Sanchez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5014636823",
+        "orcid": null
+      },
+      {
+        "display_name": "Jorge Higinio Maldonado",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5088879455",
+        "orcid": "0000-0001-5501-6374"
+      }
+    ],
+    "Journal": "Ambiente y Desarrollo",
+    "Year": 2011,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.53051643192488,
+    "enrichment_adjusted_score": 99.53051643192488,
+    "enrichment_candidate_title": "Enfoques alternativos en la valoración de ecosistemas: explorando la participación de los usuarios locales",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

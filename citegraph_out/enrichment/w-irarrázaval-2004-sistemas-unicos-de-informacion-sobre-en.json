@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "2d0cdd5a5ebfe434c414324c4039ae98117c0302528ec8de01e6d0552072581f",
+  "result_fingerprint": "af8ef7168e6efe4181992f629b362fee1f0a4714de896416051fcce2e2b809ad",
+  "result": {
+    "doi": null,
+    "Title": "Sistemas Únicos de Información sobre Beneficiarios en América Latina",
+    "Authors_List": [
+      "Ignacio Irarrázaval"
+    ],
+    "Authors": "Ignacio Irarrázaval",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ignacio Irarrázaval",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5046446614",
+        "orcid": "0000-0001-5870-5853"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2004,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Sistemas Únicos de Información sobre Beneficiarios en América Latina",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

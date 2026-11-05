@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0e169af18bab5b715c9d5182643b65464186d4a20aa3c863120718670c5588f0",
+  "result_fingerprint": "d0a6778a21ae9f1df82e69a55d4dd86235e861eeb17d94dad7973eaf50ba8516",
+  "result": {
+    "doi": "10.1023/b:eare.0000044608.66145.0c",
+    "Title": "Collective versus Random Fining: An Experimental Study on Controlling Ambient Pollution",
+    "Authors_List": [
+      "Francisco Alpízar",
+      "Till Requate",
+      "Albert Schram"
+    ],
+    "Authors": "Francisco Alpízar, Till Requate, Albert Schram",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Francisco Alpízar",
+        "family": "Alpízar",
+        "given": "Francisco",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Till Requate",
+        "family": "Requate",
+        "given": "Till",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Albert Schram",
+        "family": "Schram",
+        "given": "Albert",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Environmental and Resource Economics",
+    "Year": 2004,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Collective versus Random Fining: An Experimental Study on Controlling Ambient Pollution",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

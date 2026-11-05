@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "fbe0817244eeea45e81541e6d63e16abd84d0653b49b328cec2186c4498e73ac",
+  "result_fingerprint": "67137d347541d7f8c2ce066e8eb780b21bffe1767bef68f482dfc302facb6d78",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 60.56338028169015,
+    "enrichment_adjusted_score": 52.56338028169015,
+    "enrichment_candidate_title": "Aportaciones a la evaluación de los programas de desarrollo rural",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

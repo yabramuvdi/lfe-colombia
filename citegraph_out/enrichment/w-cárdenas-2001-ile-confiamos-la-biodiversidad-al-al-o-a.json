@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "aad1520698db426beb3e057ecfd2b9368256e4b80b5e686f0a04bece096599a8",
+  "result_fingerprint": "c5117bbdf5124b493ca49c7c794f6d69b5137e7ed93b341dd86bc4300f74b2f0",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 54.20560747663552,
+    "enrichment_adjusted_score": 46.20560747663552,
+    "enrichment_candidate_title": "Esclavos al servicio de la comunidad",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 14,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

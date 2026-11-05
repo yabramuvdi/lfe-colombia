@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c99a92bba99b5e81f95f73dadfa4d09825adefdc246a7ea5c6edb1c45bf79b6d",
+  "result_fingerprint": "be6a28a7407e7602878aef32e66a91fd8291ccaeaa8c773ff5546d72c978c573",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 69.74358974358974,
+    "enrichment_adjusted_score": 69.74358974358974,
+    "enrichment_candidate_title": "(Dis)Advantages of Student Subjects: What is Your Research Question?",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

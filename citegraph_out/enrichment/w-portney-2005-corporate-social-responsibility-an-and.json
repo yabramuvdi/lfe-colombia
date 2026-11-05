@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5cba77b035b316e796637fa63d163933bafdd4240ed9f002aee9b32d96b98a98",
+  "result_fingerprint": "0629a9bb84ae51f17eeefe9d0c0cba0aa6c9315a6911758dc4ba418b56e644bb",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 98.64864864864865,
+    "enrichment_adjusted_score": 90.64864864864865,
+    "enrichment_candidate_title": "Corporate Social Responsibility: An Economic and Public Policy Perspective",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 5,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

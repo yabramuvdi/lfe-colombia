@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "ea080883f2c517b4a2e6c1b45e48058f9ccbf5fe1f70efe56454514e73e4321a",
+  "result_fingerprint": "05efcb2d89e67a0d8c60e09ca4cdc5c1d8edb48ef01668c930c4134e763d19da",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Social Capital and Economics",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

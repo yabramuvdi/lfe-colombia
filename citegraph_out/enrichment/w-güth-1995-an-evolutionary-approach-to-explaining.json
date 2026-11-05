@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "244115093871c9324e5a0a26304d3e6ea23ed736b367cac27c4cd3202f6b30ed",
+  "result_fingerprint": "148940e724dfc3f05c876b01e8be372e86f2a417283fec1a8d8479e600b0b5e5",
+  "result": {
+    "doi": "10.1007/bf01243036",
+    "Title": "An evolutionary approach to explaining cooperative behavior by reciprocal incentives",
+    "Authors_List": [
+      "Werner G�th"
+    ],
+    "Authors": "Werner G�th",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Werner G�th",
+        "family": "G�th",
+        "given": "Werner",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "International Journal of Game Theory",
+    "Year": 1995,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "An evolutionary approach to explaining cooperative behavior by reciprocal incentives",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

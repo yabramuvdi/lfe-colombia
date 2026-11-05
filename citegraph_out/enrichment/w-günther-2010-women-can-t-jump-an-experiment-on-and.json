@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "47b722832894f933d5b6a9da7538a9771ee1935a164b70cab7aab1211f5f32a5",
+  "result_fingerprint": "ea22c4590f5eb2494f7bcf3f3dfdcf45e6109549a2ffeeb11c4f7d2b8a797227",
+  "result": {
+    "doi": "10.1016/j.jebo.2010.05.003",
+    "Title": "Women can’t jump?—An experiment on competitive attitudes and stereotype threat",
+    "Authors_List": [
+      "Christina Günther",
+      "Neslihan Arslan Ekinci",
+      "Christiane Schwieren",
+      "Martin Strobel"
+    ],
+    "Authors": "Christina Günther, Neslihan Arslan Ekinci, Christiane Schwieren, Martin Strobel",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Christina Günther",
+        "family": "Günther",
+        "given": "Christina",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Neslihan Arslan Ekinci",
+        "family": "Ekinci",
+        "given": "Neslihan Arslan",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Christiane Schwieren",
+        "family": "Schwieren",
+        "given": "Christiane",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Martin Strobel",
+        "family": "Strobel",
+        "given": "Martin",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Journal of Economic Behavior &amp; Organization",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 97.43589743589743,
+    "enrichment_adjusted_score": 97.43589743589743,
+    "enrichment_candidate_title": "Women can’t jump?—An experiment on competitive attitudes and stereotype threat",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "72002a3822ea37fd6dd22c600c02cd15fe1b808a2483dd58d8ba9b0e321d2bc7",
+  "result_fingerprint": "cb91a0f9fa4abfef7b0a417f003507b87610132281b4d2d8f54d7f7d03a111ac",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "Restorative Justice: Ideals and Realities",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 10,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

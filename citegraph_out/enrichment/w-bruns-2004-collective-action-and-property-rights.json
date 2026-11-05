@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "43236fea4a88b2c6743bd2e07a18dd18aa5c4c335c906cc8dcd01bf79b167293",
+  "result_fingerprint": "93824f09a5f41af318f134722b04df80d53bf25188cfd972d96821f816ce006a",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "COLLECTIVE ACTION AND PROPERTY RIGHTS FOR SUSTAINABLE DEVELOPMENT",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

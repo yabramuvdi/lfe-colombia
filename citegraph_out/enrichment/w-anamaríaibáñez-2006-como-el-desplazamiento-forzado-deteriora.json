@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "edb9a5ff18ead9ffa7ea80c06ca8d0b7a329e3c74dda148624db7790265e009a",
+  "result_fingerprint": "ca63c1b4272a9e59a642ffac52a19a47846485165824c6f1ff9dd5c14b5c2d31",
+  "result": {
+    "doi": null,
+    "Title": "¿CÓMO EL DESPLAZAMIENTO FORZADO DETERIORA EL BIENESTAR DE LOS HOGARES DESPLAZADOS?: ANÁLISIS Y DETERMINANTES DEL BIENESTAR EN LOS MUNICIPIOS DE RECEPCIÓN",
+    "Authors_List": [
+      "Ana M. Ibáñez",
+      "Andrés Moya"
+    ],
+    "Authors": "Ana M. Ibáñez, Andrés Moya",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Ana M. Ibáñez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5033417783",
+        "orcid": "0000-0003-0362-5535"
+      },
+      {
+        "display_name": "Andrés Moya",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5102739955",
+        "orcid": "0000-0003-0640-5802"
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2006,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "¿CÓMO EL DESPLAZAMIENTO FORZADO DETERIORA EL BIENESTAR DE LOS HOGARES DESPLAZADOS?: ANÁLISIS Y DETERMINANTES DEL BIENESTAR EN LOS MUNICIPIOS DE RECEPCIÓN",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

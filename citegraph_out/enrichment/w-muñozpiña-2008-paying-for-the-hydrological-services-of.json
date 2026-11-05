@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "55eb7877167408296851c4a0f77aba8352ea16b46854b9e6ab32d908d5dc5d92",
+  "result_fingerprint": "d32eb33c7bbf554cd6e2a7445747e630d89016e147b137d00d406847167aa207",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2007.07.031",
+    "Title": "Paying for the hydrological services of Mexico's forests: Analysis, negotiations and results",
+    "Authors_List": [
+      "Carlos Muñoz-Piña",
+      "Alejandro Guevara",
+      "Juan Manuel Torres",
+      "Josefina Braña"
+    ],
+    "Authors": "Carlos Muñoz-Piña, Alejandro Guevara, Juan Manuel Torres, Josefina Braña",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Carlos Muñoz-Piña",
+        "family": "Muñoz-Piña",
+        "given": "Carlos",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Alejandro Guevara",
+        "family": "Guevara",
+        "given": "Alejandro",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Juan Manuel Torres",
+        "family": "Torres",
+        "given": "Juan Manuel",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Josefina Braña",
+        "family": "Braña",
+        "given": "Josefina",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2008,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.4535519125683,
+    "enrichment_adjusted_score": 99.4535519125683,
+    "enrichment_candidate_title": "Paying for the hydrological services of Mexico's forests: Analysis, negotiations and results",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

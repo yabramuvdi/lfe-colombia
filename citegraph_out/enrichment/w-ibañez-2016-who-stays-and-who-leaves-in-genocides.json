@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b48594636442085e464e7d0138cb50fd737c4419a0591e40d94e993f76d41bca",
+  "result_fingerprint": "167803c9b3289ba206ed3db68971bbf66a306a7646faef0abef594b1eef21b69",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 41.32231404958677,
+    "enrichment_adjusted_score": 33.32231404958677,
+    "enrichment_candidate_title": "Ubuntu and the journey of listening to the Rwandan genocide story",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

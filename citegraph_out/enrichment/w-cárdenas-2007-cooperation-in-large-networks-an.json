@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "c5aeecb1db26c4a798e9ec21a4162efcba4c60e917b80de0faeb2c95ad2391fb",
+  "result_fingerprint": "d7b8510243d433946ae5bf6244c4e73b3a9f1c3661fe0f6ef86724db563f5fb2",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 50.0,
+    "enrichment_adjusted_score": 42.0,
+    "enrichment_candidate_title": "Dynamic social networks promote cooperation in experiments with humans",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 4,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

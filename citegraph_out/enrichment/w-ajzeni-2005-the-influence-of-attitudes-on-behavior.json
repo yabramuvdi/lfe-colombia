@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "ef9f0f278b80bcba4dbcc21865da41cfeeef55abaa7f1d1e91d796f0b44fb294",
+  "result_fingerprint": "8c9478781107c2296c81c3fb865881a8977072961e714112122040981b9cd1e4",
+  "result": {
+    "doi": "10.4324/9781315178103-5",
+    "Title": "The Influence of Attitudes on Behavior",
+    "Authors_List": [
+      "Icek Ajzen",
+      "Martin Fishbein",
+      "Sophie Lohmann",
+      "Dolores Albarracín"
+    ],
+    "Authors": "Icek Ajzen, Martin Fishbein, Sophie Lohmann, Dolores Albarracín",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Icek Ajzen",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5038084567",
+        "orcid": "0000-0001-8101-6300"
+      },
+      {
+        "display_name": "Martin Fishbein",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5065215114",
+        "orcid": null
+      },
+      {
+        "display_name": "Sophie Lohmann",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5078018818",
+        "orcid": "0000-0001-9852-7684"
+      },
+      {
+        "display_name": "Dolores Albarracín",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5022090336",
+        "orcid": "0000-0002-9878-942X"
+      }
+    ],
+    "Journal": "Dialnet (Universidad de la Rioja)",
+    "Year": 2018,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "The Influence of Attitudes on Behavior",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 13,
+    "enrichment_author_agreement": "match"
+  }
+}

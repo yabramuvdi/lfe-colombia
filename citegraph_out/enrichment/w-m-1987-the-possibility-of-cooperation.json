@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f7fcbf2bc37ccf9bce9b31f9dadaab56893bb0e72db48f4ab2a9e1ba95b61e6e",
+  "result_fingerprint": "9b0b6d307cee875b3054234bf1bc96556f5ec08d85824210a042097a5b63dae8",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "The Possibility of Cooperation",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 5,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "7284665ba666ded52fa10ed4fab9c574abeb7adca8039bcb741cde3cf0d31b46",
+  "result_fingerprint": "c2b8ffb2d39ffd993209abe6cdef77ba959e12a3d83ba99f3604fa66fa440717",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 45.87155963302752,
+    "enrichment_adjusted_score": 37.87155963302752,
+    "enrichment_candidate_title": "UN Millennium Development Library: Environment and Human Well-being",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 7,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

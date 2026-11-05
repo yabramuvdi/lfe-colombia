@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "623855d652e1ed43f9a6cdaf9661be66011a43e2db637e6a1c41c361e7d9d507",
+  "result_fingerprint": "8e6bf62921cc99c22ad9776444c3b5485a484d0b9b920098001c081bf03b16b0",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 60.63829787234043,
+    "enrichment_adjusted_score": 52.63829787234043,
+    "enrichment_candidate_title": "La comunicación intercultural en el aprendizaje de ELE: reflexiones desde la economía informal",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 24,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

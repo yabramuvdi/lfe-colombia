@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "1c7c1ddd109294568b0c6f2439205cc2230cc48ec32e6b64fc8b4428656244d1",
+  "result_fingerprint": "eee855b7663060443bcdac448506001f7feffe4092c537e0d349507209ecdc4f",
+  "result": {
+    "doi": null,
+    "Title": "Pasos metodológicos de un diseño experimental para medir capital social y acción colectiva en seis ciudades latinoamericanas",
+    "Authors_List": [
+      "Natalia Candelo",
+      "Sandra Viviana Polanía Reyes"
+    ],
+    "Authors": "Natalia Candelo, Sandra Viviana Polanía Reyes",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Natalia Candelo",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5002438037",
+        "orcid": "0000-0002-4124-1404"
+      },
+      {
+        "display_name": "Sandra Viviana Polanía Reyes",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5041496983",
+        "orcid": null
+      }
+    ],
+    "Journal": "RePEc: Research Papers in Economics",
+    "Year": 2008,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Pasos metodológicos de un diseño experimental para medir capital social y acción colectiva en seis ciudades latinoamericanas",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

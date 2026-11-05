@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "edd9c128995b1c06e6f2d352b1f47719e8299d7b39930127c19f40d5a79dbb5d",
+  "result_fingerprint": "ecfb89b3a24a26a5cf25b31e4d95103ff549a8125a6856ef61d5a4b6b7f6ad2b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 47.389558232931726,
+    "enrichment_adjusted_score": 39.389558232931726,
+    "enrichment_candidate_title": "Inclusión laboral: experiencias de las personas con discapacidad intelectual en el departamento del Quindío",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 17,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

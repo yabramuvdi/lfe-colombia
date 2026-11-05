@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "8860972ca125aaa748bcb4c9f5d15e0d13088e203ee5a594bda19e72fb327fb7",
+  "result_fingerprint": "171dca1873721b2d068ab9ef0a957466e0c41f2c8325b53b25d451fa719e4253",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 41.6,
+    "enrichment_adjusted_score": 33.6,
+    "enrichment_candidate_title": "La confianza en las zonas mineras de Antioquia, Bolívar y Córdoba",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 2,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "input_sha256": "2f0a01ea2a67f1da3cf7b3525684ffd6f51cf93bbfae8870126b12fd48c087b1",
+  "output_sha256": "bdb67070393b087ea75b49aab707a9663e1fb56f80e8124e76ed016fd3695b9d",
+  "recipe": {
+    "version": 1,
+    "model": "gemini-3.1-flash-lite",
+    "schema": {
+      "description": "A single bibliographic reference extracted from a paper's bibliography.",
+      "properties": {
+        "Title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "Authors_List": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Authors List",
+          "type": "array"
+        },
+        "Journal": {
+          "title": "Journal",
+          "type": "string"
+        },
+        "Year": {
+          "title": "Year",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Title",
+        "Authors_List",
+        "Journal",
+        "Year"
+      ],
+      "title": "Reference",
+      "type": "object"
+    },
+    "prompt": "\n# Instructions\nPlease extract the complete bibliographic information for all the papers cited in the references or bibliography section of the document below. For each reference, return:\n\n- Title: The full title of the paper\n- Authors_List: A list of all authors\n- Journal: The journal or venue where the paper was published\n- Year: The publication year as an integer\n\nTake into account the following:\n\n1. Capture every reference. Do not skip any.\n2. Focus on the references / bibliography section at the end of the paper.\n3. Strip any garbled characters that may have come from PDF extraction artefacts.\n4. If a field is genuinely missing in the original, use an empty string for text fields and 0 for Year.\n\n# Paper\n\n",
+    "system_instruction": "You are an expert assistant specializing in extracting bibliographic information from the references or bibliography section of an academic paper. You can interpret APA, MLA, Chicago and IEEE citation formats, and you handle complex layouts including double-column pages. Your goal is to extract every reference comprehensively and return them in a structured form.",
+    "max_input_chars": null
+  }
+}

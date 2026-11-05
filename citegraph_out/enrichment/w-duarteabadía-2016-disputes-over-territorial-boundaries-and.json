@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "0f673fb6a5914ecb7d1e9276b7bbb0264bf0009c239a981107ecd427f997f820",
+  "result_fingerprint": "b1b8d88577e2caf28ff85daf8672f828e92ac4fb631876bf4fd05b99006da92a",
+  "result": {
+    "doi": "10.1080/02508060.2016.1117271",
+    "Title": "Disputes over territorial boundaries and diverging valuation languages: the Santurban hydrosocial highlands territory in Colombia",
+    "Authors_List": [
+      "Bibiana Duarte-Abadía",
+      "Rutgerd Boelens"
+    ],
+    "Authors": "Bibiana Duarte-Abadía, Rutgerd Boelens",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Bibiana Duarte-Abadía",
+        "family": "Duarte-Abadía",
+        "given": "Bibiana",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Rutgerd Boelens",
+        "family": "Boelens",
+        "given": "Rutgerd",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Water International",
+    "Year": 2016,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Disputes over territorial boundaries and diverging valuation languages: the Santurban hydrosocial highlands territory in Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

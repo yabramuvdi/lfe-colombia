@@ -1,0 +1,6 @@
+# Hand-curated external identifiers for canonical authors.
+# Applied after clustering; a curated value outranks the provider's.
+# This file says WHAT a person's identifier is. author_aliases.csv says WHO
+# is the same person. Keep those two questions in separate files.
+author_id,openalex_id,orcid,note
+a-ostrom-elinor,A5003087402,,"OpenAlex canonical display_name is Cyrillic (Элинор Остром) on all 12 of her OpenAlex-matched works, so the id never pairs with 'Ostrom, E.'. Verified 2026-09-13: A5003087402 has 586 works, 148,726 citations, display_name_alternatives includes 'Elinor Ostrom'. No ORCID exists — she died June 2012, ORCID launched October 2012; the ORCID registry returns 0 exact matches and OpenAlex reports ORCID None."

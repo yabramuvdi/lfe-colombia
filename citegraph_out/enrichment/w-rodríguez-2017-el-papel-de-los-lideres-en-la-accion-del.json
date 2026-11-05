@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "8add56f7fe82ecc53143f099cf5cb71614b28a72d535d6986ce7ab2805e5e571",
+  "result_fingerprint": "b192246be4b5537c9070cc3fe471d48e4a5e27fddf5c479c93322a4d21cf78d6",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 80.14981273408239,
+    "enrichment_adjusted_score": 80.14981273408239,
+    "enrichment_candidate_title": "El papel de los líderes en el manejo colectivo de los recursos naturales. Evidencia del experimento de la pesca en el río Cuduyarí (Vaupés, Colombia)",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "enrichment_author_agreement": "match",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

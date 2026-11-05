@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5784fe1690cf20c28f40d9661217c2ac1cab2381f923f2b211ff72df731570b7",
+  "result_fingerprint": "7b9ef3ab4d3598810cad849cdc1f52139f4d6dc976b63bc52fa3d7ea297ffdfd",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "author_mismatch",
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 92.0,
+    "enrichment_candidate_title": "The Winner's Curse and Public Information in Common Value Auctions: Comment",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 8,
+    "enrichment_author_agreement": "mismatch",
+    "doi": null,
+    "enrichment_source": null
+  }
+}

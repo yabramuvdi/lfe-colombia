@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "72f5b99a9813424d348aa368806fba8ea5842afef3413bcb42efe32b88af6af1",
+  "result_fingerprint": "ef953d8c9565ce444df7aa8dd482d503016bc8422a0708ac979632c177800103",
+  "result": {
+    "doi": "10.1257/aer.100.1.541",
+    "Title": "Social Preferences, Beliefs, and the Dynamics of Free Riding in Public Goods Experiments",
+    "Authors_List": [
+      "Urs Fischbacher",
+      "Simon Gächter"
+    ],
+    "Authors": "Urs Fischbacher, Simon Gächter",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Urs Fischbacher",
+        "family": "Fischbacher",
+        "given": "Urs",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Simon Gächter",
+        "family": "Gächter",
+        "given": "Simon",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "American Economic Review",
+    "Year": 2010,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 92.02453987730061,
+    "enrichment_adjusted_score": 92.02453987730061,
+    "enrichment_candidate_title": "Social Preferences, Beliefs, and the Dynamics of Free Riding in Public Goods Experiments",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

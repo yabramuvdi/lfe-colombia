@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "cd924c127bb459cb522c484b23d5bb5dd0dcb45815609bf60c410ab7bdccd3e0",
+  "result_fingerprint": "c3074eb5c7a16606504252a3f47890f4e0e951e01e1b7f34acea91fcdad9ac0b",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 54.46428571428572,
+    "enrichment_adjusted_score": 46.46428571428572,
+    "enrichment_candidate_title": "Los programas de Desarrollo y Paz (PDP) de Colombia: una apuesta innovadora por el desarrollo y la paz en medio del conflicto armado",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 10,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

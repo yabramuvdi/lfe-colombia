@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "b7f1dfe06f838c54780155c94a239b2d54cce3cbeabff8e26b6ca76fac806145",
+  "result_fingerprint": "fb3874487bcf6efe294cc7c54f58b941bdd5ad5a411685d78c1478dd0c40a2ec",
+  "result": {
+    "doi": "10.1007/s10640-007-9168-6",
+    "Title": "Environmental versus Human-Induced Scarcity in the Commons: Do They Trigger the Same Response?",
+    "Authors_List": [
+      "Nuria Osés-Eraso",
+      "Frederic Udina",
+      "Montserrat Viladrich-Grau"
+    ],
+    "Authors": "Nuria Osés-Eraso, Frederic Udina, Montserrat Viladrich-Grau",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Nuria Osés-Eraso",
+        "family": "Osés-Eraso",
+        "given": "Nuria",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Frederic Udina",
+        "family": "Udina",
+        "given": "Frederic",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Montserrat Viladrich-Grau",
+        "family": "Viladrich-Grau",
+        "given": "Montserrat",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Environmental and Resource Economics",
+    "Year": 2007,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.46524064171123,
+    "enrichment_adjusted_score": 91.46524064171123,
+    "enrichment_candidate_title": "Environmental versus Human-Induced Scarcity in the Commons: Do They Trigger the Same Response?",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 1
+  }
+}

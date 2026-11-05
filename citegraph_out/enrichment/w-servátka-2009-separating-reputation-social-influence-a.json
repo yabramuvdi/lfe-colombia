@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "63c3ab5e47a21515e8c8b33b71896af5c7fc315c403103b2dc6fc68b32cd54fd",
+  "result_fingerprint": "307af2eb325efc73f8516861ea92e055d9bd7d8801acfb7a2724544aa46a4f81",
+  "result": {
+    "doi": "10.1016/j.euroecorev.2008.04.001",
+    "Title": "Separating reputation, social influence, and identification effects in a dictator game",
+    "Authors_List": [
+      "Maroš Servátka"
+    ],
+    "Authors": "Maroš Servátka",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Maroš Servátka",
+        "family": "Servátka",
+        "given": "Maroš",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "European Economic Review",
+    "Year": 2009,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.41520467836258,
+    "enrichment_adjusted_score": 99.41520467836258,
+    "enrichment_candidate_title": "Separating reputation, social influence, and identification effects in a dictator game",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

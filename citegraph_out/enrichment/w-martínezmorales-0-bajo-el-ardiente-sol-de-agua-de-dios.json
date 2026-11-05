@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "8c214ce57a6431ae1de784a95736a871951136d2e132ba37f639d4c91e4ec9be",
+  "result_fingerprint": "0c66dcdbc831e8a165c953ec94456ea8c8ae9c8850c3abbb5d13234165a0d8a3",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 45.76271186440678,
+    "enrichment_adjusted_score": 45.76271186440678,
+    "enrichment_candidate_title": "El destierro de Adolfo León-Gómez: Necroescritura y modernización en Agua de Dios",
+    "enrichment_year_match": null,
+    "enrichment_year_delta": null,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

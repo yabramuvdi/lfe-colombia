@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f6bb7ce0dd1f09c796962e5debb53fc1c9ba40729bc81c167a2d7eeca8760566",
+  "result_fingerprint": "609af8cc282baba16f0664f6a1512aa4f5ca87a99844ca750f76e2dc100adb91",
+  "result": {
+    "doi": "10.4337/9781783471416.00015",
+    "Title": "Ecological economics perspectives on ecosystem services valuation",
+    "Authors_List": [
+      "Erik Gómez-Baggethun",
+      "Berta Martín-López"
+    ],
+    "Authors": "Erik Gómez-Baggethun, Berta Martín-López",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Erik Gómez-Baggethun",
+        "family": "Gómez-Baggethun",
+        "given": "Erik",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Berta Martín-López",
+        "family": "Martín-López",
+        "given": "Berta",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Handbook of Ecological Economics",
+    "Year": 2015,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Ecological economics perspectives on ecosystem services valuation",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

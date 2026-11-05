@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "1ca053a08ceff42caf1bbd8ce47826692e27710ba36069387c4519edba2af518",
+  "result_fingerprint": "7bffedd74785a0ca5c26731c3eea67a9f7cd45417552934e66b49140c40f8c6c",
+  "result": {
+    "doi": "10.1162/qjec.2006.121.2.699",
+    "Title": "Belief in a Just World and Redistributive Politics",
+    "Authors_List": [
+      "R. Benabou",
+      "J. Tirole"
+    ],
+    "Authors": "R. Benabou, J. Tirole",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "R. Benabou",
+        "family": "Benabou",
+        "given": "R.",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "J. Tirole",
+        "family": "Tirole",
+        "given": "J.",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "The Quarterly Journal of Economics",
+    "Year": 2006,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.00990099009901,
+    "enrichment_adjusted_score": 99.00990099009901,
+    "enrichment_candidate_title": "Belief in a Just World and Redistributive Politics",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

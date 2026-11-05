@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "513cf0ca25edd4a5ef9a5ae2e541d5abca56c60aa5be20a40e7979851e942432",
+  "result_fingerprint": "b4a6b33c96ccf8bb9f9812d231c5b0a8a29d35ba8d500a6b9fc52e1e60ecc84b",
+  "result": {
+    "doi": "10.1186/1752-1505-6-12",
+    "Title": "The association between armed conflict, violence and mental health: a cross sectional study comparing two populations in Cundinamarca department, Colombia",
+    "Authors_List": [
+      "Alicia Londoño",
+      "Perla Romero",
+      "Germán Casas"
+    ],
+    "Authors": "Alicia Londoño, Perla Romero, Germán Casas",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Alicia Londoño",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5015340224",
+        "orcid": null
+      },
+      {
+        "display_name": "Perla Romero",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5104034114",
+        "orcid": null
+      },
+      {
+        "display_name": "Germán Casas",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5045889113",
+        "orcid": "0000-0001-6264-7772"
+      }
+    ],
+    "Journal": "Conflict and Health",
+    "Year": 2012,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 91.16607773851591,
+    "enrichment_adjusted_score": 91.16607773851591,
+    "enrichment_candidate_title": "The association between armed conflict, violence and mental health: a cross sectional study comparing two populations in Cundinamarca department, Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

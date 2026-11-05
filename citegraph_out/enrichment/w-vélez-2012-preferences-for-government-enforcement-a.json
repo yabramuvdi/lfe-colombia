@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "07973398c3ffa9080b6967b3f7622eb017d43d4ff89cfa230de215b445ed0fb1",
+  "result_fingerprint": "1284282c9a17508aef8f7a936ec953793fd13efbebb02f954899c44ec3d1b673",
+  "result": {
+    "doi": "10.1016/j.ecolecon.2012.02.030",
+    "Title": "Preferences for government enforcement of a common pool harvest quota: Theory and experimental evidence from fishing communities in Colombia",
+    "Authors_List": [
+      "María Alejandra Vélez",
+      "John K. Stranlund",
+      "James J. Murphy"
+    ],
+    "Authors": "María Alejandra Vélez, John K. Stranlund, James J. Murphy",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "María Alejandra Vélez",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5027790614",
+        "orcid": "0000-0002-8916-8808"
+      },
+      {
+        "display_name": "John K. Stranlund",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5080367730",
+        "orcid": null
+      },
+      {
+        "display_name": "James J. Murphy",
+        "family": null,
+        "given": null,
+        "openalex_id": "A5103245616",
+        "orcid": "0000-0001-5619-5693"
+      }
+    ],
+    "Journal": "Ecological Economics",
+    "Year": 2012,
+    "enrichment_source": "openalex",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Preferences for government enforcement of a common pool harvest quota: Theory and experimental evidence from fishing communities in Colombia",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

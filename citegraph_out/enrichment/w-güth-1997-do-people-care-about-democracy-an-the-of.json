@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "cebeb0b9e28e6db22ae262b3442e109f862c25b4093d022c61a89e456f0678b5",
+  "result_fingerprint": "7ba520551f4c5a2ed7a85230ea0c589e65cc319ed54c4fd9f24e26862261837a",
+  "result": {
+    "doi": "10.1023/a:1004972900845",
+    "Title": "Do people care about democracy? An experiment exploring the value of voting rights",
+    "Authors_List": [
+      "Werner Güth",
+      "Hannelore Weck-Hannemann"
+    ],
+    "Authors": "Werner Güth, Hannelore Weck-Hannemann",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Werner Güth",
+        "family": "Güth",
+        "given": "Werner",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Hannelore Weck-Hannemann",
+        "family": "Weck-Hannemann",
+        "given": "Hannelore",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Public Choice",
+    "Year": 1997,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 99.39393939393939,
+    "enrichment_adjusted_score": 99.39393939393939,
+    "enrichment_candidate_title": "Do people care about democracy? An experiment exploring the value of voting rights",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

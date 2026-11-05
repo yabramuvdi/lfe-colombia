@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "5c1b23e88f0947f298a804fc03c4eb079470aea11c98f82e04fe9d681c88e4da",
+  "result_fingerprint": "5d5929fa896c8c9f7b62fd51a66fb65b303e117d19af837f002c17c1ddbfd878",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 62.06896551724138,
+    "enrichment_adjusted_score": 62.06896551724138,
+    "enrichment_candidate_title": "Sierra, Benito M.",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

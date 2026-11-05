@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "02064529d4a94d8797b84a9c410f6043977aa14ebac0bf73d1cf20918a3f503f",
+  "result_fingerprint": "b335b4652cd73aacb10da8ca43ebd5a323473fbf3f6a6e2b8fe7e51baf5e90f5",
+  "result": {
+    "doi": "10.1002/ejsp.2244",
+    "Title": "Competition over collective victimhood recognition: When perceived lack of recognition for past victimization is associated with negative attitudes towards another victimized group",
+    "Authors_List": [
+      "Laura De Guissmé",
+      "Laurent Licata"
+    ],
+    "Authors": "Laura De Guissmé, Laurent Licata",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Laura De Guissmé",
+        "family": "De Guissmé",
+        "given": "Laura",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Laurent Licata",
+        "family": "Licata",
+        "given": "Laurent",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "European Journal of Social Psychology",
+    "Year": 2017,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 100.0,
+    "enrichment_adjusted_score": 100.0,
+    "enrichment_candidate_title": "Competition over collective victimhood recognition: When perceived lack of recognition for past victimization is associated with negative attitudes towards another victimized group",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

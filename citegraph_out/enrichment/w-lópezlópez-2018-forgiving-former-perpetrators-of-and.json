@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "876c3a919e6ad986cd43ab4210f1792596a006a9715166958ddefaa76265e01c",
+  "result_fingerprint": "c5db2bd180d36e69d6b2a3ffd74badc5e25ad58bed9efd42455902c297b1d2b4",
+  "result": {
+    "doi": "10.1037/pac0000295",
+    "Title": "Forgiving former perpetrators of violence and reintegrating them into colombian civil society: Noncombatant citizens’ positions.",
+    "Authors_List": [
+      "Wilson López López",
+      "Gonzalo Sandoval Alvarado",
+      "Sebastián Rodríguez",
+      "Camila Ruiz",
+      "Juan David León",
+      "Claudia Pineda-Marín",
+      "Etienne Mullet"
+    ],
+    "Authors": "Wilson López López, Gonzalo Sandoval Alvarado, Sebastián Rodríguez, Camila Ruiz, Juan David León, Claudia Pineda-Marín, Etienne Mullet",
+    "OpenAlex_Authors": [
+      {
+        "display_name": "Wilson López López",
+        "family": "López López",
+        "given": "Wilson",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Gonzalo Sandoval Alvarado",
+        "family": "Sandoval Alvarado",
+        "given": "Gonzalo",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Sebastián Rodríguez",
+        "family": "Rodríguez",
+        "given": "Sebastián",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Camila Ruiz",
+        "family": "Ruiz",
+        "given": "Camila",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Juan David León",
+        "family": "León",
+        "given": "Juan David",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Claudia Pineda-Marín",
+        "family": "Pineda-Marín",
+        "given": "Claudia",
+        "openalex_id": null,
+        "orcid": null
+      },
+      {
+        "display_name": "Etienne Mullet",
+        "family": "Mullet",
+        "given": "Etienne",
+        "openalex_id": null,
+        "orcid": null
+      }
+    ],
+    "Journal": "Peace and Conflict: Journal of Peace Psychology",
+    "Year": 2018,
+    "enrichment_source": "crossref",
+    "enrichment_status": "matched",
+    "enrichment_miss_reason": null,
+    "enrichment_title_score": 98.82352941176471,
+    "enrichment_adjusted_score": 98.82352941176471,
+    "enrichment_candidate_title": "Forgiving former perpetrators of violence and reintegrating them into colombian civil society: Noncombatant citizens’ positions.",
+    "enrichment_year_match": true,
+    "enrichment_year_delta": 0
+  }
+}

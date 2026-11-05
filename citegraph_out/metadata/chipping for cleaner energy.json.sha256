@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "input_sha256": "e0b35b13594b1e4dfb00ed45e0c60c81d9524b3174e2af2338e216a4c9e07be4",
+  "output_sha256": "92f930fd1496e5e11a48ba54dd2f78b0b3d5910fb5af2341f8e1871c19f47c90",
+  "recipe": {
+    "version": 1,
+    "model": "gemini-3.1-flash-lite",
+    "schema": {
+      "description": "Bibliographic metadata extracted from a single source paper.\n\nUsed both as the output of :mod:`citegraph.extract_metadata` and as the\n``response_schema`` for Gemini's structured output.",
+      "properties": {
+        "Title": {
+          "description": "The full title of the paper.",
+          "title": "Title",
+          "type": "string"
+        },
+        "Authors_List": {
+          "description": "List of every author name.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Authors List",
+          "type": "array"
+        },
+        "Journal": {
+          "description": "Journal or venue where the paper was published.",
+          "title": "Journal",
+          "type": "string"
+        },
+        "Year": {
+          "description": "Publication year as an integer.",
+          "title": "Year",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "Title",
+        "Authors_List",
+        "Journal",
+        "Year"
+      ],
+      "title": "PaperMetadata",
+      "type": "object"
+    },
+    "prompt": "\nExtract the basic bibliographic information from the following paper. The information should include:\n- Title: The full title of the paper\n- Authors_List: A list of all authors\n- Journal: The journal or venue where the paper was published\n- Year: The publication year as an integer\n\nMake sure to not include any dirty characters that might have come from problems in the PDF.\n\nHere is the paper content:\n\n",
+    "system_instruction": "You are a helpful assistant with great expertise in extracting bibliographic information from academic papers in markdown format.",
+    "max_input_chars": 12000
+  }
+}

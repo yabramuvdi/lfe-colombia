@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "input_fingerprint": "f359f71ecd3942ba52791b52f50d8ffbd89e5b28011fe7118beb070d76e1de65",
+  "result_fingerprint": "3df17833fcb6679efa244acee91fbeb8403109ed4f95b340d5176085cd80f3ae",
+  "result": {
+    "enrichment_status": "miss",
+    "enrichment_miss_reason": "below_title_threshold",
+    "enrichment_title_score": 56.84210526315789,
+    "enrichment_adjusted_score": 48.84210526315789,
+    "enrichment_candidate_title": "Criterios de diseño de un sistema de videovigilancia para la FACI – UTLVTE",
+    "enrichment_year_match": false,
+    "enrichment_year_delta": 7,
+    "doi": null,
+    "enrichment_source": null
+  }
+}

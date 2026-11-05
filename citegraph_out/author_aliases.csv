@@ -1,0 +1,92 @@
+# hand-curated author merges (cluster_id,canonical_id)
+#
+# Applied last, after clustering. Use these for splits the algorithm cannot
+# resolve on its own — chiefly duplicate OpenAlex author profiles for one
+# person, where the "different ids => different clusters" rule (correctly)
+# refuses to merge and their no-id name variants orphan as a result.
+#
+# ---------------------------------------------------------------------------
+# NO-OP since the union-by-external-id fix (commit 2b1c8c6): kept for history.
+# OpenAlex has a duplicate profile (A5103350726) for Juan Camilo Cardenas that
+# blocked anchoring of no-id variants onto the real profile (A5042502300).
+# RETIRED 2026-09-13: names an id no generation of the corpus still
+# produces; the split it patched no longer happens. a-cardenas-juan-camilo-1,a-cardenas-juan-camilo
+#
+# ---------------------------------------------------------------------------
+# Rocío del Pilar Moreno-Sánchez — two OpenAlex profiles (A5034464542 and
+# A5014636823) plus a no-id variant. Same person: "R.P." matches "Rocío del
+# Pilar", and the -1 and -rp clusters both sit on the same paper, "Does
+# Scarcity Exacerbate the Tragedy of the Commons? Evidence from Fishers".
+# (Not merged: a-moreno-sanchez-ca — "C.A. Moreno-Sánchez" is someone else.)
+a-moreno-sanchez-rocio-del-pilar-1,a-moreno-sanchez-rocio-del-pilar
+# RETIRED 2026-09-13: names an id no generation of the corpus still
+# produces; the split it patched no longer happens. a-moreno-sanchez-rp,a-moreno-sanchez-rocio-del-pilar
+#
+# Andrés Casas-Casas — two OpenAlex profiles (A5023087563 and A5044104901)
+# plus a no-id variant; all three attest the compound surname "Casas-Casas"
+# with given name Andrés / initial A.
+# Also merged: a-casas-andres, "Andrés Casas" — same person publishing under
+# the single surname (confirmed by Yabra 2026-09-09). The compound-surname
+# bridging pass could not do this on its own: it needs exactly one candidate,
+# and "Casas" faced three separate "Casas-Casas" clusters.
+# (Not merged: a-casas-santiago-andres, a different given name.)
+# RETIRED 2026-09-13: names an id no generation of the corpus still
+# produces; the split it patched no longer happens. a-casas-casas-andres-1,a-casas-casas-andres
+a-casas-casas-a,a-casas-casas-andres
+# RETIRED 2026-09-13: names an id no generation of the corpus still
+# produces; the split it patched no longer happens. a-casas-andres,a-casas-casas-andres
+#
+# T.K. Ahn — two OpenAlex profiles (A5109950706 and A5045738759) plus a no-id
+# variant. All are Ostrom's collaborator on social capital, common-pool
+# resources and public goods ("Foundations of Social Capital", "Signals,
+# Symbols, and Human Cooperation").
+a-ahn-tk-1,a-ahn-tk
+a-ahn-tk-2,a-ahn-tk
+#
+# Sandra Viviana Polanía Reyes — two OpenAlex profiles (A5023359706 and
+# A5041496983) plus a no-id "Sandra Polanía" that the compound-surname
+# bridging pass will not take ("Sandra" is a prefix of "Sandra Viviana", not
+# an exact match). The -reyes-sandra and -sandra clusters hold the Spanish and
+# English versions of one paper ("Pasos metodológicos de un diseño
+# experimental para medir capital social").
+a-polania-sandra,a-polania-reyes-sandra-viviana
+a-polania-reyes-sandra,a-polania-reyes-sandra-viviana
+#
+# María Claudia López — two OpenAlex profiles (A5029507847 and A5065883353),
+# and CrossRef reports family="Claudia Lopez", which puts "Claudia Lopez" in
+# the compound-surname lexicon and parses her into a second surname block.
+# Same person: identical display name and 7 shared co-authors (Cardenas,
+# Stranlund, Spraggon, Murphy, Coleman, Maya, Villamayor-Tomas), both sides
+# doing commons/fisher experiments. Canonical is the correctly-parsed
+# surname="Lopez" cluster.
+# RETIRED 2026-09-13: names an id no generation of the corpus still
+# produces; the split it patched no longer happens. a-claudia-lopez-maria,a-lopez-maria-claudia
+#
+# ---------------------------------------------------------------------------
+# Adrián Saldarriaga-Isaza — the corpus carries his full name "Carlos Adrián
+# Saldarriaga Isaza" on one core work ("The Tragedy of the Commons in Artisanal
+# Gold Mining") and the shorter "Adrián Saldarriaga-Isaza" on the other two.
+# Neither cluster has an external id, and the given-name signatures "Carlos
+# Adrián" and "Adrián" are not compatible under the precision-first rule, so the
+# algorithm correctly refuses to merge them on string evidence alone. Same
+# person: he is a professor at UNAL Medellín and is in the 58-author career base
+# as a-saldarriaga-isaza-adrian. Found in review 2026-09-13.
+#
+# NOT YET APPLIED. `citegraph authors` refuses to run on this out_dir: three rows
+# above (a-cardenas-juan-camilo-1, a-casas-casas-andres-1, a-casas-andres) name
+# clusters the current code no longer produces, and more seriously a fresh run
+# shatters María Claudia López (a-lopez-maria-claudia, 24 works / 8 core) into four
+# clusters with mangled display names. The installed citegraph is not the version
+# that built this out_dir. Resolve that before re-running the stage; this row is
+# correct and should be applied at that point.
+a-saldarriaga-isaza-carlos-adrian,a-saldarriaga-isaza-adrian
+
+# Rebuilt 2026-09-13 against current ids, after the identity fixes.
+# Maria Claudia Lopez: restores the merge the retired row above used to make.
+# 'Lopez, MC' is her initials-only variant (6 works, was merged in the
+# previous curated state); 'Maria-Claudio Lopez' is OpenAlex's own typo on
+# profile A5029507847 - her profile - for one work.
+a-lopez-mc,a-lopez-maria-claudia
+a-lopez-maria-claudio,a-lopez-maria-claudia
+# Samuel Bowles: a bare 'Bowles' occurrence splits 1 work off his 27.
+a-bowles,a-bowles-samuel
