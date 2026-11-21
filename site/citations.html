@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cited Authors</title>
+<meta name="description" content="Every author cited in the bibliographies of the 93 core papers: how often, which works, and by which papers.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .stats { display:flex; flex-wrap:wrap; gap:12px 40px; margin:8px 0 4px; }
+  .stats div { font-size:28px; }
+  .stats small { display:block; font-size:12px; color:var(--muted); letter-spacing:.06em; text-transform:uppercase; }
+  .profile { margin-top:32px; border-top:1px solid var(--rule); padding-top:24px; }
+  details { border-top:1px solid var(--rule); padding:10px 0; }
+  summary { cursor:pointer; list-style:none; }
+  summary::-webkit-details-marker { display:none; }
+  summary::before { content:"+"; display:inline-block; width:18px; color:var(--muted); }
+  details[open] summary::before { content:"−"; }
+  summary .n { color:var(--muted); font-size:13px; white-space:nowrap; }
+  .refs { list-style:none; padding:6px 0 0 18px; margin:0; font-size:14px; }
+  .refs li { padding:3px 0; }
+  td a { text-decoration:none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Cited authors</h1>
+  <p class="lede">Everyone cited in the bibliographies of the 93 core papers. Search any author to see how often the corpus cites them, which of their works it cites, and which core papers do the citing. The table ranks the most cited.</p>
+  <label>Cited author</label>
+  <div id="pick"></div>
+  <div id="out"></div>
+  <footer>One citation is one core paper citing one work; every co-author of the cited work gets one credit (full counting), and repeated mentions in a text are not counted. Bold names are core authors. Source: <code>citegraph_out/citation_graph.csv</code> and <code>author_citations.csv</code>.</footer>
+</main>
+<script src="data/corpus.js"></script>
+<script src="data/people.js"></script>
+<script src="common.js"></script>
+<script>
+const W = CORPUS.works;
+const stats = {};  // author -> {cites, works:Set, papers:Set}
+for (const [a, b] of CORPUS.cites) for (const x of W[b].a || []) {
+  const s = stats[x] ??= { cites: 0, works: new Set(), papers: new Set() };
+  s.cites++; s.works.add(b); s.papers.add(a);
+}
+const citedBy = {};
+for (const [a, b] of CORPUS.cites) (citedBy[b] ??= []).push(a);
+const ranked = Object.keys(stats).sort((a, b) => stats[b].cites - stats[a].cites || nameOf(a).localeCompare(nameOf(b)));
+const N = ranked.length;
+
+const picker = combo(document.getElementById('pick'), {
+  items: ranked.map(k => ({ key: k, label: nameOf(k), sub: `${stats[k].cites} citation${stats[k].cites > 1 ? 's' : ''}` })),
+  current: () => stats[hashKey()] ? hashKey() : null, choose: k => location.hash = k, max: 100 });
+
+let sortBy = 'cites', shown = 25;
+const cols = [['cites', 'Citations'], ['works', 'Distinct works cited'], ['papers', 'Citing core papers']];
+const val = (k, c) => c === 'cites' ? stats[k].cites : stats[k][c].size;
+
+function table() {
+  const rows = ranked.slice().sort((a, b) => val(b, sortBy) - val(a, sortBy) || nameOf(a).localeCompare(nameOf(b))).slice(0, shown);
+  return `<div class="profile"><h3>Most cited, of ${N.toLocaleString('en')} cited authors</h3><div class="scroll"><table>
+    <thead><tr><th class="num">#</th><th>Author</th>${cols.map(([c, l]) => `<th class="num ${c === sortBy ? 'on' : ''}" data-c="${c}">${l}${c === sortBy ? ' ↓' : ''}</th>`).join('')}</tr></thead>
+    <tbody>${rows.map((k, i) => `<tr><td class="num muted">${i + 1}</td><td><a class="${isCore(k) ? 'core-link' : ''}" href="#${k}">${esc(nameOf(k))}</a></td>
+      ${cols.map(([c]) => `<td class="num">${val(k, c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+    ${shown < N ? `<p class="small"><a href="#" id="more">Show ${Math.min(25, N - shown)} more</a></p>` : ''}</div>`;
+}
+
+function profile(id) {
+  const s = stats[id];
+  const works = [...s.works].sort((a, b) => citedBy[b].length - citedBy[a].length || (W[a].y || 0) - (W[b].y || 0));
+  const rank = ranked.indexOf(id) + 1;
+  return `<div class="profile"><h2>${esc(nameOf(id))}</h2>
+    <p class="muted"><i>Rank ${rank} of ${N.toLocaleString('en')} by citations.</i>
+      ${isCore(id) ? ` Core author: <a href="authors.html#${id}">profile</a> · <a href="lineages.html#${id}">lineage</a>.` : ''}</p>
+    <div class="stats"><div>${s.cites}<small>citations</small></div><div>${s.works.size}<small>distinct works cited</small></div>
+      <div>${s.papers.size}<small>citing core papers · ${pct(s.papers.size, 93)}</small></div></div>
+    <h3>Cited works, most cited first</h3>
+    ${works.map(w => `<details><summary>${esc(W[w].t || '(untitled)')}${W[w].y ? ` (${esc(W[w].y)})` : ''}
+        <span class="n">· cited by ${citedBy[w].length}</span><br><span class="muted small" style="margin-left:18px">${byline(W[w])}${W[w].j ? `, <i>${esc(W[w].j)}</i>` : ''}</span></summary>
+      <ul class="refs">${citedBy[w].slice().sort((a, b) => W[a].y - W[b].y).map(p => `<li>${paperLink(p, W[p])} <span class="muted">(${W[p].y})</span></li>`).join('')}</ul></details>`).join('')}
+    <p class="small" style="margin-top:24px"><a href="#">← Back to the ranking</a></p></div>`;
+}
+
+function render() {
+  picker.refresh();
+  const id = hashKey(), out = document.getElementById('out');
+  out.innerHTML = stats[id] ? profile(id) : table();
+  out.querySelectorAll('th[data-c]').forEach(th => th.onclick = () => { sortBy = th.dataset.c; render(); });
+  document.getElementById('more')?.addEventListener('click', e => { e.preventDefault(); shown += 25; render(); });
+}
+addEventListener('hashchange', () => { render(); scrollTo(0, 0); });
+render();
+</script>
+</body>
+</html>

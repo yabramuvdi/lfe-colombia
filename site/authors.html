@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Authors</title>
+<meta name="description" content="Profiles of the 58 core authors: affiliation, doctoral training, core papers and co-authors.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .directory { columns:3 220px; column-gap:40px; padding:0; margin:0; list-style:none; }
+  .directory li { break-inside:avoid; padding:5px 0; }
+  .directory small { display:block; color:var(--muted); font-style:italic; font-size:12px; }
+  .profile { margin-top:32px; border-top:1px solid var(--rule); padding-top:24px; }
+  .profile .sub { color:var(--muted); font-style:italic; margin:0 0 20px; }
+  .people { list-style:none; padding:0; margin:0; font-size:15px; }
+  .people li { padding:3px 0; }
+  .people .n { color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Core authors</h1>
+  <p class="lede">The 58 core authors: those listed on at least two papers in the corpus, or sole author of one. Choose an author to see their affiliation, doctoral training, papers in the corpus and co-authors.</p>
+  <label>Author</label>
+  <div id="pick"></div>
+  <div id="out"></div>
+  <footer>Career data were hand-collected (<code>base_institucional.xlsx</code>, cleaned in <code>institutional/out/</code>). Affiliations are current as of collection.</footer>
+</main>
+<script src="data/corpus.js"></script>
+<script src="data/people.js"></script>
+<script src="common.js"></script>
+<script>
+const P = PEOPLE.people, W = CORPUS.works;
+const core = Object.keys(P).filter(k => P[k].core).sort((a, b) => P[a].name.localeCompare(P[b].name));
+const papers = {}, cites = {};
+for (const [id, w] of Object.entries(W)) if (w.core) for (const a of w.a || []) (papers[a] ??= []).push(id);
+for (const [, b] of CORPUS.cites) for (const a of W[b].a || []) cites[a] = (cites[a] || 0) + 1;
+const advisors = {}, students = {};
+for (const [a, s] of PEOPLE.ties) { (advisors[s] ??= []).push(a); (students[a] ??= []).push(s); }
+
+const where = p => [p.dept, p.aff, p.country].filter(Boolean).join(', ');
+const picker = combo(document.getElementById('pick'), {
+  items: core.map(k => ({ key: k, label: P[k].name, sub: P[k].aff })), current: () => P[hashKey()]?.core ? hashKey() : null,
+  choose: k => location.hash = k, placeholder: 'Type a name…' });
+
+const person = id => P[id]?.core ? `<a class="core-link" href="#${id}">${esc(P[id].name)}</a>` : esc(P[id]?.name ?? id);
+
+function render() {
+  const id = hashKey(), p = P[id], out = document.getElementById('out');
+  picker.refresh();
+  if (!p?.core) {
+    out.innerHTML = `<div class="profile"><ul class="directory">${core.map(k =>
+      `<li><a href="#${k}">${esc(P[k].name)}</a><small>${esc(P[k].aff || '')}</small></li>`).join('')}</ul></div>`;
+    return;
+  }
+  const mine = (papers[id] || []).sort((a, b) => W[a].y - W[b].y);
+  const co = {};
+  for (const w of mine) for (const a of W[w].a) if (a !== id) co[a] = (co[a] || 0) + 1;
+  const coList = Object.entries(co).sort((a, b) => (isCore(b[0]) - isCore(a[0])) || b[1] - a[1] || nameOf(a[0]).localeCompare(nameOf(b[0])));
+  const adv = advisors[id] || [], stu = students[id] || [];
+  const advText = adv.length ? adv.map(person).join(', ')
+    : p.advisors === 'none' ? '— (no doctorate)' : '<span class="muted">not recorded</span>';
+  out.innerHTML = `<div class="profile">
+    <h2>${esc(p.name)}</h2>
+    <p class="sub">${esc(where(p))}</p>
+    <div class="cols">
+      <div>
+        <h3>Current position</h3>
+        <dl class="dl">
+          <dt>Institution</dt><dd>${esc(p.aff || '—')}</dd>
+          <dt>Department</dt><dd>${esc(p.dept || '—')}</dd>
+          <dt>Field</dt><dd>${esc(p.aff_field || '—')}</dd>
+          <dt>Country</dt><dd>${esc(p.country || '—')}</dd>
+        </dl>
+      </div>
+      <div>
+        <h3>Doctorate</h3>
+        <dl class="dl">
+          <dt>Where, when</dt><dd>${esc(p.phd || '—')}</dd>
+          <dt>Field</dt><dd>${esc(p.phd_field || '—')}</dd>
+          ${p.phd_title ? `<dt>Degree</dt><dd>${esc(p.phd_title)}</dd>` : ''}
+          <dt>Advisors</dt><dd>${advText}</dd>
+          ${stu.length ? `<dt>Students</dt><dd>${stu.map(person).join(', ')}</dd>` : ''}
+        </dl>
+        <p class="small"><a href="lineages.html#${id}">See the doctoral lineage →</a></p>
+      </div>
+    </div>
+    <h3>Papers in the corpus (${mine.length})</h3>
+    <ul class="works">${mine.map(w => `<li><div class="t"><span class="muted">${W[w].y}</span> ${paperLink(w, W[w])}</div>
+      <div class="by">${byline(W[w])}</div><div class="meta">${esc(W[w].j || '')}<span class="tag">${esc(W[w].tema)}</span></div></li>`).join('')}</ul>
+    <div class="cols">
+      <div>
+        <h3>Co-authors in the corpus (${coList.length})</h3>
+        ${coList.length ? `<ul class="people">${coList.map(([a, n]) => `<li>${authorLink(a)} <span class="n">· ${n} paper${n > 1 ? 's' : ''}</span></li>`).join('')}</ul>`
+          : '<p class="muted small">Sole author of all their papers in the corpus.</p>'}
+      </div>
+      <div>
+        <h3>Cited by the corpus</h3>
+        <p>${cites[id] ? `${cites[id]} citations from the core papers. <a href="citations.html#${id}">See what is cited →</a>` : 'Not cited by other core papers.'}</p>
+      </div>
+    </div>
+  </div>`;
+}
+addEventListener('hashchange', () => { render(); scrollTo(0, 0); });
+render();
+</script>
+</body>
+</html>

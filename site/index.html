@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Papers</title>
+<meta name="description" content="The 93 publications derived from lab-in-the-field experiments conducted in Colombia, with their metadata and bibliographies.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .charts { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:24px 48px; margin-bottom:32px; }
+  .chart svg { display:block; width:100%; height:auto; }
+  .chart text { fill:var(--muted); font-family:Georgia, serif; font-size:11px; }
+  .chart rect { fill:var(--ink); }
+  .chart rect.off { fill:var(--line); opacity:.45; }
+  .chart .bar { cursor:pointer; }
+  .chart .bar:hover rect { fill:var(--accent); }
+  .hbars .bar { display:grid; grid-template-columns:minmax(120px, 44%) 1fr; gap:10px; align-items:center; padding:3px 0; font-size:13px; }
+  .hbars .lab { text-align:right; line-height:1.2; }
+  .hbars .track { display:flex; align-items:center; gap:6px; min-width:0; }
+  .hbars i { display:block; height:12px; background:var(--ink); flex:none; }
+  .hbars i.off { background:var(--line); opacity:.45; }
+  .hbars small { color:var(--muted); font-size:11px; white-space:nowrap; }
+  .hbars .bar:hover i { background:var(--accent); }
+  .filters { display:flex; flex-wrap:wrap; gap:14px 28px; align-items:flex-end; margin-bottom:8px; }
+  .filters .grow { flex:1 1 280px; }
+  .filters input { font-size:15px; padding:6px 2px; }
+  .count { font-size:13px; color:var(--muted); margin:14px 0 4px; }
+  .count button { font:inherit; color:var(--accent); background:none; border:0; padding:0; cursor:pointer; text-decoration:underline; }
+  .works .t a { text-decoration:none; }
+  .works .t a:hover { text-decoration:underline; }
+  .works .yr { color:var(--muted); font-variant-numeric:tabular-nums; margin-right:8px; }
+  .detail { margin:14px 0 4px; padding:16px 18px; background:var(--tint); }
+  .detail h3 { margin-top:20px; }
+  .detail h3:first-child { margin-top:0; }
+  .refs { list-style:none; padding:0; margin:0; font-size:14px; }
+  .refs li { padding:4px 0; }
+  .refs .core-ref::before { content:"●"; color:var(--accent); font-size:9px; margin-right:6px; vertical-align:2px; }
+  .open > .t a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Core papers</h1>
+  <p class="lede">The 93 publications derived from lab-in-the-field experiments conducted in Colombia. Search or filter the list, click a bar to filter by year or theme, and open any paper to see its metadata, its bibliography, and the core papers that cite it.</p>
+
+  <div class="charts">
+    <div class="chart"><h3>Publications per year</h3><svg id="byYear"></svg></div>
+    <div class="chart"><h3>Publications per theme</h3><div id="byTheme" class="hbars"></div></div>
+  </div>
+
+  <div class="filters">
+    <div class="grow"><label for="q">Search</label><input id="q" placeholder="Title, author or journal…" autocomplete="off"></div>
+    <div><label for="theme">Theme</label><select id="theme"></select></div>
+    <div><label for="type">Type</label><select id="type"></select></div>
+  </div>
+  <p class="count" id="count"></p>
+  <ul class="works" id="list"></ul>
+
+  <footer>Bold names are core authors and link to their profiles. In a bibliography, <span style="color:var(--accent)">●</span> marks a work that is itself a core paper. Themes and publication types are hand-coded (<code>citegraph_out/work_annotations.csv</code>); bibliographies were extracted from the full texts (<code>citegraph_out/citation_graph.csv</code>).</footer>
+</main>
+<script src="data/corpus.js"></script>
+<script src="data/people.js"></script>
+<script src="common.js"></script>
+<script>
+const W = CORPUS.works;
+const core = Object.keys(W).filter(id => W[id].core)
+  .sort((a, b) => (W[a].y - W[b].y) || W[a].t.localeCompare(W[b].t));
+const refs = {}, citedBy = {};
+for (const [a, b] of CORPUS.cites) { (refs[a] ??= []).push(b); (citedBy[b] ??= []).push(a); }
+const byCount = arr => Object.entries(arr.reduce((m, k) => (m[k] = (m[k] || 0) + 1, m), {})).sort((a, b) => b[1] - a[1]);
+
+const q = document.getElementById('q'), themeSel = document.getElementById('theme'), typeSel = document.getElementById('type');
+const opts = (sel, label, values) => sel.innerHTML = `<option value="">All ${label}</option>`
+  + values.map(([v, n]) => `<option value="${esc(v)}">${esc(v)} (${n})</option>`).join('');
+opts(themeSel, 'themes', byCount(core.map(id => W[id].tema)));
+opts(typeSel, 'types', byCount(core.map(id => W[id].type)));
+let yearFilter = null;
+
+const haystack = Object.fromEntries(core.map(id => [id, fold([W[id].t, W[id].j, ...(W[id].a || []).map(nameOf)].join(' '))]));
+function visible() {
+  const t = fold(q.value.trim());
+  return core.filter(id => (!t || haystack[id].includes(t)) && (!themeSel.value || W[id].tema === themeSel.value)
+    && (!typeSel.value || W[id].type === typeSel.value) && (!yearFilter || W[id].y === yearFilter));
+}
+
+function workLine(id) {
+  const w = W[id];
+  const label = w.core ? paperLink(id, w) : esc(w.t || '(untitled)');
+  return `<li class="${w.core ? 'core-ref' : ''}">${label}<br><span class="muted">${byline(w)}${w.y ? ` (${esc(w.y)})` : ''}`
+    + `${w.j ? `, <i>${esc(w.j)}</i>` : ''}</span></li>`;
+}
+
+function detail(id) {
+  const w = W[id], r = (refs[id] || []).slice().sort((a, b) => (W[b].core ? 1 : 0) - (W[a].core ? 1 : 0) || (W[a].y || 0) - (W[b].y || 0));
+  const cb = (citedBy[id] || []).slice().sort((a, b) => W[a].y - W[b].y);
+  return `<div class="detail"><dl class="dl">
+      <dt>Authors</dt><dd>${byline(w)}</dd>
+      <dt>Year</dt><dd>${esc(w.y)}</dd>
+      <dt>Venue</dt><dd>${esc(w.j || '—')}</dd>
+      <dt>Theme</dt><dd>${esc(w.tema || '—')}</dd>
+      <dt>Type</dt><dd>${esc(w.type || '—')}</dd>
+      <dt>JEL codes</dt><dd>${esc(w.jel || '—')}</dd>
+      <dt>DOI</dt><dd>${w.doi ? `<a href="https://doi.org/${esc(w.doi)}" target="_blank" rel="noopener">${esc(w.doi)}</a>` : '—'}</dd>
+    </dl>
+    <h3>Cited by core papers (${cb.length})</h3>
+    ${cb.length ? `<ul class="refs">${cb.map(workLine).join('')}</ul>` : '<p class="muted small">No other core paper cites it.</p>'}
+    <h3>Bibliography (${r.length} works${(k => k ? `, ${k} of them ${k > 1 ? 'core papers' : 'a core paper'}` : '')(r.filter(x => W[x].core).length)})</h3>
+    ${r.length ? `<ul class="refs">${r.map(workLine).join('')}</ul>` : '<p class="muted small">No references extracted.</p>'}
+  </div>`;
+}
+
+function bars(svg, rows, { horizontal, onPick, picked }) {
+  const max = Math.max(...rows.map(r => r[1])), total = rows.reduce((s, r) => s + r[1], 0);
+  let h = '';
+  if (horizontal) {  // plain HTML rows, so labels stay readable at phone width
+    h = rows.map(([k, n]) => `<div class="bar" data-k="${esc(k)}"><span class="lab">${esc(k)}</span>`
+      + `<span class="track"><i class="${picked && picked !== k ? 'off' : ''}" style="width:calc((100% - 70px) * ${(n / max).toFixed(4)})"></i>`
+      + `<small>${n} · ${pct(n, total)}</small></span></div>`).join('');
+  } else {
+    const years = rows.map(r => +r[0]), y0 = Math.min(...years), y1 = Math.max(...years), H = 120, W_ = 520;
+    const bw = W_ / (y1 - y0 + 1), m = Object.fromEntries(rows);
+    for (let y = y0; y <= y1; y++) {
+      const n = m[y] || 0, bh = (H - 18) * n / max, x = (y - y0) * bw;
+      h += `<g class="bar" data-k="${y}"><title>${y}: ${n}</title><rect class="${picked && picked !== y ? 'off' : ''}" x="${x + 1}" y="${H - 18 - bh}" width="${bw - 2}" height="${bh}"/>`
+         + `<rect x="${x}" y="0" width="${bw}" height="${H}" fill="transparent" style="fill:transparent"/></g>`;
+      if (y % 5 === 0) h += `<text x="${x + bw / 2}" y="${H - 4}" text-anchor="middle">${y}</text>`;
+    }
+    svg.setAttribute('viewBox', `0 0 ${W_} ${H}`);
+  }
+  svg.innerHTML = h;
+  svg.onclick = e => { const k = e.target.closest('.bar')?.dataset.k; if (k) onPick(k); };
+}
+
+function render() {
+  const ids = visible(), open = hashKey();
+  bars(document.getElementById('byYear'), byCount(core.map(id => W[id].y)).map(([y, n]) => [+y, n]),
+       { onPick: y => { yearFilter = yearFilter === +y ? null : +y; render(); }, picked: yearFilter });
+  bars(document.getElementById('byTheme'), byCount(core.map(id => W[id].tema)),
+       { horizontal: true, onPick: t => { themeSel.value = themeSel.value === t ? '' : t; render(); }, picked: themeSel.value });
+  const filtered = ids.length < core.length;
+  document.getElementById('count').innerHTML = `Showing ${ids.length} of ${core.length} papers`
+    + (yearFilter ? ` from ${yearFilter}` : '') + (filtered ? ` · <button id="reset">clear filters</button>` : '');
+  document.getElementById('reset')?.addEventListener('click', () => { q.value = ''; themeSel.value = typeSel.value = ''; yearFilter = null; render(); });
+  document.getElementById('list').innerHTML = ids.map(id => {
+    const w = W[id];
+    return `<li id="${id}" class="${id === open ? 'open' : ''}"><div class="t"><span class="yr">${w.y}</span><a href="#${id}">${esc(w.t)}</a></div>
+      <div class="by">${byline(w)}</div>
+      <div class="meta">${esc(w.j || '')}<span class="tag">${esc(w.tema)}</span><span class="tag">${esc(w.type)}</span></div>
+      ${id === open ? detail(id) : ''}</li>`;
+  }).join('') || '<li class="muted">No paper matches these filters.</li>';
+}
+
+q.addEventListener('input', render);
+themeSel.addEventListener('change', render);
+typeSel.addEventListener('change', render);
+document.getElementById('list').addEventListener('click', e => {
+  const a = e.target.closest('.t a'); if (!a) return;
+  const id = a.getAttribute('href').slice(1);
+  if (id === hashKey()) { e.preventDefault(); history.replaceState(null, '', location.pathname + location.search); render(); }
+});
+addEventListener('hashchange', () => { render(); document.getElementById(hashKey())?.scrollIntoView({ block: 'start' }); });
+render();
+if (W[hashKey()]?.core) document.getElementById(hashKey())?.scrollIntoView({ block: 'start' });
+</script>
+</body>
+</html>

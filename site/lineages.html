@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doctoral Lineages</title>
+<meta name="description" content="Doctoral supervision ties among the authors of lab-in-the-field experiments conducted in Colombia.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .tree { overflow-x:auto; margin-top:32px; border-top:1px solid var(--rule); padding-top:24px; }
+  #tree { display:block; margin:0 auto; }
+  #tree text { fill:var(--ink); font-family:Georgia, "Times New Roman", serif; font-size:14px; }
+  #tree text.sub { fill:var(--muted); font-size:11px; font-style:italic; }
+  #tree path { fill:none; stroke:var(--line); stroke-width:1; transition:stroke .15s, opacity .15s; }
+  #tree circle { stroke:var(--ink); stroke-width:1.3; fill:var(--bg); }
+  #tree .core circle { fill:var(--ink); }
+  #tree .sel circle { fill:var(--accent); stroke:var(--accent); }
+  #tree .sel text:not(.sub) { fill:var(--accent); font-weight:bold; }
+  #tree .core { cursor:pointer; }
+  #tree path.hot { stroke:var(--accent); stroke-width:1.8; }
+  #tree.hovering path:not(.lit) { opacity:.25; }
+  #tree.hovering path.lit { stroke:var(--accent); stroke-width:1.8; opacity:1; }
+  .note { color:var(--muted); font-style:italic; text-align:center; margin:18px 0 0; }
+  .legend { display:flex; gap:22px; flex-wrap:wrap; font-size:13px; color:var(--muted); margin-top:28px; }
+  .legend span::before { content:""; display:inline-block; width:9px; height:9px; border-radius:50%;
+                         border:1.3px solid var(--ink); margin-right:7px; vertical-align:-1px; }
+  .legend .k-core::before { background:var(--ink); }
+  .legend .k-sel::before { background:var(--accent); border-color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Doctoral lineages</h1>
+  <p class="lede">Doctoral supervision ties among the 58 core authors of lab-in-the-field experiments conducted in Colombia: authors listed on at least two papers in the corpus, or sole author of one. Choose an author to see the whole family their ties connect them to.</p>
+
+  <label>Author</label>
+  <div id="pick"></div>
+
+  <div class="tree"><svg id="tree"></svg></div>
+  <p class="note" id="note"></p>
+
+  <div class="legend">
+    <span class="k-sel">Selected author</span><span class="k-core">Core author (click to open)</span><span>Advisor outside the list</span>
+  </div>
+  <footer>Rows are generations; each curve runs from an advisor above to a doctoral student below. Under each core author is the institution and year of their doctorate. Hover over anyone to trace their ties. Source: <code>institutional/out/supervision.csv</code> in the replication package. Each core author's profile is on the <a href="authors.html">Authors</a> page.</footer>
+</main>
+<script src="data/people.js"></script>
+<script src="common.js"></script>
+<script>
+const P = PEOPLE.people, svg = document.getElementById('tree');
+const up = {}, down = {};
+for (const k in P) { up[k] = []; down[k] = []; }
+for (const [a, s] of PEOPLE.ties) { down[a].push(s); up[s].push(a); }
+
+const core = Object.keys(P).filter(k => P[k].core).sort((a, b) => P[a].name.localeCompare(P[b].name));
+const current = () => P[hashKey()]?.core ? hashKey() : 'a-cardenas-juan-camilo';
+const picker = combo(document.getElementById('pick'), {
+  items: core.map(k => ({ key: k, label: P[k].name, sub: P[k].phd })), current, choose: k => location.hash = k });
+addEventListener('hashchange', draw);
+
+const ctx = document.createElement('canvas').getContext('2d');
+const textW = (s, font) => (ctx.font = font, ctx.measureText(s).width);
+
+function family(start) {
+  const seen = new Set([start]), queue = [start];
+  while (queue.length) { const n = queue.shift();
+    for (const m of [...up[n], ...down[n]]) if (!seen.has(m)) { seen.add(m); queue.push(m); } }
+  return [...seen];
+}
+
+function generations(nodes) {
+  // longest path from the top, then pull childless-above advisors down next to their students
+  const g = {}; nodes.forEach(n => g[n] = 0);
+  for (let changed = true; changed;) { changed = false;
+    for (const n of nodes) for (const a of up[n]) if (g[n] < g[a] + 1) { g[n] = g[a] + 1; changed = true; } }
+  for (let changed = true; changed;) { changed = false;
+    for (const n of nodes) if (!up[n].length && down[n].length) {
+      const want = Math.min(...down[n].map(s => g[s])) - 1;
+      if (want > g[n]) { g[n] = want; changed = true; } } }
+  return g;
+}
+
+function draw() {
+  const sel = current();
+  picker.refresh();
+  const nodes = family(sel), g = generations(nodes);
+  const rows = []; nodes.forEach(n => (rows[g[n]] ??= []).push(n));
+  // order within rows: a few barycenter sweeps to reduce crossings (ponytail: heuristic, fine at this size)
+  const pos = {}; const place = () => rows.forEach(r => r.forEach((n, i) => pos[n] = i / Math.max(1, r.length - 1)));
+  const mean = (xs, d) => xs.length ? xs.reduce((s, x) => s + pos[x], 0) / xs.length : d;
+  rows.forEach(r => r.sort((a, b) => P[a].name.localeCompare(P[b].name))); place();
+  for (let it = 0; it < 6; it++) {
+    rows.forEach((r, i) => { if (i) r.sort((a, b) => mean(up[a], pos[a]) - mean(up[b], pos[b])); place(); });
+    for (let i = rows.length - 2; i >= 0; i--) { rows[i].sort((a, b) => mean(down[a], pos[a]) - mean(down[b], pos[b])); place(); }
+  }
+  // then swap neighbours while that removes crossings
+  const ties = PEOPLE.ties.filter(([a]) => a in g && nodes.includes(a));
+  const crossings = () => { let c = 0; for (let i = 0; i < ties.length; i++) for (let j = i + 1; j < ties.length; j++) {
+    const [a1, s1] = ties[i], [a2, s2] = ties[j];
+    if (g[a1] === g[a2] && g[s1] === g[s2] && (pos[a1] - pos[a2]) * (pos[s1] - pos[s2]) < 0) c++; } return c; };
+  // equal-cost swaps are allowed so two-step fixes are reachable; bounded passes, best order kept
+  let best = crossings(), bestRows = rows.map(r => [...r]), cur = best;
+  for (let pass = 0; pass < 12 && best; pass++)
+    for (const r of rows) for (let i = 0; i + 1 < r.length; i++) {
+      [r[i], r[i + 1]] = [r[i + 1], r[i]]; place(); const c = crossings();
+      if (c <= cur) { cur = c; if (c < best) { best = c; bestRows = rows.map(r => [...r]); } }
+      else { [r[i], r[i + 1]] = [r[i + 1], r[i]]; place(); } }
+  bestRows.forEach((r, i) => rows[i] = r); place();
+  const GAP = 34, ROW = 108, PAD = 20;
+  const w = n => Math.max(textW(P[n].name, (n === sel ? 'bold ' : '') + '14px Georgia'), P[n].phd ? textW(P[n].phd, 'italic 11px Georgia') : 0);
+  const rowW = rows.map(r => r.reduce((s, n) => s + w(n), 0) + GAP * (r.length - 1));
+  const W = Math.max(...rowW) + 2 * PAD, H = rows.length * ROW + PAD;
+  const X = {}, Y = {};
+  rows.forEach((r, i) => {
+    let x = (W - rowW[i]) / 2; r.forEach(n => { X[n] = x + w(n) / 2; Y[n] = PAD + i * ROW; x += w(n) + GAP; });
+    if (!i || rowW[i] === Math.max(...rowW)) return;
+    // pull each node toward its advisors, then push apart left-to-right and back inside the page
+    r.forEach(n => { if (up[n].length) X[n] = up[n].reduce((s, a) => s + X[a], 0) / up[n].length; });
+    for (let k = 1; k < r.length; k++) X[r[k]] = Math.max(X[r[k]], X[r[k - 1]] + (w(r[k - 1]) + w(r[k])) / 2 + GAP);
+    const over = X[r.at(-1)] + w(r.at(-1)) / 2 - (W - PAD);
+    if (over > 0) r.forEach(n => X[n] -= over);
+    for (let k = r.length - 2; k >= 0; k--) X[r[k]] = Math.min(X[r[k]], X[r[k + 1]] - (w(r[k]) + w(r[k + 1])) / 2 - GAP);
+  });
+
+  let h = '';
+  for (const [a, s] of PEOPLE.ties) if (a in X && s in X) {
+    const y1 = Y[a] + (P[a].phd ? 46 : 32), y2 = Y[s], m = (y1 + y2) / 2;
+    h += `<path data-a="${a}" data-s="${s}" class="${a === sel || s === sel ? 'hot' : ''}" d="M${X[a]},${y1} C${X[a]},${m} ${X[s]},${m} ${X[s]},${y2}"/>`;
+  }
+  for (const n of nodes) {
+    const p = P[n], cls = (p.core ? 'core ' : '') + (n === sel ? 'sel' : '');
+    h += `<g class="${cls}" data-k="${n}"><circle cx="${X[n]}" cy="${Y[n] + 6}" r="5"/>`
+       + `<text x="${X[n]}" y="${Y[n] + 29}" text-anchor="middle">${esc(p.name)}</text>`
+       + (p.phd ? `<text class="sub" x="${X[n]}" y="${Y[n] + 43}" text-anchor="middle">${esc(p.phd)}</text>` : '') + '</g>';
+  }
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('width', W); svg.setAttribute('height', H);
+  svg.innerHTML = h;
+  svg.parentElement.scrollLeft = X[sel] - svg.parentElement.clientWidth / 2;
+
+  const s = P[sel];
+  document.getElementById('note').textContent = [
+    s.advisors === 'none' ? 'No doctorate recorded for this author.' :
+    s.advisors === 'unknown' ? 'Doctoral advisor not recorded for this author.' : '',
+    nodes.length > 1 ? `${nodes.length} people in this family.` : 'No doctoral supervision ties recorded.',
+  ].filter(Boolean).join(' ');
+}
+
+svg.addEventListener('mouseover', e => { const k = e.target.closest('g')?.dataset.k; if (!k) return;
+  svg.classList.add('hovering');
+  svg.querySelectorAll('path').forEach(p => p.classList.toggle('lit', p.dataset.a === k || p.dataset.s === k)); });
+svg.addEventListener('mouseout', e => { if (!e.relatedTarget?.closest?.('g')) svg.classList.remove('hovering'); });
+svg.addEventListener('click', e => { const k = e.target.closest('g.core')?.dataset.k; if (k) location.hash = k; });
+draw();
+</script>
+</body>
+</html>

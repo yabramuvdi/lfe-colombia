@@ -1,4 +1,4 @@
 column,type,allowed,description
-Tema,enum,Economics|Environmental Economics|Experimental and Behavioural Economics|Interdisciplinary|Development|Development Economics|Peace and Conflict Studies,"Broad research theme, assigned from the journal by the journal-to-theme table; papers outside a listed journal coded by hand (reasoning in Tema_evidence)"
+Tema,enum,Economics|Environmental and Ecological Economics|Experimental and Behavioural Economics|Interdisciplinary|Development|Development Economics|Peace and Conflict Studies,"Broad research theme, assigned from the journal by the journal-to-theme table; papers outside a listed journal coded by hand (reasoning in Tema_evidence)"
 Publication_Type,enum,Paper|Book chapter|Working paper|PhD dissertation,What kind of publication this is
 JEL_Codes,text,,"JEL codes separated by ; (e.g. D71; Q20). Fill in only for papers whose PDF prints none — citegraph jel lists them; a value here overrides extraction"

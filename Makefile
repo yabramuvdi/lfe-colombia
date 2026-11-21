@@ -9,9 +9,9 @@ OUT       := citegraph_out
 # LLM used for metadata and reference extraction (stages 2-3 of `pipeline`).
 MODEL     := gemini-3.1-flash-lite
 
-.PHONY: all env tables figures workbook export pipeline clean
+.PHONY: all env tables figures workbook export site pipeline clean
 
-all: tables figures workbook export
+all: tables figures workbook export site
 
 env: $(PY)
 $(PY): requirements.txt
@@ -47,6 +47,10 @@ workbook: tables figures
 # reviewing. Edit citegraph_out/work_annotations.csv, never this workbook.
 export: $(PY)
 	cd annotations && ../$(PY) make_core_papers_xlsx.py
+
+# Data for the explorer pages in site/, published to GitHub Pages.
+site: tables
+	$(PY) site/build_data.py
 
 # Optional: re-derive citegraph_out/ from its per-paper caches. Stages 2-3 are
 # served from metadata/ and references/ without calling the LLM; enrichment

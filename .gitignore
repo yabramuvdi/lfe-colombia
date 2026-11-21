@@ -16,3 +16,8 @@ citegraph_out/report.html
 # Copyrighted source texts: the PDFs, and the full-text markdown converted from them
 data/
 citegraph_out/markdown/
+
+# Manuscript drafts and Office lock files
+*.docx
+*.doc
+~$*

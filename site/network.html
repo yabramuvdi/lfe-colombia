@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-citation Network</title>
+<meta name="description" content="The author co-citation network of the 28 authors most cited by the core papers.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .net { overflow-x:auto; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); margin-top:8px; }
+  #net { display:block; width:100%; min-width:640px; height:auto; }
+  #net line { stroke:var(--line); stroke-linecap:round; transition:opacity .15s, stroke .15s; }
+  #net line.hot { stroke:var(--accent); opacity:1; }
+  #net.focus line:not(.hot) { opacity:.12; }
+  #net.focus g.node:not(.near) { opacity:.3; }
+  #net g.node { cursor:pointer; transition:opacity .15s; }
+  #net circle { stroke:var(--ink); stroke-width:1.2; }
+  #net .g0 circle { fill:var(--ink); }
+  #net .g1 circle { fill:var(--bg); }
+  #net .g2 circle { fill:var(--line); }
+  #net .sel circle { fill:var(--accent); stroke:var(--accent); }
+  #net text { fill:var(--ink); font-family:Georgia, serif; font-size:12px; paint-order:stroke; stroke:var(--bg); stroke-width:3px; }
+  #net .sel text { fill:var(--accent); font-weight:bold; }
+  .legend { display:flex; gap:8px 22px; flex-wrap:wrap; font-size:13px; color:var(--muted); margin:14px 0 0; }
+  .legend span::before { content:""; display:inline-block; width:10px; height:10px; border-radius:50%;
+                         border:1.2px solid var(--ink); margin-right:7px; vertical-align:-1px; }
+  .legend .g0::before { background:var(--ink); } .legend .g1::before { background:var(--bg); } .legend .g2::before { background:var(--line); }
+  .legend .gsel::before { background:var(--accent); border-color:var(--accent); }
+  .panel { margin-top:28px; }
+  .hint { display:flex; align-items:center; gap:10px; margin:18px 0 0; padding:10px 14px; background:var(--tint);
+          border-left:3px solid var(--accent); font-size:15px; }
+  .hint svg { flex:none; width:18px; height:18px; fill:none; stroke:var(--accent); stroke-width:1.6; stroke-linejoin:round; }
+  .pair { cursor:pointer; }
+  .pair:hover td { background:var(--tint); }
+  .pair.on td { color:var(--accent); }
+  .refs { list-style:none; padding:0; margin:0; font-size:14px; }
+  .refs li { padding:3px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Co-citation network</h1>
+  <p class="lede">The 28 authors cited by the largest number of core papers. Two authors are tied when a core paper cites both; each author's three strongest ties are drawn, with width showing how distinctive the tie is. Click an author to see everyone they are cited alongside, and click a pair to see the papers that cite both.</p>
+  <div class="legend" id="legend"></div>
+  <p class="hint" id="hint"></p>
+  <div class="net"><svg id="net"></svg></div>
+  <div class="panel" id="panel"></div>
+  <footer>Same construction as Figure 18 of the paper: ties are normalised by the square root of the product of the two authors' citing-paper counts (Salton's cosine), node area is proportional to the number of citing core papers, and the three neighbourhoods are the paper's reading of the map, not the output of a clustering algorithm. Positions come from a stress layout over the normalised ties among all pairs, so authors sit close when the corpus cites them together relative to how often it cites each; they carry no units.</footer>
+</main>
+<script src="data/corpus.js"></script>
+<script src="data/people.js"></script>
+<script src="data/network.js"></script>
+<script src="common.js"></script>
+<script>
+const N = NETWORK.nodes, W = CORPUS.works, svg = document.getElementById('net');
+const groups = [...new Set(Object.values(N).map(n => n.group))].sort();
+const gi = g => groups.indexOf(g);
+document.getElementById('legend').innerHTML = groups.map((g, i) => `<span class="g${i}">${esc(g)}</span>`).join('')
+  + '<span class="gsel">Selected</span>';
+
+// citing core papers per mapped author, to list the papers behind any tie
+const citing = {};
+for (const [a, b] of CORPUS.cites) for (const x of W[b].a || []) if (N[x]) (citing[x] ??= new Set()).add(a);
+
+const WID = 1000, HGT = 640, PAD = 70;
+const xs = Object.values(N).map(n => n.x), ys = Object.values(N).map(n => n.y);
+const sx = x => PAD + (x - Math.min(...xs)) / (Math.max(...xs) - Math.min(...xs)) * (WID - 2 * PAD);
+const sy = y => PAD + (y - Math.min(...ys)) / (Math.max(...ys) - Math.min(...ys)) * (HGT - 2 * PAD);
+const r = n => 4 + 2.2 * Math.sqrt(n.n);
+const maxCos = Math.max(...NETWORK.ties.filter(t => t[4]).map(t => t[3]));
+let pair = null;
+
+// Label placement: biggest nodes first, each label takes the first spot (below, above, right, left)
+// that clears every circle and every label already placed. ponytail: greedy; falls back to "below".
+const labels = (() => {
+  const ctx = document.createElement('canvas').getContext('2d'); ctx.font = '12px Georgia';
+  const boxes = Object.keys(N).map(k => { const x = sx(N[k].x), y = sy(N[k].y), rr = r(N[k]); return [x - rr, y - rr, x + rr, y + rr]; });
+  const hit = (a, b) => a[0] < b[2] && b[0] < a[2] && a[1] < b[3] && b[1] < a[3];
+  const out = {};
+  for (const k of Object.keys(N).sort((a, b) => N[b].n - N[a].n)) {
+    const x = sx(N[k].x), y = sy(N[k].y), rr = r(N[k]), w = ctx.measureText(nameOf(k)).width + 6, H = 14;
+    const spots = [[x, y + rr + 13, 'middle'], [x, y - rr - 5, 'middle'], [x + rr + 4, y + 4, 'start'], [x - rr - 4, y + 4, 'end']];
+    const box = ([lx, ly, an]) => { const x0 = an === 'middle' ? lx - w / 2 : an === 'start' ? lx : lx - w; return [x0, ly - H + 3, x0 + w, ly + 3]; };
+    const spot = spots.find(s => { const b = box(s); return b[0] > 0 && b[2] < WID && !boxes.some(o => hit(b, o)); }) || spots[0];
+    boxes.push(box(spot));
+    out[k] = { x: spot[0], y: spot[1], anchor: spot[2] };
+  }
+  return out;
+})();
+
+function draw() {
+  const sel = N[hashKey()] ? hashKey() : null;
+  const near = new Set(sel ? [sel, ...NETWORK.ties.filter(t => t[4] && (t[0] === sel || t[1] === sel)).map(t => t[0] === sel ? t[1] : t[0])] : []);
+  let h = '';
+  for (const [u, v, , c, drawn] of NETWORK.ties) if (drawn || (sel && pair && [u, v].includes(sel) && [u, v].includes(pair))) {
+    const hot = sel && (u === sel || v === sel) && (drawn || pair);
+    h += `<line class="${hot ? 'hot' : ''}" x1="${sx(N[u].x)}" y1="${sy(N[u].y)}" x2="${sx(N[v].x)}" y2="${sy(N[v].y)}" stroke-width="${0.6 + 4 * c / maxCos}"/>`;
+  }
+  for (const id of Object.keys(N)) {
+    const n = N[id], x = sx(n.x), y = sy(n.y), L = labels[id];
+    h += `<g class="node g${gi(n.group)} ${id === sel ? 'sel' : ''} ${near.has(id) || id === pair ? 'near' : ''}" data-k="${id}">`
+       + `<circle cx="${x}" cy="${y}" r="${r(n)}"/><text x="${L.x}" y="${L.y}" text-anchor="${L.anchor}">${esc(nameOf(id))}</text></g>`;
+  }
+  svg.setAttribute('viewBox', `0 0 ${WID} ${HGT}`);
+  svg.innerHTML = h;
+  svg.classList.toggle('focus', !!sel);
+  const cursor = '<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M4 2l10 7-4.5 1 2.5 5-2 1-2.5-5L4 14z"/></svg>';
+  document.getElementById('hint').innerHTML = cursor + (sel
+    ? `<span>Showing <b>${esc(nameOf(sel))}</b>. Click another author to switch, a row below to see the papers behind a tie, or the empty background to clear.</span>`
+    : '<span><b>Click any author in the network</b> to highlight their strongest ties and list everyone they are cited alongside.</span>');
+  panel(sel);
+}
+
+function panel(sel) {
+  const el = document.getElementById('panel');
+  if (!sel) { el.innerHTML = ''; return; }
+  const ties = NETWORK.ties.filter(t => t[0] === sel || t[1] === sel)
+    .map(([u, v, shared, c, drawn]) => ({ other: u === sel ? v : u, shared, c, drawn })).sort((a, b) => b.c - a.c);
+  const both = pair ? [...citing[sel]].filter(p => citing[pair].has(p)).sort((a, b) => W[a].y - W[b].y) : [];
+  el.innerHTML = `<h2>${esc(nameOf(sel))}</h2>
+    <p class="muted"><i>Cited by ${N[sel].n} of 93 core papers (${pct(N[sel].n, 93)}) · ${esc(N[sel].group)}</i>
+      · <a href="citations.html#${sel}">what is cited</a>${isCore(sel) ? ` · <a href="authors.html#${sel}">profile</a>` : ''}</p>
+    <div class="cols"><div>
+      <h3>Co-cited with, most distinctive first</h3>
+      <div class="scroll"><table><thead><tr><th>Author</th><th class="num">Papers citing both</th><th class="num">Normalised tie</th></tr></thead><tbody>
+      ${ties.map(t => `<tr class="pair ${t.other === pair ? 'on' : ''}" data-k="${t.other}"><td>${esc(nameOf(t.other))}${t.drawn ? ' <span class="muted small">— drawn</span>' : ''}</td>
+        <td class="num">${t.shared}</td><td class="num">${t.c.toFixed(2)}</td></tr>`).join('')}
+      </tbody></table></div></div>
+      <div>${pair ? `<h3>${both.length} core papers cite both ${esc(nameOf(sel))} and ${esc(nameOf(pair))}</h3>
+        <ul class="refs">${both.map(p => `<li>${paperLink(p, W[p])} <span class="muted">(${W[p].y})</span></li>`).join('')}</ul>`
+        : '<h3>Papers citing both</h3><p class="muted small">Click a row to list the core papers that cite both authors.</p>'}</div>
+    </div>`;
+  el.querySelectorAll('.pair').forEach(tr => tr.onclick = () => { pair = pair === tr.dataset.k ? null : tr.dataset.k; draw(); });
+}
+
+svg.addEventListener('click', e => {
+  const k = e.target.closest('g.node')?.dataset.k;
+  pair = null;
+  if (!k || k === hashKey()) history.replaceState(null, '', location.pathname + location.search); else location.hash = k;
+  draw();
+});
+addEventListener('hashchange', () => { pair = null; draw(); });
+draw();
+</script>
+</body>
+</html>

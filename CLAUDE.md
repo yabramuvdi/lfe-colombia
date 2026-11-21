@@ -12,6 +12,7 @@ make            # tables + figures + workbook + export; offline, no API key
 make tables     # institutional/out/*.csv only
 make figures    # runs both figure notebooks via run_notebooks.py (fails on first cell error)
 make export     # core_papers_export.xlsx
+make site       # site/data/*.js for the explorer pages (GitHub Pages; commit the result)
 make pipeline   # optional: re-derive citegraph_out/ CSVs from per-paper caches (enrich may hit network)
 make clean
 ```
