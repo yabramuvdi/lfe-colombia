@@ -1,4 +1,5 @@
-# Paper 4 replication package. `make` rebuilds every table and figure from the
+# Replication package for the chapter on lab-in-the-field experiments in Colombia.
+# `make` rebuilds every table and figure from the
 # committed inputs; nothing here needs network access or an API key except
 # the optional `pipeline` target.
 
@@ -25,9 +26,9 @@ tables: $(PY)
 	cd institutional && ../$(PY) build_clean_base.py
 
 # Every manuscript figure, written to institutional/out/figures/ and
-# citegraph_out/figures/. paper4_figures also writes citegraph_out/author_centrality.csv.
+# citegraph_out/figures/. figures.ipynb also writes citegraph_out/author_centrality.csv.
 figures: tables
-	$(PY) run_notebooks.py notebooks/paper4_institutional_figures.ipynb notebooks/paper4_figures.ipynb
+	$(PY) run_notebooks.py notebooks/institutional_figures.ipynb notebooks/figures.ipynb
 
 # One workbook of everything known about the authors of the core papers.
 workbook: tables figures

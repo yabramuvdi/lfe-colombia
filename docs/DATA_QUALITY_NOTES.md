@@ -1,4 +1,4 @@
-# Paper 4 — known data quality problems
+# Known data quality problems
 
 Written 2026-09-09, updated 2026-09-13. **Problem 1 is fixed in the current
 `citegraph_out/` artifacts; problem 2 is not.** Account for problem 2 before publishing
@@ -38,7 +38,7 @@ showed 17 changing, every one a pure suffix trim at a genuine back-matter header
 **Result.** 0 Ekonomiska works (was 180). The thesis now has out-degree 138 and keeps all
 six of its chapter bibliographies. Corpus-wide this took works 3,461 → 3,277 and edges
 4,686 → 4,532. **No exclusion filter is needed any more** — section 7 of
-`notebooks/paper4_figures.ipynb` still carries one and it can be removed.
+`notebooks/figures.ipynb` still carries one and it can be removed.
 
 **Verify:**
 

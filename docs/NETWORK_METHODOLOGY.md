@@ -1,6 +1,6 @@
-# Paper 4 — Network methodology, in plain words
+# Network methodology, in plain words
 
-Companion note to section 7 of `notebooks/paper4_figures.ipynb`. It explains what the
+Companion note to section 7 of `notebooks/figures.ipynb`. It explains what the
 network we analyse is, how it is built, what each number means, and what we deliberately
 leave out. It is written so that a co-author can lift paragraphs straight into the paper's
 methods section and so that a reviewer's likely objections are already answered.

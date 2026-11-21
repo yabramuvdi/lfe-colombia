@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Replication package for paper 4: reproduces every table and figure from committed inputs. The analysis library, [citegraph](https://github.com/yabramuvdi/citegraph), lives in a separate repo and is pinned by commit in `requirements.txt` (installed into `.venv`, so read its source under `.venv/lib/python3.11/site-packages/citegraph/`).
+Replication package for the chapter "Mapping the History of Lab in the Field Experiments in Colombia": reproduces every table and figure from committed inputs. The analysis library, [citegraph](https://github.com/yabramuvdi/citegraph), lives in a separate repo and is pinned by commit in `requirements.txt` (installed into `.venv`, so read its source under `.venv/lib/python3.11/site-packages/citegraph/`).
 
 ## Commands
 
@@ -17,7 +17,7 @@ make pipeline   # optional: re-derive citegraph_out/ CSVs from per-paper caches 
 make clean
 ```
 
-Run one notebook: `.venv/bin/python run_notebooks.py notebooks/paper4_figures.ipynb`. Notebooks execute with `notebooks/` as cwd. There is no test suite; verification is re-running `make` and checking outputs — two runs must give byte-identical PNGs (PDFs differ only in creation date).
+Run one notebook: `.venv/bin/python run_notebooks.py notebooks/figures.ipynb`. Notebooks execute with `notebooks/` as cwd. There is no test suite; verification is re-running `make` and checking outputs — two runs must give byte-identical PNGs (PDFs differ only in creation date).
 
 ## Architecture
 

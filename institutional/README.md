@@ -99,7 +99,7 @@ to 9), because two of them were Ostrom's ties into the Colombian group.
 ## Figures
 
 `make figures` from the repository root — or open
-`notebooks/paper4_institutional_figures.ipynb` in Jupyter. It writes to `out/figures/`, each figure as PDF + PNG + `<stem>.caption.md`,
+`notebooks/institutional_figures.ipynb` in Jupyter. It writes to `out/figures/`, each figure as PDF + PNG + `<stem>.caption.md`,
 following the economics-journal conventions in the repo's `styling-econ-figures` skill.
 
 Seven figures carry the plain `figN_` stems and are the ones the manuscript points at:

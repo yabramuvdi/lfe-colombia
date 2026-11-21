@@ -245,7 +245,7 @@ def main() -> int:
         return 0
 
     rows = []
-    with httpx.Client(headers={"User-Agent": "citegraph-paper4/1.0"}) as client:
+    with httpx.Client(headers={"User-Agent": "citegraph-lfe-colombia/1.0"}) as client:
         for i, (key, (raw, expect_iso2)) in enumerate(new_keys, 1):
             # HAND is keyed on the accent-stripped string so it survives the
             # accent problems the raw data has.
@@ -280,7 +280,7 @@ def main() -> int:
             time.sleep(0.15)
 
     # second pass: ROR ids for the secondary institutions
-    with httpx.Client(headers={"User-Agent": "citegraph-paper4/1.0"}) as client:
+    with httpx.Client(headers={"User-Agent": "citegraph-lfe-colombia/1.0"}) as client:
         for r in rows:
             if r["secondary_canonical_name"]:
                 info = ror_lookup(r["secondary_canonical_name"], client, r["country_iso2"])

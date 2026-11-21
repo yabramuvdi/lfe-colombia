@@ -19,7 +19,7 @@ CG = ROOT / "citegraph_out"
 INST = ROOT / "institutional" / "out"
 DATA = ROOT / "site" / "data"
 
-# Same construction as the co-citation map in notebooks/paper4_figures.ipynb (Figure 18).
+# Same construction as the co-citation map in notebooks/figures.ipynb (Figure 18).
 CENTRALITY_MIN_PAPERS, MAP_AUTHORS, MAP_TIES_PER_AUTHOR = 3, 28, 3
 NEIGHBOURHOODS = {  # the paper's hand-drawn reading of the map, matched on surname
     "Commons governance": ["Cardenas", "Gardner", "Hardin", "Janssen", "Ledyard", "Lopez",
