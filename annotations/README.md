@@ -16,19 +16,40 @@ person, not extracted by the pipeline. Today: `Tema` and `Publication_Type`.
 ## How `Tema` is assigned
 
 A journal article takes the theme of its journal in Maria's journal-to-theme
-table (received 2026-11-01). Chapters, working papers, dissertations, and
-articles in journals the table does not list (*Ecology and Society*, *Ecosystem
-Services*, *American Economic Review*, *Journal of Public Economics*) were
-coded from the paper. Match journals on the sheet's `Revista` column, not on the
-provider's `Journal_Canonical`, which names repositories (LA Referencia, SSRN)
-for some papers. Every theme that is not the sheet's original value says why
-in `Tema_evidence`.
+table (received 2026-11-01): the journal is classified, not the paper, whatever
+the paper is about. Four journals the table did not originally list were added
+on 2026-11-22 -- *Ecology and Society* (Environmental and Ecological Economics),
+*Ecosystem Services* (Interdisciplinary), *Journal of Public Economics* and
+*American Economic Review* (both Economics). Chapters, working papers and
+dissertations were coded from the paper. Match journals on the sheet's `Revista`
+column, not on the provider's `Journal_Canonical`, which names repositories (LA
+Referencia, SSRN) for some papers. Every theme that is not the sheet's original
+value says why in `Tema_evidence`.
 
 Open, from the table: it lists *Journal of Agribusiness in Developing and
 Emerging Economies*, which no core paper is in, and asks to verify whether both
 Peace and Conflict papers are in *Peace Economics, Peace Science and Public
 Policy* (only one is; the other is HiCN Working Paper 379). Neither changes a
 theme.
+
+## How `Publication_Type` differs from the legacy sheet
+
+`core_papers.xlsx` types 77 rows "paper"; `work_annotations.csv` has 71 `Paper`
+(11 working papers, 7 book chapters, 4 PhD dissertations). Six rows were
+retyped in commit `58780b2` because the document in the corpus is not a journal
+article -- the sheet's own `Revista` column already says so for the first five:
+
+| Work | Document in the corpus | Now |
+| ---- | ---------------------- | --- |
+| Cárdenas 2008, *Social Preferences Among the People of Sanquianga* | Documento CEDE 2008-11 | Working paper |
+| Cárdenas et al. 2008, *Discrimination in the Provision of Social Services to the Poor* | IDB Research Network Working Paper R-544 | Working paper |
+| Maldonado & Moreno-Sánchez 2008, *Does scarcity exacerbate the tragedy of the commons?* | Documento CEDE 2009-22 | Working paper |
+| Moreno-Sánchez & Maldonado 2009, *Can Co-Management Improve the Governance of a Common-Pool Resource?* | Documento CEDE 2009-15 | Working paper |
+| Bernal Escobar et al. 2013, *Derretimiento y Retroceso Glaciar* | Documento CEDE 2013-16 | Working paper |
+| Fatas et al. 2021, *The Behavioral Consequences of Conflict Exposure on Risk Preferences* | Oxford Research Encyclopedia entry | Book chapter |
+
+The importer keeps what is already in `work_annotations.csv`, so re-running it
+does not bring the 77 back.
 
 **Not `works.csv`.** Stage 4 regenerates it, so anything typed in there is
 destroyed by the next `citegraph dedup`.
