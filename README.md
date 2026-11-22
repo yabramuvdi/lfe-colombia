@@ -16,16 +16,16 @@ committed inputs.
 
 ## Explore the data
 
-**[yabramuvdi.github.io/lfe-colombia](https://yabramuvdi.github.io/lfe-colombia/)**
+**[mariagutierrezruan.github.io/lfe-colombia](https://mariagutierrezruan.github.io/lfe-colombia/)**
 lets you browse the data without installing anything:
 
 | Page | What it shows |
 | --- | --- |
-| [Papers](https://yabramuvdi.github.io/lfe-colombia/) | The 93 core papers, with their metadata, bibliography, and the core papers that cite them |
-| [Authors](https://yabramuvdi.github.io/lfe-colombia/authors.html) | Profiles of the 58 core authors: affiliation, doctorate, papers and co-authors |
-| [Lineages](https://yabramuvdi.github.io/lfe-colombia/lineages.html) | The doctoral family tree of any core author, including those not plotted in the chapter |
-| [Cited authors](https://yabramuvdi.github.io/lfe-colombia/citations.html) | Every author cited by the corpus, ranked, with the works cited and who cites them |
-| [Co-citation network](https://yabramuvdi.github.io/lfe-colombia/network.html) | The 28 most-cited authors and how often the corpus cites them together |
+| [Papers](https://mariagutierrezruan.github.io/lfe-colombia/) | The 93 core papers, with their metadata, bibliography, and the core papers that cite them |
+| [Authors](https://mariagutierrezruan.github.io/lfe-colombia/authors.html) | Profiles of the 58 core authors: affiliation, doctorate, papers and co-authors |
+| [Lineages](https://mariagutierrezruan.github.io/lfe-colombia/lineages.html) | The doctoral family tree of any core author, including those not plotted in the chapter |
+| [Cited authors](https://mariagutierrezruan.github.io/lfe-colombia/citations.html) | Every author cited by the corpus, ranked, with the works cited and who cites them |
+| [Co-citation network](https://mariagutierrezruan.github.io/lfe-colombia/network.html) | The 28 most-cited authors and how often the corpus cites them together |
 
 ## The data
 
