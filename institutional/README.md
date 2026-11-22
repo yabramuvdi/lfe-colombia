@@ -34,7 +34,7 @@ flag is raised instead of silently overwriting newer data.
 | File | Shape |
 | --- | --- |
 | `out/base_institucional_clean.csv` | 58 rows, one per author — the familiar wide shape, cleaned |
-| `out/career_positions.csv` | 139 rows, one per (author, position) — tidy; this is the one to aggregate over |
+| `out/career_positions.csv` | 138 rows, one per (author, position) — tidy; this is the one to aggregate over |
 | `out/supervision.csv` | 62 advisor → advisee edges, all doctoral |
 | `out/advisors.csv` | the PhD subset, kept for compatibility |
 | `out/review_flags.csv` | Everything changed on evidence, and everything still unresolved |
@@ -43,13 +43,13 @@ flag is raised instead of silently overwriting newer data.
 
 **`No` and `Not found` are not merged.** `"No"` means *this person had no postdoc* — real
 information. `"Not found"` means *we could not determine it*. The source spreadsheet used
-both, plus blanks, in the same columns. Collapsing them all to NA would put 6 unknown
+both, plus blanks, in the same columns. Collapsing them all to NA would put 7 unknown
 authors into the denominator of the postdoc rate. Instead each block carries a
 three-valued `*_status` of `present` / `none` / `unknown`, and `has_postdoc` is
 `True` / `False` / `NA`. Use `has_postdoc.notna()` as your denominator.
 
-**Institutions group by ROR id, not by string.** 97 raw strings resolve to 85
-institutions (84 with a ROR id, plus one without). ROR matching cross-checks the country the spreadsheet records, because
+**Institutions group by ROR id, not by string.** 89 raw strings resolve to 83
+institutions (82 with a ROR id, plus one without). ROR matching cross-checks the country the spreadsheet records, because
 several institutions share a name across countries — the first pass matched *Northwestern
 University* to the Philippine university of that name with a perfect string score. One
 institution (Conservation Strategy Fund) has no ROR record and is flagged.
@@ -71,13 +71,24 @@ worth recording; the file is absent because nobody currently does.
 
 ## Who is in the base
 
-58 authors, drawn from the authors of the paper-4 core corpus. **The selection criterion is
-the manuscript's to state — it is not defined here and nothing in this pipeline derives it.**
-The base is simply whichever people the workbook holds.
+58 authors, drawn from the 146 authors of the core corpus. **The selection criterion is
+the manuscript's to state — nothing in this pipeline derives it.** The base is simply
+whichever people the workbook holds. As audited on 2026-11-22 the 58 are:
 
-For orientation: 52 of them have two or more core works and six have exactly one. Cleve E.
-Willis was removed from the workbook on 2026-09-13 because all 23 of his fields were empty,
-so there was no career record to clean.
+- 53 with two or more core works;
+- 4 with one core work that is sole-authored (Moya, Ramos-Toro, Guerra Forero, Agneman);
+- 1 with one co-authored core work, kept as a named exception rather than under a
+  general rule (César Mantilla, advised by Juan Camilo Cárdenas, so the Bowles lineage
+  reaches a third generation). Supervisors were only collected for authors in the base,
+  so other single-paper co-authors were not checked for advisors among the core authors.
+
+Changes on 2026-11-22: Julia Seither (one co-authored work, advisor outside the core) was
+removed. Cleve E. Willis (three core works) was restored — he had been dropped on
+2026-09-13 for having an empty row. His record: PhD in Agricultural Economics, University
+of California, Davis, 1972, dissertation chair Gordon C. Rausser (UC Davis ARE programme
+history, 2023, Appendix E); Professor of Resource Economics and later Dean at the
+University of Massachusetts Amherst. He is deceased, so the affiliation is his last one,
+as for Ostrom and Marlowe. His postdoc fields are `Not found`.
 
 ## Known limits
 

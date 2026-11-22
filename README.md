@@ -36,7 +36,10 @@ lets you browse the data without installing anything:
   working papers and PhD dissertations in English or Spanish all count. Each
   paper's theme and publication type are hand-coded.
 - **The core authors.** Authors listed on at least two papers in the corpus,
-  or sole author of one. Their current affiliation and doctoral training
+  or sole author of one. One further author, César Mantilla, co-authored a
+  single paper and is included as a named exception: he was advised by Juan
+  Camilo Cárdenas, which lets the Bowles lineage be traced to a third
+  generation. Their current (or last) affiliation and doctoral training
   (institution, year, field, advisors) were collected by hand from public
   sources.
 - **The references.** The bibliographies of the 93 papers were extracted from
