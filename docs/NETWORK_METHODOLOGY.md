@@ -175,23 +175,30 @@ a force-directed layout can resolve.
 author. A line means the tie is among one of the two authors' three strongest normalised
 ties. Positions come from a force-directed layout with a fixed random seed: near means
 strongly tied, but the axes carry no units and distances are not measurements. The three groupings named in the caption are
-those of section 3. They are stated by hand in the notebook, not re-derived per run. At the
+those of section 3. They are stated by hand in `notebooks/cocitation_map_layout.csv`, not re-derived per run. At the
 60-author scale the algorithm does recover them (three groups, modularity 0.10), but the
 unpruned normalised ties among the *28 mapped authors alone* separate into only **two**
-communities, at modularity 0.06, merging commons governance with the field-experimental
-group. A partition that weak should not decide what a figure claims, so the notebook prints
+communities, at modularity 0.06, not three: it puts Croson, Harrison and List with commons
+governance and Gächter and Gneezy with social preferences. A partition that weak should not decide what a figure claims, so the notebook prints
 it beside the reading instead of drawing from it.
 
 **A second drawing of the same map** (`cocitation_network_map_neighbourhoods`) is built to
 be read rather than to stay close to the drawn ties. It keeps the same 28 authors and the
-same backbone lines but takes positions from a stress layout over the normalised ties among
-*all* pairs, which is the modern form of the multidimensional-scaling maps that author
-co-citation analysis has used since McCain (1990): two authors sit close when the corpus
-cites them together relative to how often it cites each, whether or not a line joins them.
-The three neighbourhoods are shaded and named, and node fill follows them so the grouping
-survives grayscale print. Both the grouping and its names are ours; the caption says so and
-reports the modularity of the algorithmic partition of the same ties beside it. Because membership follows all of an author's
-ties while the lines show only the three strongest, an author can sit inside one
+same backbone lines, but both the positions and the three neighbourhoods are set by hand in
+`notebooks/cocitation_map_layout.csv` (one row per author: surname, neighbourhood, x, y), so
+that each neighbourhood occupies its own region of the page. Positions therefore carry no
+information beyond the grouping: distance between two authors is not a measurement. The
+three neighbourhoods are shaded and named, and node fill follows them so the grouping
+survives grayscale print. The grouping, its names and the positions are ours; the caption
+says so and reports the modularity of the algorithmic partition of the same ties beside it.
+The grouping follows the three groups of section 3: commons governance (12 authors), social
+preferences (11) and experimental methods and public goods (Croson, Gächter, Gneezy,
+Harrison, List), except that Andreoni is placed with social preferences. Until 2026-11-22 the notebook instead used a stress layout and a grouping
+that put Gächter and Gneezy with social preferences and Carpenter with the methods group;
+the manuscript's text describes the hand-set version, so the figure was brought back to it.
+
+Because membership is a reading of the literature while the lines show only each author's
+three strongest ties, an author can sit inside one
 neighbourhood while their lines reach another (Andreoni, in the social-preferences region,
 is drawn tied to the commons experimentalists). That is a faithful feature, not a drawing
 error, and the caption explains it.

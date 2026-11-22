@@ -19,15 +19,10 @@ CG = ROOT / "citegraph_out"
 INST = ROOT / "institutional" / "out"
 DATA = ROOT / "site" / "data"
 
-# Same construction as the co-citation map in notebooks/figures.ipynb (Figure 18).
+# Same construction as the co-citation map in notebooks/figures.ipynb (Figure 2.17).
 CENTRALITY_MIN_PAPERS, MAP_AUTHORS, MAP_TIES_PER_AUTHOR = 3, 28, 3
-NEIGHBOURHOODS = {  # the paper's hand-drawn reading of the map, matched on surname
-    "Commons governance": ["Cardenas", "Gardner", "Hardin", "Janssen", "Ledyard", "Lopez",
-                           "Murphy", "Ostrom", "Stranlund", "Velez", "Walker", "Willis"],
-    "Social preferences": ["Andreoni", "Bowles", "Camerer", "Falk", "Fehr", "Fischbacher",
-                           "Gintis", "Gneezy", "Gächter", "Henrich", "Kahneman", "McCabe"],
-    "Experimental methods and public goods": ["Carpenter", "Croson", "Harrison", "List"],
-}
+# The paper's hand-set reading of the map (group and position per surname), shared with the notebook.
+MAP_LAYOUT = pd.read_csv(ROOT / "notebooks" / "cocitation_map_layout.csv")
 
 
 def clean(v):
@@ -100,16 +95,15 @@ drawn = set()
 for u in top:
     for v in sorted((v for v in top if v != u), key=lambda v: -cos(u, v))[:MAP_TIES_PER_AUTHOR]:
         drawn.add(tuple(sorted((u, v))))
-# Stress layout over the normalised ties among all pairs, as in the paper's neighbourhood map:
-# two authors sit close when the corpus cites them together relative to how often it cites each.
-dist = {u: {v: 1 - cos(u, v) for v in top if v != u} for u in top}
-lay = nx.complete_graph(sorted(top))
-pos = nx.kamada_kawai_layout(lay, dist=dist)
+# Groups and positions come from the layout file, as in the paper's figure. The page draws y
+# downwards, so y is negated to keep the paper's orientation.
 fold = lambda s: s.replace("á", "a").replace("é", "e").replace("ó", "o")
-group = {fold(n): grp for grp, ns in NEIGHBOURHOODS.items() for n in ns}
+layout = {fold(r.surname): r for r in MAP_LAYOUT.itertuples()}
+placed = {u: layout.get(fold(authors.surname[u])) for u in top}
 network = {
-    "nodes": {u: {"name": net.nodes[u]["display_name"], "n": ncite[u], "x": round(float(pos[u][0]), 4),
-                  "y": round(float(pos[u][1]), 4), "group": group.get(fold(authors.surname[u]))} for u in top},
+    "nodes": {u: {"name": net.nodes[u]["display_name"], "n": ncite[u],
+                  "x": float(placed[u].x) if placed[u] else 0.0, "y": -float(placed[u].y) if placed[u] else 0.0,
+                  "group": placed[u].neighbourhood if placed[u] else None} for u in top},
     "ties": [[u, v, net[u][v]["weight"], round(cos(u, v), 4), (u, v) in drawn]
              for u in sorted(top) for v in sorted(top) if u < v and net.has_edge(u, v)],
 }
